@@ -1,0 +1,11 @@
+no-points: '&cVocê precisa de {points} pontos para poder fazer isso.'
+no-open-permission: '&cVocê não tem permissão (&e{permission}&c) para utilizar este
+  menu.'
+default-no-icon-permission: '&cVocê não tem permissão para usar este botão.'
+open-menu: '&aAbrindo menu "{menu}".'
+no-exp: '&cVocê precisa de {levels} níveis de XP para poder fazer isso.'
+menu-not-found: '&cMenu não encontrado! Por favor informe este erro a um Staff.'
+no-money: '&cVocê precisa de {money}$ para poder fazer isso.'
+no-required-item: '&cVocê precisa de &e{amount}x {material}&c para poder fazer isso.'
+open-menu-others: '&aAbrindo menu "{menu}" para o player {player}.'
+any: '0'

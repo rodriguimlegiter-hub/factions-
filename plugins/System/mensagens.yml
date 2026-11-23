@@ -1,0 +1,671 @@
+file-version: 5
+############################################################
+# +------------------------------------------------------+ #
+# |                   Mensagens gerais                   | #
+# +------------------------------------------------------+ #
+############################################################
+Separador-De-Listas: "&8,&e"
+Console-Nao-Pode: "&cO console nao pode usar este comando."
+Sem-Permissao: "&cVocê não tem permissão para utilizar este comando."
+Numero-Invalido: "&cO número '%numero%' não é um número valido."
+Money-Null: "&cA palavra 'null' e a palavra 'nan' foram bloqueadas de serem usadas em comandos que envolvem dinheiro!"
+Player-Offline: "&cEste player não esta online no momento ou não existe."
+Player-Nao-Existe: "&cO player '%player%' não existe!"
+Mundo-Nao-Existe: "&cO mundo '%mundo%' não foi encontrado!"
+Falha-Ao-Criar-Arquivo: "&c[ERRO] Nao foi possivel criar o arquivo %arquivo%!"
+Falha-Ao-Criar-Pasta: "&c[ERRO] Nao foi possivel criar a pasta %pasta%!"
+Falha-Ao-Salvar: "&c[ERRO] Nao foi possivel salvar o arquivo %arquivo%!"
+Erro-Versao-Nao-Suportada: "&cDesculpe mas este recurso que você esta tentando usar não esta disponível nesta versão do minecraft."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                Mensagens dos Recursos                | #
+# +------------------------------------------------------+ #
+############################################################
+Nick-Similar: "&cO nick '%novo%' não pode ser usado pois já existe um cadastro com o nick '%antigo%'.\n&c\n&cVocê deve utilizar a mesma configuração de caracteres maiusculos\n&ce minúsculos para poder acessar o servidor com este nick."
+Servidor-Lotado: "&cDesculpe mas o servidor esta cheio!\n&cAdquira já seu VIP em &ewww.redechroma.com"
+Aviso-Dar-Lugar-Ao-Vip: "&e &e\n&e&lAVISO: &eVocê sera kickado do servidor em %tempo% segundos para dar lugar a um vip.\n&e &e"
+Kick-Dar-Lugar-Ao-Vip: "&cVocê foi kickado para dar lugar a um vip."
+Nick-Bloqueado: "&cA palavra '%nick%' foi bloqueada de ser usada em nicks!"
+Comando-Bloqueado: "&cEste comando foi bloqueado no servidor."
+Tentou-Passar-Da-Borda: "&cVocê não pode se teleportar para o outro lado da borda."
+Tentou-Vender-Com-Valor-Negativo: "&cO valor do item não pode ser negativo."
+Aguarde-EnderPearl-Cooldown: "&eAguarde &6%tempo% &esegundos para poder lançar outra Enderpearl."
+Shift-Bloqueado-No-Container: "&cVocê não pode usar shift no (%tipo%)."
+Placas:
+  Palavras-Desativadas-Na-Placa: "&cVocê não pode escrever em placas pois este recurso foi desativado no servidor."
+  Palavra-Bloqueada-Na-Placa: "&cA palavra '%palavra%' foi bloqueada de ser usada em placas."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Sistema de TP/TPA                   | #
+# +------------------------------------------------------+ #
+############################################################
+Tp-Comando-Incorreto: | 
+  &cComando incorreto, use:
+  &c/tp <player> &8-&e Se teleporta até um player.
+  &c/tp <world> <x> <y> <z> &8-&e Se teleporta até uma cordenada.
+  &c/tp <player> <player-alvo> &8-&e Teleporta um player até outro.
+  &c/tp <world> <x> <y> <z> <player> &8-&e Teleporta um player até uma cordenada.
+Tp-Erro-Voce-Mesmo: "&cVocê não pode se teleportar até você mesmo!"
+Tp-Erro-Player-Mesmo: "&cVocê não pode teleportar um player até ele mesmo!"
+Tp-Teleportado-Com-Sucesso-Player: "&eTeleportado com sucesso até %player%."
+Tp-Teleportado-Com-Sucesso-Cords: "&eTeleportado com sucesso até <x> <y> <z>."
+Tp-Voce-Teleportou-Player-Ate-Player: "&e%player% teleportado com sucesso até %alvo%."
+Tp-Voce-Teleportou-Player-Ate-Cords: "&e%player% teleportado com sucesso até <x> <y> <z>."
+Tphere-Comando-Incorreto: "&cComando incorreto, use /puxar <player>"
+Tphere-Erro-Voce-Mesmo: "&cVocê não pode puxar você mesmo!"
+Tphere-Puxou-Com-Sucesso: "&eVocê teleportou %player% até você."
+Tphere-Puxado-Com-Sucesso: "&eVocê foi puxado até %player%."
+Tpall-Comando-Incorreto: |
+  &cComando incorreto, use:
+  &c/tpall <player> &8-&e Teleporta todos os players até um player.
+  &c/tpall <world> <x> <y> <z> &8-&e Teleporta todos os players até uma cordenada.
+Tpall-Puxou-Com-Sucesso-Player: "&eVocê teleportou todos os players do servidor até %player%."
+Tpall-Puxou-Com-Sucesso-Cords: "&eVocê teleportou todos os players do servidor até as cordenadas <x> <y> <z>."
+Tpa-Comando-Incorreto: "&cComando incorreto, use /tpa <player>"
+Tpa-Aguarde-Cooldown: "&cAguarde %tempo% para pode enviar outro tpa."
+Tpa-Desligado-Tptoggle: "&c%player% desativou o recebimento de tpa."
+Tpa-Ja-Possui-Solicitacao: "&cVocê já possui uma solicitação de teleporte pendente com %player%."
+Tpa-Solicitcao-Expirada-Player: "&cSolicitação de teleporte para %player% expirada."
+Tpa-Solicitcao-Expirada-Alvo: "&cSolicitação de teleporte de %player% expirada."
+Tpa-Solicitacao-Enviada-Sucesso: "&eSolicitiação de teleporte enviada para %player%."
+Tpa-Solicitacao-Recebida: |
+  &c  
+  &eVocê recebeu uma solicitação de teleporte de %player%.
+  &eUse &e/tpaccept&e para aceitar a solicitação.
+  &eUse &c/tpdeny&e para rejeitar a solicitação.
+  &c  
+Tpa-Pendente-Nao-Possui: "&cVocê não possui solicitações de tpa pendentes."
+Tpa-Pendente-Player-Nao-Possui: "&cVocê não possui nenhuma tpa pendente com %player%."
+Tpaccept-Comando-Incorreto: "&cComando incorreto, use /tpaccept <player>"
+Tpaccept-Player-Offline: "&cO player %player% que lhe enviou um tpa não está mais online."
+Tpaccept-Erro-Voce-Mesmo: "&cVocê não pode aceitar um tpa de você mesmo."
+Tpaccept-Solicitacao-Aceita-Sucesso: "&eSolicitiação de teleporte de %player% aceita."
+Tpaccept-Iniciando-Teleporte: |
+  &e%player% aceitou seu pedido de teleporte.
+  Iniciando teleporte em %tempo% segundos.
+Tpaccept-Teleportado-Com-sucesso: "&eTeleportado até &6%player%&e."
+Tpdeny-Comando-Incorreto: "&cComando incorreto, use /tpadeny <player>"
+Tpdeny-Erro-Voce-Mesmo: "&cVocê não poode negar um tpa de você mesmo."
+Tpdeny-Recusado-Com-Sucesso: "&cSolicitação de teleporta de %player% negada."
+Tpdeny-Recusou-Seu-Pedido: "&c%player% rejeitou sua solicitação de teleporte."
+Tpcancel-Comando-Incorreto: "&cComando incorreto, use /tpcancel <player>"
+Tpcancel-Erro-Voce-Mesmo: "&cVocê não poode cancelar um tpa para você mesmo."
+Tpcancel-Cancelado-Com-Sucesso: "&cSolicitação de teleporte cancelada com sucesso."
+Tpcancel-Cancelou-Pedido: "&c%player% cancelou a solicitação de teleporte."
+Tptoggle-Comando-Incorreto: "&cComando incorreto, use /tptoggle [on/off]"
+Tptoggle-Desativado-Com-Sucesso: "&eRecebimento de tpas habilitado."
+Tptoggle-Ja-Desativado: "&eSeu recebimento de tpas já esta &ehabilitado&e."
+Tptoggle-Ativado-Com-Sucesso: "&cRecebimento de tpas desabilitado."
+Tptoggle-Ja-Ativado: "&eSeu recebimento de tpas já esta &cdesabilitado&e."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Sistema de Homes                   | #
+# +------------------------------------------------------+ #
+############################################################
+Particular-Comando-Incorreto: "&cComando incorreto,use /particular <home>"
+Publica-Comando-Incorreto: "&cComando incorreto, use /publica <home"
+SetHome-Comando-Incorreto: "&cComando incorreto, use /sethome <home>"
+DelHome-Comando-Incorreto: "&cComando incorreto, use /delhome <home>"
+Homes-Comando-Incorreto: "&cComando incorreto, use /homes <player>"
+Home-Comando-Incorreto: "&cComando incorreto, use /home <home>"
+Home-Outro-Comando-Incorreto: "&cComando incorreto, use /home <player>:<home>"
+Home-Definida: "&eHome &6'%home%' &edefinida com sucesso!"
+Home-Deletada: "&eHome &6'%home%' &edeletada com sucesso!"
+Home-Nao-Existe: "&cA home '%home%' não existe!"
+Player-Home-Nao-Existe: "&cA home '%home%' do player %player% não existe!"
+Player-Home-Nao-Publica: "&cA home '%home%' do player %player% não é pública!"
+Home-Privada-Iniciando-Teleporte: "&eIniciando teleporte para a home &6'%home%' &eem &6%tempo% &esegundos."
+Home-Publica-Iniciando-Teleporte: "&eIniciando teleporte para a home &6'%home%' &edo player &6%player% &eem &6%tempo% &esegundos."
+Home-Privada-Teleportado-Sucesso: "&eTeleportado com sucesso para a home &6'%home%'&e!"
+Home-Publica-Teleportado-Sucesso: "&eTeleportado com sucesso para a home &6'%home%' &edo player &e%player%&e."
+Homes-Publicas: "&eHomes públicas: &6%homes%"
+Homes-Particulares: "&eHomes particulares: &6%homes%"
+Limite-De-Homes-Atingido: "&cVocê antingiu o seu limite máximo de homes (%limite%)!"
+Home-Ja-Publica: "&cA home '%home%' já é pública!"
+Home-Ja-Particular: "&cA home '%home%' já é particular!"
+Tornou-Home-Publica: "&eA home &6'%home%' &eagora é uma home pública, ou seja, qualquer pessoa pode acessa-la!"
+Tornou-Home-Particular: "&eA home &6'%home%' &eagora é uma home particular, ou seja, só você pode acessa-la!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Sistema de Kits                    | #
+# +------------------------------------------------------+ #
+############################################################
+Kit-Comando-Incorreto: "&cComando incorreto, use /kit <kit>"
+Kit-Comando-Incorreto-Console: "&cComando incorreto, use /kit <kit> <player>"
+DelKit-Comando-Incorreto: "&cComando incorreto, use /delkit <kit>"
+VerKit-Comando-Incorreto: "&cComando incorreto, use /verkit <kit>"
+CriarKit-Comando-Incorreto: "&cComando incorreto, use /criarkit <kit>"
+EditarKit-Comando-Incorreto-Delay: "&cComando incorreto, use /editarkit <kit> delay <minutos>"
+EditarKit-Comando-Incorreto-Perm: "&cComando incorreto, use /editarkit <kit> perm <permissão>" 
+EditarKit-Comando-Incorreto: | 
+  &cComando incorreto, use:
+  &c/editarkit <kit> itens &8-&e Edita os itens.
+  &c/editarkit <kit> perm <permissão> &8-&e Editar a permissão.
+  &c/editarkit <kit> delay <minutos> &8-&e Edita o delay.
+Kit-Nao-Existe: "&cO kit '%kit%' não existe."
+Kit-Ja-Existe: "&cO kit '%kit%' já existe."
+Kit-Sem-Permissao: "&cVocê não tem permissão para pegar este kit."
+Kit-Criado: "&eKit &e'%kit%' &ecriado com sucesso."
+Kit-Editado: "&eKit '%kit%' &eeditado com sucesso."
+Kit-Deletado: "&eKit &e'%kit%' &edeletado com sucesso."
+Kit-Sem-Espaco-Pra-Pegar: "&cVocê não possui espaço suficiente no inventário para poder pegar este kit, por favor libere mais espaço e tente novamente."
+Kit-Pego: "&eKit entregue."
+Kit-Enviado: "&eKit enviado com sucesso para &6%player%."
+Kit-Aguarde: "&cAguarde mais %tempo% para poder pegar este kit novamente."
+Nenhum-Kit-Criado: "&cNão há kits disponíveis."
+Kits-Lista: "&eKits disponíveis(%n%): &6%kits%"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                Sistema de MobSpawners                | #
+# +------------------------------------------------------+ #
+############################################################
+Inventario-Cheio-Quebrou: "&cVocê esta com seu inventário cheio! O gerador foi dropado no chão."
+Spawner-Bugado: "&cEste gerador esta com defeitos! Contate um staff do seu servidor para que ele poça lhe resolver este problema."
+Spawner-Givado: "&eSpawner de %tipo% givado com sucesso."
+Inventario-Cheio-Give: "&cVocê esta com seu inventário cheio! Libera mais espaço para poder pegar geradores."
+Sgive-Comando-Incorreto: "&cComando incorreto, use /sgive <player> <tipo> <quantia>"
+Spawner-Desconhecido: "&cTipo de Spawner desconhecido!\n&eLista de Spawners: %lista%."
+Nome-Do-MobSpawner: "&eGerador de Monstros"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Sistema de Warps                   | #
+# +------------------------------------------------------+ #
+############################################################
+SetWarp-Comando-Incorreto: "&cComando incorreto, use /setwarp <warp>"
+DelWarp-Comando-Incorreto: "&cComando incorreto, use /delwarp <warp>"
+Warp-Comando-Incorreto: "&cComando incorreto, use /warp <warp>"
+Warp-Definida: "&eWarp '%warp%' definida com sucesso!"
+Warp-Deletada: "&eWarp '%warp%' deletada  com sucesso!"
+Warp-Ja-Existe: "&cA warp '%warp%' já existe!"
+Warp-Nao-Existe: "&cA warp '%warp%' não existe!"
+Nenhuma-Warp-Definida: "&cNão há warps disponíveis."
+Warps-Lista: "&eWarps disponíveis(%n%): &6%warps%"
+# O resto das mensagens do sistema de Warps esta dentro do arquivo da WARP.
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /divulgar                   | #
+# +------------------------------------------------------+ #
+############################################################
+Divulgar-Comando-Incorreto: "&cComando incorreto, use /divulgar <video/live/outro> <link>"
+Link-Invalido: "&cO link &n%link%&c não é um link valido portanto a divulgação foi cancelada! Verifique o link e tente novamente."
+Divulgando-Live: "&6%player% &eesta divulgando uma live!"
+Divulgando-Video: "&6%player% &eesta divulgando um vídeo!"
+Divulgando-Outro: "&6%player% &eesta divulgando um link!"
+Link: "&eLink: &6&n%link%"
+Divulgando-Title: "&r"
+Divulgando-SubTitle: "&6&l%player% &edivulgou seu vídeo."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /fly                     | #
+# +------------------------------------------------------+ #
+############################################################
+Fly-Comando-Incorreto: "&cComando incorreto, use /fly <player> [on/off]"
+Fly-Desabilitado-Voce: "&cFly desabilitado com sucesso."
+Fly-Desabilitado-Outro: "&cModo fly desabilitado com sucesso para %player%."
+Fly-Habilitado-Voce: "&eFly habilitado com sucesso."
+Fly-Habilitado-Outro: "&eModo fly habilitado com sucesso para %player%."
+Fly-Ja-Habilitado-Voce: "&cO seu fly já esta &ehabilitado&e!"
+Fly-Ja-Habilitado-Outro: "&eO modo fly de &6%player% &ejá esta &ehabilitado&e!"
+Fly-Ja-Desabilitado-Voce: "&cO seu fly já esta &cdesabilitado&e!"
+Fly-Ja-Desabilitado-Outro: "&eO modo fly de &6%player% &ejá esta &cdesabilitado&e!"
+Fly-Desabilitado-Neste-Mundo: "&cVocê so pode voar nos terrenos!"
+Fly-Sem-Permissao-Outro: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /god                     | #
+# +------------------------------------------------------+ #
+############################################################
+God-Comando-Incorreto: "&cComando incorreto, use /god <player> [on/off]"
+God-Desabilitado-Voce: "&cModo god desabilitado com sucesso."
+God-Desabilitado-Outro: "&cModo god desabilitado com sucesso para %player%."
+God-Habilitado-Voce: "&eModo god habilitado com sucesso."
+God-Habilitado-Outro: "&eModo god habilitado com sucesso para &6%player%&e."
+God-Ja-Habilitado-Voce: "&eO seu modo god já esta &ehabilitado&e!"
+God-Ja-Habilitado-Outro: "&eO modo god de &6%player% &ejá esta &ehabilitado&e!"
+God-Ja-Desabilitado-Voce: "&eO seu modo god já esta &cdesabilitado&e!"
+God-Ja-Desabilitado-Outro: "&eO modo god de &6%player% &ejá esta &cdesabilitado&e!"
+God-Sem-Permissao-Outro: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /vanish                   | #
+# +------------------------------------------------------+ #
+############################################################
+Vanish-Comando-Incorreto: "&cComando incorreto, use /vanish <player> [on/off]"
+Vanish-Desabilitado-Voce: "&cModo vanish desabilitado com sucesso."
+Vanish-Desabilitado-Outro: "&cModo vanish desabilitado com sucesso para %player%."
+Vanish-Habilitado-Voce: "&eModo vanish habilitado com sucesso."
+Vanish-Habilitado-Outro: "&eModo vanish habilitado com sucesso para &6%player%&e."
+Vanish-Ja-Habilitado-Voce: "&eO seu modo vanish já esta &ehabilitado&e!"
+Vanish-Ja-Habilitado-Outro: "&eO modo vanish de &6%player% &ejá esta &ehabilitado&e!"
+Vanish-Ja-Desabilitado-Voce: "&eO seu modo vanish já esta &cdesabilitado&e!"
+Vanish-Ja-Desabilitado-Outro: "&eO modo vanish de &6%player% &ejá esta &cdesabilitado&e!"
+Vanish-Sem-Permissao-Outro: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /gamemode                   | #
+# +------------------------------------------------------+ #
+############################################################
+Gamemode-Comando-Incorreto: "&cComando incorreto, use /gamemode <modo> [player]"
+Gamemode-Invalido: "&cO gamemode '%gm%' não é um gamemode valido."
+Gamemode-Ja-Esta-Outro: "&c%player% já esta no gamemode %gm%."
+Gamemode-Ja-Esta-Voce: "&cVocê já esta no gamemode %gm%."
+Gamemode-Definido-Outro: "&eGamemode %gm% definido com sucesso para &6%player%&e."
+Gamemode-Definido-Voce: "&eGamemode alterado com sucesso para &6%gm%&e."
+Gamemode-Outro-Sem-Permissao: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+Gamemode-Sem-Permissao-Tipo: "&cVocê precisa ser do grupo &2[Moderador] &cou superior para executar este comando."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /editarplaca                 | #
+# +------------------------------------------------------+ #
+############################################################
+Editar-Placa-Comando-Incorreto: "&cComando incorreto, use /editarplaca <linha> <mensagem>"
+Editar-Placa-Linha-Invalida: "&cLinha inválida! O número da linha deve ser de 1 a 4."
+Editar-Placa-Nao-Esta-Olhando: "&cVocê deve estar olhando diretamente para uma placa para poder edita-la."
+Editar-Placa-Com-Sucesso: "&ePlaca editada com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /clear                    | #
+# +------------------------------------------------------+ #
+############################################################
+Clear-Comando-Incorreto: "&cComando incorreto, use /clear [player]"
+Clear-Inventario-Vazio-Outro: "&cO inventário de %player% já esta vazio."
+Clear-Inventario-Vazio-Voce: "&cO seu inventário já esta vazio."
+Clear-Inventario-Limpado-Outro: "&eO inventário de &6%player% &efoi esvaziado com sucesso."
+Clear-Inventario-Limpado-Voce: "&eInventário esvaziado com sucesso."
+Clear-Outro-Sem-Permissao: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /editaritem                  | #
+# +------------------------------------------------------+ #
+############################################################
+Editar-Item-Invalido: "&cEste item não é um item valido!"
+Editar-Item-Com-Sucesso: "&eItem editado com sucesso."
+Editar-Item-Numero-Operacao-Invalido: "&cNúmero de operação invalido! O número da operação deve ser &e0&c, &e1&c ou &e2&c."
+Editar-Item-Atributo-Invalido: "&cAtributo desconheceido!\n&eLista de Atributos: %lista%"
+Editar-Item-Comando-Incorreto: |
+  &cComando incorreto, use:
+  &e/editaritem renomear <nome> &8-&7 Renomeia o nome do item.
+  &e/editaritem removeflags &8-&7 Remove as flags do item.
+  &e/editaritem addflags &8-&7 Adiciona flags ao item.
+  &e/editaritem glow &8-&7 Adiciona um brilho ao item.
+  &e/editaritem removelore &8-&7 Remove toda a lore do item.
+  &e/editaritem addlore <frase> &8-&7 Adiciona uma linha de lore.
+  &e/editaritem bugar &8-&7 Transforma o item no bloco quadriculado.
+  &e/editaritem negativo &8-&7 Define a quantia do item para &c-1&e.
+  &e/editaritem inquebravel &8-&7 Define o item como Inquebravel.
+  &e/editaritem atributo <atributo> <quantia> <operacao> &8-&7 Adiciona um atributo especial do minecraft ao item.
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /feed e /heal                | #
+# +------------------------------------------------------+ #
+############################################################
+Fome-Level-Maximo: "&cVocê já está com seu nível máximo de fome."
+Vida-Level-Maximo: "&cVocê já está com seu nível máximo de vida."
+Fome-Regenerada-Com-Sucesso: "&eFome regenerada com sucesso."
+Vida-Regenerada-Com-Sucesso: "&eVida regenerada com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /potion                   | #
+# +------------------------------------------------------+ #
+############################################################
+Potion-Comando-Incorreto: "&cComando incorreto, use /potion <efeito> <duração> <nivel>"
+Potion-Efeito-Invalido: "&cO efeito '%effect%' não é um efeito valido.\n&eLista de efeitos: %lista%"
+Potion-Item-Invalido: "&cVocê deve estar segurando uma poção na mão para poder fazer isto."
+Potion-Editada-Sucesso: "&ePoção editada com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /enchant                    | #
+# +------------------------------------------------------+ #
+############################################################
+Enchant-Comando-Incorreto: "&cComando incorreto, use /enchant <encantamento> <level>"
+Enchant-Encantamento-Invalido: "&cO encantamento '%enchant%' não é um encantamento valido.\n&eLista de encantamentos: %lista%"
+Enchant-Item-Invalido: "&cO item que você esta tentando encantar não é um item valido."
+Enchant-Encantado-Com-Sucesso: "&eItem encantado com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /reparar                   | #
+# +------------------------------------------------------+ #
+############################################################
+Reparar-Comando-Incorreto: "&cComando incorreto, use /reparar [hand/all]"
+Reparar-All-Sem-Permissao: "&cVocê não tem permissão para reparar todos os itens de uma vez."
+Reparar-Nao-Possui: "&cVocê não possui itens para reparar."
+Reparar-Item-Invalido: "&cEste item não pode ser reparado."
+Reparar-Ja-Reparado: "&cEste item já esta com sua durabilidade máxima."
+Reparar-All-Com-Sucesso: "&eItens reparados com sucesso."
+Reparar-Hand-Com-Sucesso: "&eItem reparado com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /speed                     | #
+# +------------------------------------------------------+ #
+############################################################
+Speed-Comando-Incorreto: "&cComando incorreto, use /speed <velocidade> [player]"
+Speed-Outro-Sem-Permissao: "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+Speed-Alterado-Voce: "&eVelocidade alterada com sucesso para &6%speed%&e."
+Speed-Alterado-Outro: "&eVelocidade de &6%player% &ealterada com sucesso para &6%speed%&e."
+Speed-Valor-Invalido: "&cVelocidade inválida! Você deve usar um valor entre &e0 &ce &e1 &ccomo por exemplo &e0.5&c."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /setmundovip                 | #
+# +------------------------------------------------------+ #
+############################################################
+Area-Vip-Definida: "&eArea VIP definida com sucesso! É para este local que as pessoas &6VIPs&e irão ser teleportadas!"
+Area-Nao-Vip-Definida: "&eArea dos não VIP definida com sucesso! É para este local que as pessoas &csem VIP&e irão ser teleportadas!"
+Setmundovip-Comando-Incorreto: "&cComando incorreto, use /setmundovip <AreaVip &8ou&c AreaNaoVip>"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /alerta                    | #
+# +------------------------------------------------------+ #
+############################################################
+Alerta-Comando-Incorreto: "&cComando incorreto, use /alerta <mensagem>"
+Alerta-Chat: "&4&lAVISO » &f%alerta%"
+Alerta-Title: "&4&lAVISO"
+Alerta-SubTitle: "&f%alerta%"
+#Você pode usar as variaveis %alerta% e %player% nos titles e nas mensagens :D
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /executarsom                 | #
+# +------------------------------------------------------+ #
+############################################################
+ExecutarSom-Comando-Incorreto: |
+  &cComando incorreto, use:
+  &e/executarsom <som> <player> &8-&7 Envia o som para um player.
+  &e/executarsom <som> all &8-&7 Envia o som para todos os players.
+Som-Invalido: "&cEste SOM não é um som valido."
+Som-Executado-Player: "&eO som &6'%som%' &efoi executado para o player &6%player%&e."
+Som-Executado-Todos: "&eO som &6'%som%' &efoi executado para todos os players do servidor."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /skull                    | #
+# +------------------------------------------------------+ #
+############################################################
+Skull-Comando-Incorreto: "&cComando incorreto, use /skull <nome> [player]"
+Skull-Enviada-Outro: "&eSkull de &6%dono% &eenviada com sucesso para &6%player%&e."
+Skull-Enviada-Voce: "&eSkull de &6%dono% &eenviada para o seu inventário."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /vip                     | #
+# +------------------------------------------------------+ #
+############################################################
+Iniciando-Teleporte-Vip: "&eEm %tempo% segundos você ira para o mundo VIP."
+Teleportado-Com-Sucesso-Sem-Vip: "&cOpa, este é o mundo VIP. Para acessá-lo por completo adquira um VIP em nosso site: &ewww.redechroma.com"
+Teleportado-Com-Sucesso-Vip: "&eBem vindo ao mundo VIP."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /sudo                     | #
+# +------------------------------------------------------+ #
+############################################################
+Sudo-Comando-Incorreto: "&cComando incorreto, use /sudo <player> /<comando>"
+Sudo-Executado-Com-Sucesso: |
+  &eSudo enviado com sucesso para &6%player%&e.
+  &eComando executado: &6%comando%
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /ping                    | #
+# +------------------------------------------------------+ #
+############################################################
+Ping-Comando-Incorreto: "&cComando incorreto, use /ping <player>"
+Ping:
+  Seu-Ping: "&eSeu ping é &6%ping%ms&e."
+  Player-Ping: "&eO ping de &e%player% &eé &6%ping%ms&e."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /luz                     | #
+# +------------------------------------------------------+ #
+############################################################
+Luz:
+  Ativada: "&eLanterna ativada com sucesso!"
+  Desativada: "&cLanterna desativada com sucesso!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /slime                    | #
+# +------------------------------------------------------+ #
+############################################################
+SlimeChunk:
+  Esta: "&eVocê está em uma Slime Chunk!"
+  NaoEsta: "&cVocê não está em uma Slime Chunk!"
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /setspawn                   | #
+# +------------------------------------------------------+ #
+############################################################
+SetSpawn-Comando-Incorreto: "&cComando incorreto, use /setspawn <normal&8/&cvip>"
+SetSpawn-Normal-Definido: "&eSpawn principal definido com sucesso."
+SetSpawn-Vip-Definido: "&eSpawn &eVip&e definido com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /spawn                    | #
+# +------------------------------------------------------+ #
+############################################################
+Teleportado-Com-Sucesso-Spawn: "&eTeleportado com sucesso!"
+Iniciando-Teleporte-Spawn: "&eTeleportando..."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /crashar                   | #
+# +------------------------------------------------------+ #
+############################################################
+Crashar-Comando-Incorreto: "&cComando incorreto, use /crashar <player>"
+Crashado-Com-Sucesso: "&eVocê crashou o minecraft de &6%player%&e!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /derreter                  | #
+# +------------------------------------------------------+ #
+############################################################
+Derreter-Nao-Possui: "&cVocê não possui itens para derreter."
+Derreter-Com-Sucesso: "&6%quantia% &eitens derretidos com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /compactar                  | #
+# +------------------------------------------------------+ #
+############################################################
+Compactar-Nao-Possui: "&cVocê não possui itens para compactar."
+Compactar-Com-Sucesso: "&6%quantia% &eitens compactados com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Comando /back                    | #
+# +------------------------------------------------------+ #
+############################################################
+Nao-Possui-Back: "&cVocê não possui nenhuma localização para voltar."
+Back-Teleportado-Sucesso: "&eVocê foi teleportado para a sua ultima localização."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /chapeu                   | #
+# +------------------------------------------------------+ #
+############################################################
+Chapeu-Colocado: "&eAproveite seu novo chapéu ☻"
+Chapeu-Invalido: "&cEste item não pode ser usado como chapéu!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /invsee                   | #
+# +------------------------------------------------------+ #
+############################################################
+Invsee-Comando-Incorreto: "&cComando incorreto, use /invsee <player>"
+Invsee-Abrindo-Inventario: "&eAbrindo inventário de &6%player%&e."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /title                    | #
+# +------------------------------------------------------+ #
+############################################################
+Title-Comando-Incorreto: "&cComando incorreto, use /title [title] <nl> [subtitle]"
+Title-Enviado: "&eTitle enviado com sucesso."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /lixeira                   | #
+# +------------------------------------------------------+ #
+############################################################
+Titulo-Da-Lixeira: "&0Lixeira"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /online                   | #
+# +------------------------------------------------------+ #
+############################################################
+Players-Online: "&eO servidor esta atualmente com &7%online%&e players online!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Comando /cores                    | #
+# +------------------------------------------------------+ #
+############################################################
+# Nesta mensagem o '§' não é substituido pelo '&' como nas outras mensagens.
+Tabela-De-Cores: |
+   §f 
+   §f Tabela de Cores
+   §a&e Verde Claro
+   §b&b Azul Claro
+   §c&c Vermelho Claro
+   §d&d Rosa
+   §e&e Amarelo
+   §f&f Branco
+   §0&0 Preto
+   §1&1 Azul Escuro
+   §2&2 Verde Escuro
+   §3&3 Ciano
+   §4&4 Vermelho Escuro
+   §5&5 Roxo
+   §6&6 Dourado
+   §7&e Cinza Claro
+   §8&8 Cinza Escuro
+   §9&9 Azul Celeste
+   §f 
+   §f Códigos de Formatação
+   &l §lNegrito§r
+   &o §oItálico§r
+   &n §nSublinhado§r
+   &m §mRiscado§r
+   &r §rResetar
+   &k §kMagic
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Comando /clearchat                  | #
+# +------------------------------------------------------+ #
+############################################################
+Avisar-Que-O-Chat-Foi-Limpo: true
+Aviso-Que-O-Chat-Limpo-Global: "&eO Chat foi limpo por &6%player%"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Mensagem de UP mcMMO                 | #
+# +------------------------------------------------------+ #
+############################################################
+#Para os nomes das skills ficarem em BR vc precisa estar usando um mcMMO traduzido
+mcMMO-Upou-100-Niveis: "&6&lHABILIDADES: &e%player% atingiu o &6nível %level% &ena habilidade de &6%skill%&e!"
+
+############################################################
+# +------------------------------------------------------+ #
+# |        Mensagem do Sistema de Homes Factions         | #
+# +------------------------------------------------------+ #
+############################################################
+Sem-Permissao-Teleportar: "&cVocê não pode se teleportar para este local pois ele esta protegido pela facção &f%faction%&c."
+Sem-Permissao-Sethome: "&cVocê não tem permissão para definir uma home neste local."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /system                    | #
+# +------------------------------------------------------+ #
+############################################################
+System-Comando-Incorreto: |
+  &cComando incorreto, use:
+  &e/system reload &8-&7 Recarrega as configurações do plugin.
+  &e/system contato &8-&7 Mostra os contatos do desenvolvedor.
+  &e/system backup &8-&7 Faz um backup dos arquivos do plugin.
+  &e/system help <pag> &8-&7 Mostra a lista de comandos do plugin.
+  &e/system info &8-&7 Mostra informações sobre o server e o system.
+  &e/system host &8-&7 Mostra informações sobre a host do server.
+Plugin-Recarregado-Sucesso: |
+  &eMensagens e configurações recarregadas com sucesso!
+  &eOBS: Algumas alterações só terão efeito quando o servidor for reinicializado.
+Backup-Com-Sucesso: "&eBackup realizado com sucesso! O backup foi criado dentro da pasta &6'backups'&e na pasta principal do plugin."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Comando /estatisticas                | #
+# +------------------------------------------------------+ #
+############################################################
+Estatisticas-Comando-Incorreto: "&cComando incorreto, use /estatisticas [player]"
+# Lista completa com todas as variaveis: https://gist.github.com/RUSHyoutuber/d84a926b1ea44db21a0187d578dc4b87
+Estatisticas-Informacoes: |
+   &6&l       Estatísticas
+   &6 
+   &eJogador: &f%player%.
+   &eMatou &f%kill-players% players.
+   &eMatou &f%kill-mobs% mobs.
+   &eMorreu &f%mortes% vezes.
+   &eCausou &f%dano-causado% de dano.
+   &eSofreu &f%dano-sofrido% de dano.
+   &eAndou &f%distancia-caminhada% metros.
+   &eNadou &f%distancia-nadada% metros.
+   &ePulou &f%pulou% vezes.
+   &eTempo jogado &f%tempo-jogado%.
+   &eEntrou pela primeira vez &f%primeiro-login%.
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Comando /verinfo                   | #
+# +------------------------------------------------------+ #
+############################################################
+Verinfo-Comando-Incorreto: "&cComando incorreto, use /verinfo <player>"
+# Lista completa com todas as variaveis: https://gist.github.com/RUSHyoutuber/6c9dca0ba0edcfef9182db123fec1a5b
+Verinfo-Informacoes: |
+   &e&l       Informações de %player-name%
+   &e
+   &eAr:&2 %ar%&e/&2%max-ar%
+   &eVida:&2 %vida%&e/&2%max-vida%
+   &eFome:&2 %fome%&e/&2%max-fome%
+   &eSaturação:&2 %saturacao%&e/&2%max-saturacao%
+   &eExaustão:&2 %exaustao%&e/&2%max-exaustao%
+   &eEfeitos de poção:&2 %efeitos%
+   &eXP Total:&2 %xp-total%
+   &eXP Level:&2 %xp-level%
+   &ePing:&2 %ping%
+   &eVelocidade voando:&2 %speed-fly%
+   &eVelocidade andando:&2 %speed-walk%
+   &eLocalização:&2 %world% X:%x% Y:%y% Z:%z%
+   &eGamemode:&2 %gamemode%
+   &eEsta de Fly:&2 %fly%
+   &eEsta de God:&2 %god%
+   &eEsta de Vanish:&2 %vanish%
+   &eEsta dormindo:&2 %dormindo%
+   &eEsta de Op:&2 %op%
+   &eEsta na whitelist:&2 %whitelist%
+   &eIp:&2 %ip%
+   &eLinguagem do minecraft:&2 %locale%

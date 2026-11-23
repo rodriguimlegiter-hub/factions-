@@ -1,0 +1,26 @@
+#############################[ YZHaste ]############################
+##                                                                ##
+##                          Autor: YuriiiZ                        ##
+##                           Versao: 1.0                          ##
+##                    Site: www.yuriidev.tk                       ##
+##                                                                ##
+##                   Encontrou algum bug? Reporte!                ##
+##                                                                ##
+##                 ! YuriiiZ | Desenvolvedor#1984                 ##
+##                                                                ##
+####################################################################
+
+#Configure as mensagens do admin nesta aba de configuracao!
+Haste:
+  AtivadoSucesso: ""
+  
+#Configure quais os mundos NAO vao receber o HasteII
+Mundo:
+  Recebe: "mina"
+  NaoRecebe:
+    World: "world"
+    WorldNether: "world_nether"
+    #Nesse dois voce pode poder qualquer mundo seu ex: (MundoVIP) ou (Loja)
+    World1: "nome"
+    World2: "nome"
+ 

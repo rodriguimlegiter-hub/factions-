@@ -1,0 +1,57 @@
+# 
+# Sync is an advanced feature of MaxBans.
+# It only applies to server owners who want to BAN/etc Players using a WEBPAGE, such as PHP Script
+# Or owners who want two servers to have the SAME banlist!
+# This option is in BETA! I take no responsibility if it breaks, though I will endeaver to fix it.
+version: 2.0
+lockdown: false
+lockdown-reason: ''
+auto-dupeip: false
+history-expirey-minutes: 10080
+warnings:
+  expirey-in-minutes: 300
+  actions:
+    '2': '/kick {name} Maximo de Avisos: \n{reason}'
+    '3': /tempban {name} 1 hora Maximo de Avisos:\n{reasons}
+  max: 3
+update-check: true
+default-reason: Motivo indefinido!
+appeal-message: www.redechroma.com
+color:
+  primary: f
+  secondary: a
+MaxTempbanTime: 999999999
+kick-colors:
+  reason: f
+  regular: f
+  banner: f
+  time: f
+override-commands: true
+chat-commands:
+- me
+- say
+notify: true
+filter-names: true
+dnsbl:
+  use: true
+  servers:
+  - bl.redechromanet
+  - sbl.redechroma.org
+  notify: true
+  kick: false
+bungee: false
+sync:
+  use: false
+  server: false
+  host: 127.0.0.1
+  port: 2711
+  pass: ChangeMeNow
+  debug: false
+database:
+  mysql: false
+  user: root
+  pass: root
+  host: localhost
+  port: 3306
+  name: factions
+  read-only: false

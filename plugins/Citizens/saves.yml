@@ -1,0 +1,107 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 229
+npc:
+  '229':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDU5MzgzMTM5NzUsInByb2ZpbGVJZCI6Ijk5YWM1OTNhMTBlYzQ0YWI5MDgzYzg5NTZiODE4MjFjIiwicHJvZmlsZU5hbWUiOiJTbGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljNDVjMmQzYWE4Y2NmNTJjMjc3ZDhkZWExNTUzNTg5MDQ3YTMwODU2MTBhMDU5MjY3YmVhNWU4MGRiMGFmOTkifX19
+      cached-skin-uuid-name: sla
+      cached-skin-uuid: 99ac593a-10ec-44ab-9083-c8956b81821c
+      player-skin-signature: WNJ91GRvX8wM+iBB5BovtPei20Gjapf2I+ZGuIC/kn/nCfrJfl1kiDpprB8XPvOknP1SRRdCePuPREcMi/+BX6CCDZhEv/0aXt/Uy922qcPAdNDGDrJOypwT6uUJZP7Ssda+JZF2ix7KwGqx7N5AH0Gf5LAOChqYJPBnDcxT+Y+AQTS+Oor+q7RugfJcBBURK/5msTsViOb15sJPdyEsehwwyh4+qQfocRvXXr8lMFolnKLItvoh8c6n6B9gxO5opRnkgP1iZ/lDOO/IFt8VYfoSxyS1+D4tgv8qmrh3BfFswKMIBjF0ntoXbOXChGxpXYJIzKwISOqcaCtCK4tBCLA7NcQsnL/u4NPb5j12J34fBicFomSMuQUyLK9NaX8uSxXumkhlnx7HpQUERv4cggAwzuIpcmOHUfj9WCAYhM+m1ag8+GTbLcBSfYVJ4nCJfemfVMxEbSSwpK2OzTemYk7bGzSK1ui6trYu1HzDk7j1DsQA76Vmcgdhv8groASEqmNmBrCjbno7Y3zZ6108mwAzQO5uAB9NVx9hBVi3UAIxq/Mf8mCxvYzfh3pWCH6wbau6rEPUhKdn2gYdHMU2wSeRIMuEa+Fkjt9AJoHj4cRPr1guNcI107ABlSulM0llG4B0BTthC8bDWZUxgd2hR5lsgX/xfwnfYXhtqBmwBLI=
+    name: "\xc2\xa7f\xc2\xa7lFELIZ ANO NOVO"
+    uuid: c9086b80-6093-4f5b-9b86-b0c4cf68908a
+    traits:
+      location:
+        world: world
+        x: '-92.49496658516105'
+        y: '71.0'
+        z: '30.564651313907234'
+        yaw: '-83.04365539550781'
+        pitch: '0.0'
+      inventory: {}
+      type: Villager
+      spawned: true
+      owner:
+        owner: Wizard_Woap
+        uuid: 80450bc4-04cc-365b-9b7a-694a68e923a2
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,location,spawned,type,inventory,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '202':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjMwNzcxODk4NTEsInByb2ZpbGVJZCI6IjUyZGYxZDVjODE5NzRiNjZhMTQxYTdhN2U5ZGYwODFjIiwicHJvZmlsZU5hbWUiOiJWQVBFTUVNQkVSTUkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVmOWYxYzQ2ZGNhZjFkYWU2OGZiOWEyMzVlM2YzMjljMzMxNTQxM2Q1NjA1MWZkM2Q4MWM1NzMzMWRmNzlhOGYifX19
+      cached-skin-uuid-name: vapemembermi
+      cached-skin-uuid: 52df1d5c-8197-4b66-a141-a7a7e9df081c
+      player-skin-name: vapemembermi
+      player-skin-signature: Oa7qr4+NBG6PY4rEouIy6ATDBwy3mTWdqem3E648DByPPotRs47Nd/rRuFb+GzSuBPxAk/k/ZaWkeptnsqn0GhUuujOM6Al31iMIGCAYYaSUG11b0j3+kLzb+uH/ped1id4nq7i7EQ5FmetYqddYH+m6qLRON/z63zy9L8Nl/HyGBGpQmJZcEY+Wo56P1uR8JHhtZ3SGA70MObiwfbLMCWaDveADtgyvIPgJklb8jNDK9x3ofyef/B1CTwnrGoSkQami+aWM2c4HJgAVQpYZg14QECSmwt1xkMpBdZX75ymQhiCp/sSFxmBd8pYJjiNRQ/L/i/G9Gdhu/Jx6rl6JGP1kM3OtODtwA2XiwmuCdmucUVoviG/gf7r3Wpplt5ZlJ2dwFv5scJvwO0DvenjrOzw+mwRWkFkVh+blZuP7NtIYw9y5y8CKVTWyqyR3i51nCdLyNm3foyqj3fZ/4WWTR/o2iWYxQ0TD8tOuYYEgtmqLf/X7PX+9p4PDS2lrQmya3eU/DohgJdN4giL5TsxC3AkmSwcZPDuWjCAUtj3H+bT1WnfI+tz7hs9Jzej2ZUSEMWrArcLO0hDRlzTc9ewtrgxteu42S0SRjIma7RkBVi8WU8Vm34x3iP0uR6IHOIMCvji8yOT0mrl3FAUY1d7KEpBowv5zEZHHCV8Y6FsEdTE=
+    name: "\xc2\xa7e#3 \xc2\xa7fVAPEMEMBE\xc2\xa7fRMI"
+    uuid: d2e19074-0a40-4eb5-8ffc-95ee8669a88e
+    traits:
+      location:
+        world: world
+        x: '-55.4431461041966'
+        y: '71.0'
+        z: '55.537807688436956'
+        yaw: '-272.0789794921875'
+        pitch: '1.5518652200698853'
+      spawned: true
+      inventory: {}
+    traitnames: location,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '214':
+    metadata:
+      player-skin-name: zentorno390
+    name: "\xc2\xa7e#2 \xc2\xa7fzentorno3\xc2\xa7f90"
+    uuid: 7b0d4f9e-419f-49e0-b207-ba1c81b992bc
+    traits:
+      location:
+        world: world
+        x: '-55.482121357871094'
+        y: '71.0'
+        z: '59.48511095879429'
+        yaw: '-268.82177734375'
+        pitch: '5.678348541259766'
+      spawned: true
+      inventory: {}
+    traitnames: location,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '227':
+    metadata:
+      player-skin-name: yoriowm
+    name: "\xc2\xa7e#1 \xc2\xa7fyOriowm"
+    uuid: ffd565a8-5ec1-4808-b665-07b82d4c71c0
+    traits:
+      location:
+        world: world
+        x: '-55.507335020294605'
+        y: '71.0'
+        z: '57.51606647066495'
+        yaw: '-270.125732421875'
+        pitch: '-2.4660518169403076'
+      spawned: true
+      inventory: {}
+    traitnames: location,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

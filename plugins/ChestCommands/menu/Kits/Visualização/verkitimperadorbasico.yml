@@ -1,0 +1,290 @@
+menu-settings:
+
+
+
+  name: 'Conteúdo: Imperador Básico'
+  
+  rows: 3
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+tocha:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+
+
+
+    - ''
+
+
+
+  ID: '50, 64'
+
+
+
+  SLOT: 17
+  
+  
+  
+isqueiro:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+
+
+
+    - ''
+
+
+
+  ID: '259'
+
+
+
+  SLOT: 16
+  
+  
+madeira:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+
+
+
+    - ''
+
+
+
+  ID: '17, 64'
+
+
+
+  SLOT: 15
+
+
+  
+espada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '276'
+
+
+
+  SLOT: 9
+
+picareta:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT:
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '278'
+
+
+
+  SLOT: 10
+
+  
+
+machado:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT:
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '279'
+
+
+
+  SLOT: 11
+
+  
+
+pa:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+
+    - '&bImperador'
+
+  ID: '277'
+  
+  SLOT: 12
+  
+maca:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '322, 24'
+  
+  SLOT: 13
+  
+file:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '364, 40'
+  
+  SLOT: 14
+
+voltar:
+
+
+  LEFT-CLICK-COMMAND: 'open: kitsbasicos.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitsbasicos.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+  HIDE-ATTRIBUTES: true
+  ID: '262'
+
+  SLOT: 0
+  

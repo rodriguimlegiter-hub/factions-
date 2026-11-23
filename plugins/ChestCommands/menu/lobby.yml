@@ -1,0 +1,53 @@
+##############################
+menu-settings:
+  name: '&8Deseja realmente ir ao Lobby?'
+  rows: 3
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para nao queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso voce queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: 'lobby; lobbys; hub'
+
+  # Atualizacao automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso voce queira colocar um SOM ao abrir o MENU ou caso voce queira colocar uma mensagem.
+  open-action: 'sound: LEVEL_UP'
+
+  # Abrir menu com - Item que ao ser clicado abre o menu - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botao direito segurando uma la laranja [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  LEFT-CLICK-COMMAND: 'server lobby'
+  RIGHT-CLICK-COMMAND: 'server lobby'
+  NAME: '&aConfirmar'
+  LORE:
+    - '&fVoltar ao lobby do servidor.'
+  ID: '159:13'
+  SLOT: 12
+  KEEP-OPEN: true
+3:
+  LEFT-CLICK-COMMAND: ''
+  RIGHT-CLICK-COMMAND: ''
+  NAME: '&cCancelar'
+  LORE:
+    - '&fNão voltar ao lobby.'
+  ID: '159:14'
+  SLOT: 14
+  KEEP-OPEN: false
+  

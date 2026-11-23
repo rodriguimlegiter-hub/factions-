@@ -1,0 +1,39 @@
+#
+#  
+#  DStackMobs 1.0 com Drop Bonus
+#  Autor: Dargoh :3 (skype: phfonseca46)
+#
+
+#Limite maximo de mobs stackados em uma pilha
+limitemaximo: 500
+
+#Multiplicador de cada spawner (bonus drop) exemplo: 0.25x por spawner
+bonusdrop: 0.25
+
+#Raio de spawners (para stackar)
+raiostack: 16.0
+
+#Raio do bonus drop (para contar spawners)
+raiodropbonus: 16
+
+#Nome mostrado na entidade (variveis: {entidade} {quantidade})
+nomedisplay: '&a{quantidade}x &e{entidade}'
+
+#Nome mostrado na variavel {entidade} do nome
+nomes:
+   IRON_GOLEM: 'Golem de Ferro'
+   PIG_ZOMBIE: 'Porco Zumbi'
+   BLAZE: 'Blaze'
+   ZOMBIE: 'Zumbi'
+   SPIDER: 'Aranha'
+   CAVE_SPIDER: 'Aranha da Caverna'
+   CREEPER: 'Creeper'
+   PIG: 'Porco'
+   COW: 'Vaca'
+   CHICKEN: 'Galinha'
+   ENDERMAN: 'Enderman'
+   WITHER: 'Wither'
+   SKELETON: 'Esqueleto'
+   SLIME: 'Slime'
+   MAGMA_CUBE: 'Cubo do Magma'
+   SHEEP: 'Ovelha'

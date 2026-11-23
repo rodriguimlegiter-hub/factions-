@@ -1,0 +1,11 @@
+{
+  "priority": 1000,
+  "name": "build",
+  "desc": "editar o terreno",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER"
+  ],
+  "territory": true
+}

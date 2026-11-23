@@ -1,0 +1,375 @@
+menu-settings:
+
+
+
+  name: 'Kits VIPs'
+
+  rows: 5
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       ITEMS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+Membro-mensal:
+
+  LEFT-CLICK-COMMAND: 'kit Membromensal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMembromensal.yml'
+
+  NAME: '&8Kit Membro Mensal'
+
+  LORE:
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e30 dias.'
+    - ''
+  ID: '159:9'
+
+  SLOT: 28
+
+Membro-semanal:
+
+  LEFT-CLICK-COMMAND: 'kit Membrosemanal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMembrosemanal.yml'
+
+  NAME: '&8Kit Membro Semanal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e7 dias.'
+    - ''
+
+  ID: '95:7'
+
+  SLOT: 19
+
+Membro-diario:
+
+  LEFT-CLICK-COMMAND: 'kit Membrodiario'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMembrodiario.yml'
+
+  NAME: '&8Kit Membro Diário'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e1 dia.'
+    - ''
+
+  ID: '351:8'
+
+  SLOT: 10
+
+Guerreiromensal:
+
+  LEFT-CLICK-COMMAND: 'kit Guerreiromensal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitGuerreiromensal.yml'
+
+  NAME: '&3Kit Guerreiro Mensal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e30 dias.'
+    - ''
+
+  ID: '159:7'
+
+  SLOT: 30
+
+Guerreirosemanal:
+
+  LEFT-CLICK-COMMAND: 'kit Guerreirosemanal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitGuerreirosemanal.yml'
+
+  NAME: '&3Kit Guerreiro Semanal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e7 dias.'
+    - ''
+
+  ID: '95:9'
+
+  SLOT: 21
+
+Guerreirodiario:
+
+  LEFT-CLICK-COMMAND: 'kit Guerreirodiario'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitGuerreirodiario.yml'
+
+  NAME: '&3Kit Guerreiro Diário'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e1 dia.'
+    - ''
+  ID: '351:6'
+
+  SLOT: 12
+
+Magomensal:
+
+  LEFT-CLICK-COMMAND: 'kit Magomensal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMagomensal.yml'
+
+  NAME: '&5Kit Mago Mensal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e30 dias.'
+    - ''
+
+  ID: '159:10'
+
+  SLOT: 31
+
+Magosemanal:
+
+  LEFT-CLICK-COMMAND: 'kit Magosemanal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMagosemanal.yml'
+
+  NAME: '&5Kit Mago Semanal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e7 dias.'
+    - ''
+
+  ID: '95:10'
+
+  SLOT: 22
+
+Magodiario:
+
+  LEFT-CLICK-COMMAND: 'kit Magodiario'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMagodiario.yml'
+
+  NAME: '&5Kit Mago Diário'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e1 dia.'
+    - ''
+
+  ID: '351:5'
+
+  SLOT: 13
+
+Supremomensal:
+
+  LEFT-CLICK-COMMAND: 'kit Supremomensal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitSupremomensal.yml'
+
+  NAME: '&4Kit Supremo Mensal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e30 dias.'
+    - ''
+
+  ID: '159:14'
+
+  SLOT: 32
+
+Supremosemanal:
+
+  LEFT-CLICK-COMMAND: 'kit Supremosemanal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitSupremosemanal.yml'
+
+  NAME: '&4Kit Supremo Semanal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e7 dias.'
+    - ''
+
+  ID: '95:14'
+
+  SLOT: 23
+
+Supremodiario:
+
+  LEFT-CLICK-COMMAND: 'kit Supremodiario'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitSupremodiario.yml'
+
+  NAME: '&4Kit Supremo Diário'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e1 dia.'
+    - ''
+
+  ID: '351:1'
+
+  SLOT: 14
+
+Imperadoromensal:
+
+  LEFT-CLICK-COMMAND: 'kit Imperadormensal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitImperadormensal.yml'
+
+  NAME: '&bKit Imperador Mensal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e30 dias.'
+    - ''
+
+  ID: '159:3'
+
+  SLOT: 33
+
+Imperadorsemanal:
+
+  LEFT-CLICK-COMMAND: 'kit Imperadorsemanal'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitImperadorsemanal.yml'
+
+  NAME: '&bKit Imperador Semanal'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e7 dias.'
+    - ''
+
+
+  ID: '95:3'
+
+  SLOT: 24
+
+Imperadorodiario:
+
+  LEFT-CLICK-COMMAND: 'kit Imperadordiario'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitImperadordiario.yml'
+
+  NAME: '&bKit Imperador Diário'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e1 dia.'
+    - ''
+
+  ID: '351:12'
+
+  SLOT: 15
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+
+  ID: '262'
+
+  SKULL-OWNER:
+
+  SLOT: 0
+

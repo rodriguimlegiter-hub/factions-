@@ -1,0 +1,48 @@
+on place of a hopper:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 hopper from player
+on place of a bed:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 bed from player
+on place of a piston:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 piston from player
+on place of a sticky piston:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 sticky piston from player
+on place of a boat:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 boat from player
+on place of a lily pad:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 lily pad from player	
+on place of a rail:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 rail from player
+on place of a minecart:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 minecart from player
+on place of a minecart with hopper:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 minecart with hopper from player
+on place of a minecart with chest:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 minecart with chest from player
+on place of a minecart with tnt:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 minecart with tnt from player
+on place of a minecart with tnt:
+	send "&cEsse item foi bloqueado no servidor."
+	cancel event
+	remove 1 minecart with tnt from player

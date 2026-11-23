@@ -1,0 +1,12 @@
+{
+  "priority": 8000,
+  "name": "claimnear",
+  "desc": "claimar perto",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT"
+  ],
+  "territory": false
+}

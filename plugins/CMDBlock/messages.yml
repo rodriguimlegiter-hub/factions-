@@ -1,0 +1,25 @@
+nopermission: '&cYou don''t have permission.'
+author: '&6Author'
+version: '&6Version'
+data_reloaded: '&aData has been reloaded'
+usage: '&eUsage'
+usage_add: '&f/Cmd add <command> ...'
+usage_remove: '&f/Cmd remove <command> ...'
+usage_list: '&f/Cmd list'
+usage_reload: '&f/Cmd reload'
+desc: '&6Description'
+desc_add: '&3Blocks command <command>...'
+desc_remove: '&3Unblocks command <command>...'
+desc_list: '&3Shows list of blocked commands.'
+desc_reload: '&3Reloads data files.'
+info_end: '&4[!] &cWrite command you want to block/unblock without ''/''.'
+cmd: Command
+cmd_has_blocked: has been blocked
+cmd_already_blocked: already blocked
+cmd_is_blocked: is blocked
+cmd_not_blocked: not blocked by
+cmd_has_unblocked: has been unblocked
+no_blocked_cmds: '&eThere no blocked commands in database.yml'
+blocked_cmds_list: '&6Next commands are blocked'
+invalid_args: '&cInvalid subcommand'
+can_senden_only_from: '&cSorry, that command can be sended from player only'

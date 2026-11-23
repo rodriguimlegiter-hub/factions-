@@ -1,0 +1,27 @@
+Prefix: '&7[&4ChromaDupe&7]&7 '
+BlockCarrinho:
+    Ativado: true
+    MenssagemNaoKick: '&cEste veiculo esta proibido de ser utilizado para evitar bugs...'
+    AvisoStaff: false
+    AvisoStaffMensagem: 'Player @Player Tentou subir no carrinho!'
+BlockSubirNoBarco:
+    Ativado: true
+    Kick: false
+    KickMensagem: ''
+    MensagemNaoKick: '&cEste veiculo esta proibido de ser utilizado para evitar bugs...'
+    AvisoStaff: false
+    AvisoStaffMensagem: 'Player @Player Tentou subir no barco!'
+BlockAbrirFunil:
+    Ativado: true
+    Kick: false
+    KickMensagem: ''
+    MensagemNaoKick: '&cO funil nao pode ser aberto para evitar bugs somente usado...'
+    AvisoStaff: false
+    AvisoStaffMensagem: 'Player @Player Tentou abrir o funil!'
+BlockMolduraNoVeiculo:
+    Ativado: true
+    Kick: false
+    KickMensagem: ''
+    MensagemNaoKick: '&cVoce nao pode usar a moldura dentro de um veiculo'
+    AvisoStaff: true
+    AvisoStaffMensagem: 'Player @Player Tentou usar a moldura dentro de um veiculo!'

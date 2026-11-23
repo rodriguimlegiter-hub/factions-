@@ -1,0 +1,27 @@
+# Plugin criado por ViniPlugner
+
+# Defina abaixo as mensagens de acordo com seu gosto
+Mensagens:
+  SemPerm: '&cVocê não possui permissão'
+  SetouAltar: '&aAltar do podetado com sucesso!'
+  JaSetouAltar: '&cVocê já setou a localização do altar!'
+  RemoverAltar: '&aAltar do poder removido com sucesso'
+  NaoSetouAltar: '&cA localização do altar não foi setada para removê-la!'
+  
+# Defina as configurações do altar abaixo.
+# Coloque o TEMPO em minutos.
+Altar:
+  Tempo: 20
+  PlayersChunksDrop: 1
+  
+# Configure o item que irá dropar quando acabar o tempo  
+Item:
+  Nome: '&6+1 de Poder Máximo'
+  Glow: true
+  ID: 399
+  Quantia: 1
+  Lore:
+   - '&fAtivando este item você aumenta'
+   - '&f1 ponto em seu limite de poder.'
+   - ''
+   - '&f* Limite máximo de poder: 20'

@@ -1,0 +1,14 @@
+'1':
+  location: loja, -20.538, 5.789, 107.699
+  lines:
+  - '&4&l+&6&lBem-Vindo a Loja&4&l+'
+sla:
+  location: world, -86.807, 176.651, 30.574
+  lines:
+  - '&f&lRecompensa de Ano Novo'
+  - '&7'
+  - '&7Todos nos da equipe do servidor'
+  - '&7Te desejamos um Feliz Ano Novo'
+  - '&7Pegue seu presente com o Villager'
+  - '&7'
+  - '&fObrigado !'

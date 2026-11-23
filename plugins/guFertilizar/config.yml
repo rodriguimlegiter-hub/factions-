@@ -1,0 +1,373 @@
+#
+#	guFertilizante - Feito por iTrapay (Gustavo ❤✨#0001)
+#	API no final
+#
+
+# Permissoes
+#
+# fertilizante.use = poder usar o comando /fertilizar
+# fertilizante.vip = acesso ao desconto e ao delayvip
+# fertilizante.admin = acesso ao /fertilizante (reload/resetdelay)
+#
+
+
+# Delay para jogadores normais usarem o fertilizante novamente
+Delay: 60
+
+# Preco por apenas usar o comando fertilizar
+Preco: 0
+
+
+# Preco por radius, basicamente será aumentado o preco a cada radius que o jogador tem na permissão
+# Exemplo: se ele tem a permissão fertilizante.radius.5 irá adicionar 5 * preço para ele pagar
+Preco_per_radius:
+  Ativado: true
+  Preco: 1000
+  
+# Desconto no Preco e no Preco_per_radius
+Desconto_VIP: 30
+
+# Delay para jogadores VIPS usarem o fertilizante novamente
+Delay_VIP: 30
+
+
+# Mensagem quando o jogador tiver em delay
+# @p = jogador, @seg = segundos restantes
+Mensagem_Delay:
+  - ' '
+  - '&cOlá &6@p&c, infelizmente você ainda está em delay.'
+  - '&cAguarde mais &6@seg &csegundos para usar o comando novamente.'
+  - ' '
+
+# Mensagem sem permissão
+# @p = jogador
+Mensagem_Sem_Permissao:
+  - '&cOps... @p, você não tem permissão suficiente para executar esse comando'
+
+  
+# Mensagem quando fertiliza
+# @p = jogador, @total = plantação fertilizadas
+Mensagem_Sucesso:
+  - ' '
+  - '&eSucesso&a, &e@p &avocê fertilizou as plantações ao redor'
+  - '&aBlocos fertilizados: &e@total'
+  - ' '
+
+# Mensagem quando não encontra nenhuma plantação para fertilizar
+# @p = jogador
+Mensagem_Sem_Nada:
+  - ' '
+  - '&cOps... Falha ao fertliziar.'
+  - '&cNão encontramos nenhuma plantação para fertilizar.'
+  - '&cVocê não entrou em delay, nem gastou money'
+  - ' '
+
+
+# Mensagem quando o jogador não tem money para pagar por APENAS USAR O COMANDO
+# @p = player, @contem = money do jogador
+# @rf = quanto falta, @rm = quanto custa
+Mensagem_Sem_Money:
+  - ' '
+  - '&c@p você não tem money suficiente para isso'
+  - '&cVocê contém: &a$@contem'
+  - '&cVocê precisa de mais &a$@rf &cpara fertliziar'
+  - '&csomando um total de &a@rm'
+
+  
+# Mensagem quando o jogador não tem money para pagar O TAMANHO DA SUA RADIUS
+# @p = player, @contem = money do jogador
+# @rf = quanto falta, @rm = quanto custa
+# @rp = radius do jogador
+Mensagem_Sem_Money_Radius:
+  - ' '
+  - '&c@p Você não tem money suficiente para isso'
+  - '&cVocê fertiliza uma radius de: @rp'
+  - '&cVocê contém: &a$@contem'
+  - '&cVocê precisa um total de &a$@rm'
+  - '&cLhe falta apenas &a$@rf'
+  - ' '
+
+# Usuario incorreto ao resetar o delay de um jogador
+# @p = player
+Mensagem_User_Invalido:
+  - ' '
+  - '&c@p, não encontramos o jogador'
+  - '&cDigite um nick correto.'
+  - ' '
+
+  
+# Ao resetar o delay de um jogador
+# @p = player, @target = jogador resetado
+Mensagem_Resetou_Delay:
+  - ' '
+  - '&e@p &avocê resetou o delay do jogador &e@target'
+  - '&aAgora ele já pode fertliziar suas plantações novamente'
+  - ' '
+
+# Ao dar reload no plugin (/fertilizante reload)
+# @p = player
+Mensagem_Reload:
+  - ' '
+  - '&e@p &aConfigurações atualizadas com sucesso.'
+  - ' '
+
+  
+# Selecionar um jogador para resetar o delay
+# @p = player
+Mensagem_Selecione_User:
+  - ' '
+  - '&c@p, você deve selecionar um jogador'
+  - ' '
+
+  
+# Comando invalido
+# @p = player
+Mensagem_Comando_Invalido:
+  - ' '
+  - '&c@p não encontramos esse comando.'
+  - '&cVeja os comandos em /fertilizante help'
+  - ' '
+
+  
+# Lista de Comandos (/fertilizante help)
+Mensagem_Lista_Comandos:
+  - ' '
+  - '&6Comandos do Fertlizante: '
+  - '&e/fertilizante resetdelay {user} &7- Reseta o delay de um jogador'
+  - '&e/fertilizante reload &7- Recarrega a Configuração'
+  - '&e/fertilizante help &7- Veja a lista de comandos'
+  - ' '
+
+  
+# Adicionais
+# Replaces iguais as mensagens chat
+Outros:
+
+  # Mensagem na tela
+  # Só use 2 linhas, Title e Subtitle
+  Title:
+  
+    # Ao fertilizar
+    Fertilizou:
+      Ativado: true
+      Mensagem:
+        - '&aParabéns &e@p'
+        - '&aVocê fertlizou &e@total &aplantações'
+
+    # Sem money por APENAS USAR O COMANDO
+    Sem_Money:
+      Ativado: true
+      Mensagem:
+        - '&cOps... @p'
+        - '&cVocê não tem &a@rm&c, precisa de mais &a@rf'
+
+    # Sem money para PAGAR O TAMANHO DA RADIUS
+    Sem_Money_Radius:
+      Ativado: true
+      Mensagem:
+        - '&cOps... @p'
+        - '&cVocê não tem &a@rm&c, precisa de mais &a@rf'
+
+    # Em Delay
+    Em_Delay:
+      Ativado: true
+      Mensagem:
+        - '&cOps... @p'
+        - '&cEspere mais &a@seg segundos'
+
+    # Sem nenhuma plantação por perto
+    Sem_Nada:
+      Ativado: true
+      Mensagem:
+        - '&cOps... @p'
+        - '&cNão encontramos nenhuma plantação'
+
+    # Sem permissão
+    Sem_Permissao:
+      Ativado: true
+      Mensagem:
+        - '&cOps... @p'
+        - '&cVocê não tem permissão para isso'
+
+
+
+  # Mensagem em cima da barra de experiencia
+  ActionBar:
+
+    # Ao fertilizar
+    Fertilizou:
+      Ativado: true
+      Mensagem: '&e@p &aplantações fertlizadas'
+
+    # Sem money por APENAS USAR O COMANDO
+    Sem_Money:
+      Ativado: true
+      Mensagem: '&a@p  &cvocê não tem &a@rm&c, precisa de mais &a@rf'
+
+    # Sem money para PAGAR O TAMANHO DA RADIUS  
+    Sem_Money_Radius:
+      Ativado: true
+      Mensagem: '&a@p &cvocê não tem &a@rm&c, precisa de mais &a@rf'
+
+    # Em Delay
+    Em_Delay:
+      Ativado: true
+      Mensagem: '&a@p &cespere mais &a@seg segundos'
+
+    # Sem nenhuma plantação por perto  
+    Sem_Nada:
+      Ativado: true
+      Mensagem: '&a@p &cnão encontramos nenhuma plantação por perto'
+
+    # Sem permissão
+    Sem_Permissao:
+      Ativado: true
+      Mensagem: '&c@p você não tem permissão para isso'
+
+
+
+  # Sons 
+  Song:
+
+    # Ao fertilizar
+    Fertilizou:
+      Ativado: true
+      Som: LEVEL_UP
+
+    # Sem money por APENAS USAR O COMANDO
+    Sem_Money:
+      Ativado: true
+      Som: CLICK
+
+    # Sem money para PAGAR O TAMANHO DA RADIUS  
+    Sem_Money_Radius:
+      Ativado: true
+      Som: CLICK
+
+    # Em Delay
+    Em_Delay:
+      Ativado: true
+      Som: ANVIL_USE
+
+    # Sem nenhuma plantação por perto  
+    Sem_Nada:
+      Ativado: true
+      Som: CLICK
+
+    # Sem permissão
+    Sem_Permissao:
+      Ativado: true
+      Som: ANVIL_USE
+
+
+  # Particulas no jogador 
+  Particle:
+
+    # Ao fertilizar
+    Fertilizou:
+      Ativado: true
+      Particula: VILLAGER_HAPPY
+
+    # Sem money por APENAS USAR O COMANDO
+    Sem_Money:
+      Ativado: true
+      Particula: VILLAGER_ANGRY
+
+    # Sem money para PAGAR O TAMANHO DA RADIUS  
+    Sem_Money_Radius:
+      Ativado: true
+      Particula: VILLAGER_ANGRY
+
+    # Em Delay
+    Em_Delay:
+      Ativado: true
+      Particula: PORTAL
+
+    # Sem nenhuma plantação por perto  
+    Sem_Nada:
+      Ativado: true
+      Particula: CLOUD
+
+    # Sem permissão
+    Sem_Permissao:
+      Ativado: true
+      Particula: BARRIER
+
+
+# =========[ API ]=========
+# Evento:
+#	PlayerFertilizedEvent - Ao fertilizar sua plantação
+#		getPlayer() = retorna o jogador (Player)
+#		getRadius() = retorna a radius da fertilização (Integer)
+#		getPlants() = retorna quantas plantas foram fertilizadas (Integer)
+#		getPayedMoney() = retorna quanto o jogador pagou ao total (Double)
+
+# API: (Chame a classe com API.X, exemplo: API.inDelay(p))
+#	inDelay(player) = retorna se o jogador está em delay (Boolean)
+#	getDelay(player) = retorna os segundos que o jogador está em delay (Integer)
+#	addDelay(player, segundos) = adiciona delay para um jogador (Void)
+#	resetDelay(player) = reseta o delay de um jogador (Void)
+#	getRadius(player) = retorna o tamanho da radius do jogador, dependendo da permissão fertilizante.radius.X (Integer)
+
+# Como criar uma fertilização
+#
+#	Fertilization <sua variável> = new Fertilization();
+#	.setRadius(int) = tamanho da radius que vai fertilizar
+#	.setLocation(loc) = localização de onde será o meio
+#	.Fertilize() = fertiliza as plantações
+#	.getPlants() = retorna a quantia de plantações fertilizadas
+# Exemplo:
+#	Fertilization minha = new Fertilization();
+#	minha.setLocation(p.getLocation());
+#	minha.setRadius(5);
+#	minha.Fertilize();
+#				
+#	final int plants = minha.getPlants();
+#	p.sendMessage("Você fertilizou "+plants+" plantas em uma radius de 5");
+
+# Exemplo de como usar a API:
+# 	@Override
+#	public void onEnable() {
+#		Bukkit.getPluginManager().registerEvents(this, this);
+#		getCommand("ferttest").setExecutor(this);
+#	}
+#	
+#	@EventHandler
+#	public void aoFertilizar(PlayerFertilizedEvent e) {
+#		final Player p = e.getPlayer();
+#		final int radius = e.getRadius();
+#		final int plants = e.getPlants();
+#		final double pagado = e.getPayedMoney();
+#		
+#		Bukkit.getConsoleSender().sendMessage("");
+#		Bukkit.getConsoleSender().sendMessage("");
+#		Bukkit.getConsoleSender().sendMessage("O Jogador "+p.getName());
+#		Bukkit.getConsoleSender().sendMessage("Fertilizou "+plants+" plantas");
+#		Bukkit.getConsoleSender().sendMessage("Em uma radius de "+radius);
+#		Bukkit.getConsoleSender().sendMessage("Pagando um total de "+pagado);
+#		Bukkit.getConsoleSender().sendMessage("");
+#		Bukkit.getConsoleSender().sendMessage("");
+#	}
+#	
+#	@Override
+#	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+#		if(cmd.getName().equalsIgnoreCase("ferttest")) {
+#			if(sender instanceof Player) {
+#				final Player p = (Player)sender;
+#				if(API.inDelay(p)){
+#					p.sendMessage("Você está em delay por "+API.getDelay(p)+ " segundos");
+#					return true;
+#				}
+#				API.addDelay(p, 30);
+#				
+#				Fertilization minha = new Fertilization();
+#				minha.setLocation(p.getLocation());
+#				minha.setRadius(API.getRadius(p));
+#				minha.Fertilize();
+#				
+#				final int plants = minha.getPlants();
+#				p.sendMessage("Você fertilizou "+plants+" plantas em uma radius de 5");
+#			}
+#		}
+#		return false;
+#	}

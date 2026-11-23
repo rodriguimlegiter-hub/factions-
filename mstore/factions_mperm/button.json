@@ -1,0 +1,13 @@
+{
+  "priority": 3000,
+  "name": "button",
+  "desc": "usar botões",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY"
+  ],
+  "territory": true
+}

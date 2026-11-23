@@ -1,0 +1,8 @@
+# Plugin criado por ViniPlugner
+
+# Coloque a lista abaixo dos mundos que deseja desbugar todas as chunks!
+Mundos:
+  - 'world'
+  - 'Mina'
+  - 'VIP'
+  - 'spawn'

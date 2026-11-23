@@ -1,0 +1,10 @@
+Server-MOTD: 
+  Line-1: "&6&lREDE CHROMA &7(1.8 até 1.8.9)"
+  Line-2: "&5&lFactions Paladino &7» Servidor Resetado."
+
+JoinGame-MOTD:
+  Enabled: false
+  Messages:
+    - 'default motd'
+
+Max-Players: 150

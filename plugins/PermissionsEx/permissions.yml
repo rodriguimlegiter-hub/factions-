@@ -1,0 +1,5593 @@
+groups:
+  MEMBRO:
+    options:
+      prefix: '&8[Membro] '
+      default: true
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.membro
+    - oreparar.usar
+    - vender.nexeusbr.membro
+    - system.kit.natal
+    - system.echest
+    - system.ec
+    - System.enderchest
+    - System.ec
+    - skinsrestorer.playercmds
+    - system.derreter
+    - mycommand.cmd.*
+    - spawn.spawn
+    - setspawn.spawn
+    - solaryeconomy.commands.magnata
+    - solaryeconomy.commands.pay
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.money.other
+    - Mabazi.Geradores.usar
+    - system.kit.membro
+    - authme.player.*
+    - system.online
+    - system.ping
+    - system.lixo
+    - system.publica
+    - system.particular
+    - system.home
+    - system.sethome
+    - system.delhome
+    - system.tpdeny
+    - system.tpcancel
+    - system.tpaccept
+    - system.tpa
+    - system.ping
+    - system.homes.5
+    - system.kit
+    - system.kits
+    - system.kit.basico3
+    - system.kit.basico2
+    - system.kit.basico1
+    - syem.
+    - reluz.usar
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - mcmmo.bypass.arcanebypass
+    - sbau.7
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - shopguiplus.shop
+    - chestcommands.open.*
+    - vfornalha.usar
+    - vfornalha.qnt.1
+    - essentials.sethome.multiple.membro
+    - chestcommands.open.youtuber.yml
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - blackmoney.top
+    - blackmoney.other
+    - blackmoney.pay
+    - blackmoney.add
+    - jyoutube.use
+    - chestcommands.open.livros.yml
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.membro
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+  FUNDADOR:
+    permissions:
+    - oreparar.usar
+    - itembans.use
+    - ItemBans.use
+    - system.home.1000
+    - system.homes.1000
+    - cloudfactions.admin
+    - '*'
+    - nte.fundador
+    - yequipa.equipa
+    options:
+      prefix: '&4[FUNDADOR] &4'
+      rank: '1'
+  DIRETOR:
+    inheritance:
+    - Membro
+    - Moderador
+    - Ajudante
+    permissions:
+    - factions.fly.bypass
+    - factions.*
+    - vipzero.*
+    - oreparar.usar
+    - fawe.admin
+    - facctions.admin
+    - snockmc.commands.utils.spawners
+    - skyspawners.darspawner
+    - solaryeconomy.*
+    - Mabazi.Geradores.Give
+    - Mabazi.Geradores.Usar
+    - nexusnetwork.gamemodes
+    - nexusnetwork.gamemode
+    - nexusnetwork.vip
+    - nexusnetwork.moderador
+    - nexusnetwork.admin
+    - nexusnetwork.gerente
+    - nexusnetwork.master
+    - nexusnetwork.tp
+    - chromanetwork.tp
+    - chromanetwork.placa
+    - chromanetwork.invsee
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.vanish
+    - chromanetwork.gamemode
+    - chromanetwork.gerente
+    - chromanetwork.tphere
+    - chromanetwork.clear
+    - chromanetwork.master
+    - chromanetwork.staff
+    - chromanetwork.kickall
+    - chromanetwork.info
+    - chromanetwork.vip
+    - "FManuten\xc3\u0192\xc2\xa7\xc3\u0192\xc2\xa3o.use"
+    - worldguard.*
+    - factions.admin
+    - playerpoints.*
+    - system.destaque.chat
+    - system.admin
+    - maxbans.*
+    - system.bypass.all
+    - system.*
+    - worldedit.*
+    - PlayerPoints.set
+    - Ajuda.admin
+    - factions.voar.bypass
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - yequipa.equipa
+    - Set.Color
+    - permissions.*
+    - cloudfactions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - snockmc.commands.factions.admin
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.staff
+    - snockmc.grupos.vip
+    - snockmc.chat.staff.bypass
+    - snockmc.grupos.staff.plus
+    - setspawn.spawn
+    - use.loja
+    - vfornalha.qnt.7
+    - cloudfactions.admin
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - legendchat.color.allcolors
+    - encomenda.use
+    - report.info
+    - staff.chat
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - Chestshop.admin
+    - essentials.fly
+    - essentials.ping
+    - essentials.clearinventoryin
+    - essentials.use.*
+    - ss.usar
+    - essentials.invsee
+    - essentials.vanish
+    - essentials.vanish.see
+    - essentials.invsee.use
+    - essentials.vanish.use
+    - essentials.invsee
+    - essentials.tp
+    - essentials.back
+    - essentials.hat
+    - voxelsniper.sniper
+    - minecraft.command.tp
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - BLoginStaff.login
+    - chestcommands.open.kits.*
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.gerente
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.master
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - legendchat.channel.staff.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - essentials.sethome.multiple.mod
+    - forum.usar
+    - site.usar
+    - dhvoar.cmd
+    - lixeira.use
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.sethome.multiple.5
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.basico
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - reluz.usar
+    - cclear.usar
+    - cstop.usar
+    - con.usar
+    - staff.online
+    - vppunish.punir
+    - BLoginStaff.login
+    - HR.derreter
+    - betavip.bypass
+    - alphachest.bau
+    - mg.vip.admin
+    - playervaults.amount.10
+    - playervaults.size.6
+    - vender.usar
+    - ticket.staff
+    - report.ver
+    - report.info
+    - KeepXP.Keep
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - essentials.back
+    - essentials.hat
+    options:
+      prefix: '&6[DIRETOR] '
+      rank: '2'
+  GERENTE:
+    inheritance:
+    - Membro
+    - Moderador
+    - Ajudante
+    permissions:
+    - factions.fly.bypass
+    - factions.fly
+    - factions.*
+    - system.*
+    - oreparar.usar
+    - LetterHeads.*
+    - snockmc.commands.utils.spawners
+    - skyspawners.darspawner
+    - Mabazi.Geradores.Give
+    - Mabazi.Geradores.Usar
+    - nexusnetwork.gamemodes
+    - nexusnetwork.gamemode
+    - nexusnetwork.gerente
+    - chromanetwork.placa
+    - chromanetwork.invsee
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.vanish
+    - chromanetwork.gamemode
+    - chromanetwork.gerente
+    - chromanetwork.tphere
+    - chromanetwork.clear
+    - chromanetwork.staff
+    - chromanetwork.kickall
+    - chromanetwork.info
+    - chromanetwork.vip
+    - "FManuten\xc3\u0192\xc2\xa7\xc3\u0192\xc2\xa3o.use"
+    - worldguard.*
+    - system.admin
+    - maxbans.*
+    - system.bypass.all
+    - worldedit.*
+    - PlayerPoints.set
+    - Ajuda.admin
+    - factions.voar.bypass
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - yequipa.equipa
+    - Set.Color
+    - permissions.*
+    - cloudfactions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - snockmc.commands.factions.admin
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.staff
+    - snockmc.grupos.vip
+    - snockmc.chat.staff.bypass
+    - snockmc.grupos.staff.plus
+    - setspawn.spawn
+    - use.loja
+    - vfornalha.qnt.7
+    - cloudfactions.admin
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - legendchat.color.allcolors
+    - encomenda.use
+    - report.info
+    - staff.chat
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - Chestshop.admin
+    - essentials.fly
+    - essentials.ping
+    - essentials.clearinventoryin
+    - essentials.use.*
+    - ss.usar
+    - essentials.invsee
+    - essentials.vanish
+    - essentials.vanish.see
+    - essentials.invsee.use
+    - essentials.vanish.use
+    - essentials.invsee
+    - essentials.tp
+    - essentials.back
+    - essentials.hat
+    - voxelsniper.sniper
+    - minecraft.command.tp
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - BLoginStaff.login
+    - chestcommands.open.kits.*
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.gerente
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.gt
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - legendchat.channel.staff.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - essentials.sethome.multiple.mod
+    - forum.usar
+    - site.usar
+    - dhvoar.cmd
+    - lixeira.use
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.sethome.multiple.5
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.basico
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - reluz.usar
+    - cclear.usar
+    - cstop.usar
+    - con.usar
+    - staff.online
+    - vppunish.punir
+    - BLoginStaff.login
+    - HR.derreter
+    - betavip.bypass
+    - alphachest.bau
+    - mg.vip.admin
+    - playervaults.amount.10
+    - playervaults.size.6
+    - vender.usar
+    - ticket.staff
+    - report.ver
+    - report.info
+    - KeepXP.Keep
+    - factions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - essentials.back
+    - essentials.hat
+    options:
+      prefix: '&5[GERENTE] &f'
+      rank: '3'
+    worlds:
+      '&f':
+        options:
+          prefix: '&5[GERENTE]&4'
+  ADMIN:
+    inheritance:
+    - MEMBRO
+    - Moderador
+    - Ajudante
+    permissions:
+    - factions.fly.bypass
+    - legendchat.channel.staff.chat
+    - oreparar.usar
+    - Mabazi.Geradores.Give
+    - Mabazi.Geradores.usar
+    - nexusnetwork.gamemode
+    - nexusnetwork.gamemodes
+    - nexusnetwork.admin
+    - nexusnetwork.moderador
+    - chromanetwork.placa
+    - chromanetwork.invsee
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.vanish
+    - chromanetwork.gamemode
+    - chromanetwork.tphere
+    - chromanetwork.clear
+    - chromanetwork.staff
+    - chromanetwork.vip
+    - system.online
+    - system.ping
+    - system.lixo
+    - system.publica
+    - system.particular
+    - system.home
+    - system.sethome
+    - system.delhome
+    - system.tpdeny
+    - system.tpcancel
+    - system.tpaccept
+    - system.tpa
+    - system.ping
+    - system.homes.100
+    - system.kit
+    - system.kits
+    - system.kit.basico3
+    - system.kit.basico2
+    - system.kit.basico1
+    - system.back
+    - system.gamemode
+    - system.gamemode.all
+    - system.chapeu
+    - system.clear
+    - system.clearchat
+    - system.compactar
+    - system.echest
+    - system.derreter
+    - system.craft
+    - system.fly
+    - system.fly.staff
+    - system.god
+    - system.feed
+    - system.heal
+    - system.invsee
+    - system.kit
+    - system.kits
+    - system.kit.all
+    - system.lixo
+    - system.lotado.entrar
+    - system.manterxp
+    - system.reparar
+    - system.reparar.all
+    - system.semdelay
+    - system.speed
+    - system.vanish
+    - maxbans.*
+    - Ajuda.admin
+    - factions.voar.bypass
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - yequipa.equipa
+    - Set.Color
+    - cloudfactions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - worldguard.*
+    - snockmc.commands.factions.admin
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.staff
+    - snockmc.grupos.vip
+    - snockmc.chat.staff.bypass
+    - snockmc.grupos.staff.plus
+    - setspawn.spawn
+    - use.loja
+    - vfornalha.qnt.7
+    - cloudfactions.admin
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - legendchat.color.allcolors
+    - encomenda.use
+    - report.info
+    - staff.chat
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - ss.usar
+    - voxelsniper.sniper
+    - minecraft.command.tp
+    - chestcommands.open.livros.yml
+    - BLoginStaff.login
+    - chestcommands.open.kits.*
+    - jyoutube.use
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.adm
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - essentials.sethome.multiple.mod
+    - forum.usar
+    - site.usar
+    - dhvoar.cmd
+    - lixeira.use
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - reluz.usar
+    - cclear.usar
+    - cstop.usar
+    - con.usar
+    - staff.online
+    - vppunish.punir
+    - BLoginStaff.login
+    - HR.derreter
+    - betavip.bypass
+    - alphachest.bau
+    - mg.vip.admin
+    - playervaults.amount.10
+    - playervaults.size.6
+    - vender.usar
+    - ticket.staff
+    - report.ver
+    - report.info
+    - KeepXP.Keep
+    - factions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - essentials.back
+    - essentials.hat
+    options:
+      prefix: '&c[ADMIN] '
+      rank: '4'
+  MODERADOR:
+    inheritance:
+    - Membro
+    permissions:
+    - factions.fly.bypass
+    - legendchat.channel.staff.chat
+    - staff.chat
+    - oreparar.usar
+    - skinsrestorer.playercmds
+    - system.tp
+    - factions.tp
+    - tpa.use
+    - tp.use
+    - teleport.use
+    - essentials.teleport
+    - essentials.tp
+    - Mabazi.Geradores.give
+    - Mabazi.Geradores.usar
+    - nexusnetwork.gamemodes
+    - nexusnetwork.gamemode
+    - nexusnetwork.moderador
+    - chromanetwork.placa
+    - chromanetwork.invsee
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.vanish
+    - chromanetwork.gamemode
+    - chromanetwork.tphere
+    - chromanetwork.clear
+    - chromanetwork.staff
+    - chromanetwork.vip
+    - system.online
+    - system.ping
+    - system.lixo
+    - system.publica
+    - system.particular
+    - system.home
+    - system.sethome
+    - system.delhome
+    - system.tpdeny
+    - system.tpcancel
+    - system.tpaccept
+    - system.tpa
+    - system.ping
+    - system.homes.100
+    - system.kit
+    - system.kits
+    - system.kit.basico3
+    - system.kit.basico2
+    - system.kit.basico1
+    - system.back
+    - system.gamemode
+    - system.gamemode.all
+    - system.chapeu
+    - system.clear
+    - system.clearchat
+    - system.compactar
+    - system.echest
+    - system.derreter
+    - system.craft
+    - system.fly
+    - system.fly.staff
+    - system.god
+    - system.feed
+    - system.heal
+    - system.invsee
+    - system.kit
+    - system.kits
+    - system.kit.all
+    - system.lixo
+    - system.lotado.entrar
+    - system.manterxp
+    - system.reparar
+    - system.reparar.all
+    - system.semdelay
+    - system.speed
+    - system.vanish
+    - Ajuda.admin
+    - mundovip.ir
+    - rmundovip.ir
+    - factions.voar.bypass
+    - system.fly
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - yequipa.equipa
+    - Set.Color
+    - wordedit.navigation.jumpto.command
+    - wordedit.navigation.jumpto
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.vip
+    - snockmc.grupos.staff
+    - snockmc.commands.factions.fly.bypass
+    - sbau.14
+    - sbau.10
+    - solaryeconomy.commands.top
+    - worldguard.*
+    - spawn.spawn
+    - setspawn.spawn
+    - cloudfactions.fly
+    - cloudfactions.admins
+    - use.loja
+    - vfornalha.qnt.7
+    - essentials.sethome.multiple.vip
+    - rootmc.mutar
+    - rootmc.banir
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - legendchat.color.allcolors
+    - encomenda.use
+    - report.info
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.fly
+    - essentials.ping
+    - essentials.clearinventoryin
+    - fly.use
+    - essentials.use.*
+    - ss.usar
+    - essentials.invsee
+    - essentials.vanish
+    - essentials.vanish.see
+    - essentials.invsee.use
+    - essentials.vanish.use
+    - essentials.back
+    - essentials.hat
+    - essentials.invsee
+    - essentials.clear
+    - essentials.back
+    - ChestShop.admin
+    - essentials.hat
+    - minecraft.command.tp
+    - minecraft.command.tp
+    - essentials.gamemode
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.Mod
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.msg.color
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - essentials.msg.formats
+    - legendchat.color.allcolors
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.mod
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.basico
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - reluz.usar
+    - cclear.usar
+    - cstop.usar
+    - con.usar
+    - KeepXP.Keep
+    - staff.online
+    - BLoginStaff.login
+    - vppunish.punir
+    - ticket.staff
+    - betavip.bypass
+    - report.ver
+    - HR.derreter
+    - alphachest.bau
+    - mg.vip.admin
+    - report.info
+    - vender.usar
+    - playervaults.amount.10
+    - playervaults.size.6
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&2[MODERADOR] '
+      rank: '5'
+  GUERREIRO:
+    inheritance:
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.hat
+    - chromanetwork.fly
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.kit.guerreiro
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - factions.voar
+    - system.kit.guerreiro4
+    - twencantar.use
+    - Set.Color
+    - mcmmo.bypass.arcanebypass
+    - snockmc.grupos.vip
+    - system.back
+    - system.derreter
+    - system.echest
+    - sbau.9
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.homes.10
+    - system.home
+    - system.sethome
+    - system.delhome
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - mycommand.cmd.all
+    - mycommands.commands
+    - mycommands.command
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - essentials.kits.GUERREIRO1
+    - essentials.kits.GUERREIRO2
+    - essentials.kits.GUERREIRO3
+    - use.loja
+    - vfornalha.qnt.3
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.GUERREIROdiario
+    - essentials.kits.GUERREIROmensal
+    - essentials.kits.GUERREIRObasico
+    - nte.GUERREIRO
+    - HR.derreter
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.3
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.kits.GUERREIRObasico
+    - essentials.kits.GUERREIROdiario
+    - essentials.kits.semanal1
+    - essentials.kits.GUERREIROmensal
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.msg.color
+    - essentials.sethome.multiple.vip
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.GUERREIRO
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    options:
+      prefix: '&3[GUERREIRO] '
+  MAGO:
+    inheritance:
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.hat
+    - chromanetwork.fly
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.kit.mago
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - factions.voar
+    - system.kit.mago4
+    - twencantar.use
+    - twencantar.us
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - system.lixo
+    - sytem.lixo
+    - lixo.usar
+    - lixeira.usar
+    - Set.Color
+    - skinsrestorer.playercmds.menu
+    - skinsrestorer.playercmds
+    - mcmmo.bypass.arcanebypass
+    - mcmmo.ability.repair.otherrepair
+    - mcmmo.ability.repair.othermaterialrepair
+    - mcmmo.ability.repair.leatherrepair
+    - snockmc.grupos.vip
+    - chestcommands.open.*
+    - system.back
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.derreter
+    - system.echest
+    - sbau.11
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.sethome
+    - system.delhome
+    - system.home
+    - system.homes.20
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - compactar.blocks
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - essentials.kits.MAGO1
+    - essentials.kits.MAGO2
+    - essentials.kits.MAGO3
+    - use.loja
+    - vfornalha.qnt.4
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.MAGOdiario
+    - essentials.kits.MAGOmensal
+    - essentials.kits.MAGObasico
+    - nte.MAGO
+    - HR.derreter
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.4
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.FIGHT
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.FIGHT
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - essentials.msg.color
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&5[MAGO] '
+  SUPREMO:
+    inheritance:
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.hat
+    - chromanetwork.fly
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.kit.supremo
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - factions.voar
+    - system.kit.guerreiro4
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.kit.mago4
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.supremo3
+    - system.kit.supremo2
+    - system.kit.supremo1
+    - system.kit.supremo4
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - system.lixo
+    - Set.Color
+    - mcmmo.bypass.arcanebypass
+    - snockmc.grupos.vip
+    - system.back
+    - system.derreter
+    - system.echest
+    - sbau.14
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.sethome
+    - system.delhome
+    - system.home
+    - system.homes.30
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - essentials.kits.SUPREMO1
+    - essentials.kits.SUPREMO2
+    - essentials.kits.SUPREMO3
+    - use.loja
+    - vfornalha.qnt.5
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.SUPREMOdiario
+    - essentials.kits.SUPREMOmensal
+    - essentials.kits.SUPREMObasico
+    - nte.SUPREMO
+    - HR.derreter
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.3
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.msg.color
+    - essentials.sethome.multiple.GUERREIRO
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.GUERREIRO
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&4[SUPREMO] '
+  IMPERADOR:
+    inheritance:
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.hat
+    - chromanetwork.fly
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.kit.imperador
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - System.chapeu
+    - System.lixo
+    - factions.voar
+    - system.kit.imperador4
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - Set.Color
+    - mcmmo.bypass.arcanebypass
+    - snockmc.grupos.vip
+    - system.back
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.supremo3
+    - system.kit.supremo2
+    - system.kit.supremo1
+    - system.derreter
+    - system.echest
+    - sbau.14
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.homes.100
+    - system.sethome
+    - system.delhome
+    - system.home
+    - system.kit.imperador3
+    - system.kit.imperador2
+    - system.kit.imperador1
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - essentials.kits.IMPERADOR1
+    - essentials.kits.IMPERADOR2
+    - essentials.kits.IMPERADOR3
+    - use.loja
+    - vfornalha.qnt.6
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.IMPERADORdiario
+    - essentials.kits.IMPERADORmensal
+    - essentials.kits.IMPERADORbasico
+    - nte.IMPERADOR
+    - HR.derreter
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.4
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.FIGHT
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.FIGHT
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - essentials.msg.color
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&b[IMPERADOR] '
+  CHROMA:
+    inheritance:
+    - Membro
+    permissions:
+    - oreparar.usar
+    - system.back
+    - system.fly
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - factions.voar
+    - system.kit.legend4
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - system.lixo
+    - Set.Color
+    - snockmc.grupos.vip
+    - system.back
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.supremo3
+    - system.kit.supremo2
+    - system.kit.supremo1
+    - system.kit.imperador3
+    - system.kit.imperador2
+    - system.kit.imperador1
+    - system.derreter
+    - system.echest
+    - sbau.14
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.delhome
+    - system.sethome
+    - system.home
+    - system.homes.100
+    - system.kit.legend3
+    - system.kit.legend2
+    - system.kit.legend1
+    - compactar.blocos
+    - compactar.usar
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - essentials.kits.basico1
+    - essentials.kits.basico2
+    - essentials.kits.basico3
+    - essentials.kits.LEGEND1
+    - essentials.kits.LEGEND2
+    - essentials.kits.LEGEND3
+    - use.loja
+    - vfornalha.qnt.7
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.LEGENDdiario
+    - essentials.kits.LEGENDmensal
+    - essentials.kits.LEGENDbasico
+    - nte.LEGEND
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - hr.derreter
+    - CustomEnderChest.level.5
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.msg.color
+    - essentials.sethome.multiple.LEGEND
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.LEGEND
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&2[CHROMA] '
+  AJUDANTE:
+    inheritance:
+    - GUERREIRO
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - legendchat.channel.staff.chat
+    - vender.guerreiro
+    - oreparar.usar
+    - system.clearchat
+    - clear.chat
+    - maxbans.tempmute
+    - maxbans.mute
+    - Mabazi.Geradores.usar
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.back
+    - chromanetwork.staff
+    - chromanetwork.vip
+    - system.back
+    - system.fly
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - system.kit.guerreiro4
+    - system.kit.mago4
+    - Ajuda.admin
+    - factions.voar
+    - system.kit.supremo4
+    - twencantar.use
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - system.lixo
+    - yequipa.equipa
+    - Set.Color
+    - maxbans.notify
+    - maxbans.kick.*
+    - mcmmo.bypass.arcanebypass
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.vip
+    - system.back
+    - maxbans.clearwarnings
+    - maxbans.warn
+    - system.kit.supremo3
+    - system.kit.supremo2
+    - system.kit.supremo1
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.derreter
+    - system.echest
+    - sbau.10
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.sethome
+    - system.delhome
+    - system.home
+    - system.homes.30
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - -nte.GUERREIRO
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - rootmc.mutar
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.3
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - staff.chat
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - maxbans.kick
+    - maxbans.unmute
+    - chestcommands.open.livros.yml
+    - essentials.kits.GUERREIROdiario
+    - essentials.kits.semanal1
+    - essentials.kits.GUERREIROmensal
+    - essentials.kits.GUERREIRObasico
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.msg.formats
+    - essentials.msg.color
+    - essentials.sethome.multiple.GUERREIRO
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.ajudante
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&e[AJUDANTE] '
+      rank: '6'
+  YT:
+    inheritance:
+    - IMPERADOR
+    - Membro
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - system.kit.imperador
+    - factions.voar
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - Set.Color
+    - mcmmo.bypass.arcanebypass
+    - snockmc.grupos.vip
+    - system.back
+    - system.derreter
+    - system.echest
+    - sbau.14
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.delhome
+    - system.sethome
+    - system.home
+    - system.homes.100
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - -nte.LEGEND
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - hr.derreter
+    - CustomEnderChest.level.5
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.enderchest
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.kits.LEGENDdiario
+    - essentials.kits.semanal3
+    - essentials.kits.LEGENDmensal
+    - essentials.kits.LEGENDbasico
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.LEGEND
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.youtuber
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - chestcommands.open.livros.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - essentials.enderchest
+    - net.hubperfil.Main
+    - forum.usar
+    - site.usar
+    - dhvoar.cmd
+    - lixeira.use
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.basico
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.youtuber
+    - reluz.usar
+    - legendchat.color.allcolors
+    - factionsfly.own
+    - factionsfly.allow
+    - factionsfly.ally
+    - factionsfly.safezone
+    - reluz.usar
+    - CustomEnderChest.level.5
+    - KeepXP.Keep
+    - alphachest.bau
+    - mg.vip.join
+    - betavip.bypass
+    - playervaults.amount.10
+    - playervaults.size.6
+    - playervaults.amount.10
+    - playervaults.size.6
+    - vender.usar
+    - HR.derreter
+    - dhvoar.cmd
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - SmiteAPI.10
+    options:
+      prefix: '&c[YT] '
+  MINIYT:
+    inheritance:
+    - Membro
+    - SUPREMO
+    permissions:
+    - system.kit.recompensaanonovo
+    - vender.guerreiro
+    - oreparar.usar
+    - vender.nexeusbr.vip
+    - Mabazi.Geradores.usar
+    - nexusnetwork.vip
+    - chromanetwork.fly
+    - chromanetwork.hat
+    - chromanetwork.back
+    - chromanetwork.vip
+    - system.back
+    - system.chapeu
+    - system.compactar
+    - system.derreter
+    - system.cores
+    - system.craft
+    - system.echest
+    - system.lixo
+    - system.manterxp
+    - system.lotado.entrar
+    - system.online
+    - system.ping
+    - system.particular
+    - system.publica
+    - system.kit.mago4
+    - system.kit.mago3
+    - system.kit.mago2
+    - system.kit.mago1
+    - system.kit.guerreiro4
+    - system.kit.guerreiro3
+    - system.kit.guerreiro2
+    - system.kit.guerreiro1
+    - system.kit.supremo4
+    - factions.voar
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - system.lixo
+    - system.divulgar
+    - divulgar.usar
+    - ytdivulgar.usar
+    - Set.Color
+    - mcmmo.bypass.arcanebypass
+    - snockmc.grupos.vip
+    - system.back
+    - system.kit.supremo3
+    - system.kit.supremo2
+    - system.kit.supremo1
+    - system.derreter
+    - system.echest
+    - system.ec
+    - system.enderchest
+    - sbau.10
+    - solaryeconomy.commands.top
+    - solaryeconomy.commands.pay
+    - system.craft
+    - system.sethome
+    - system.delhome
+    - system.home
+    - system.homes.30
+    - mycommand.cmd.all
+    - spawn.spawn
+    - setspawn.spawn
+    - mundovip.ir
+    - skinsrestorer.playercmds
+    - compactar.blocks
+    - use.loja
+    - vfornalha.qnt.4
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.MAGOdiario
+    - essentials.kits.MAGOmensal
+    - essentials.kits.MAGObasico
+    - nte.miniyt
+    - HR.derreter
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - CustomEnderChest.level.4
+    - CustomEnderChest.commands
+    - legendchat.color.allcolors
+    - encomenda.use
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - essentials.back
+    - essentials.hat
+    - echest.level.5
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.FIGHT
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.FIGHT
+    - reluz.usar
+    - spawnershop.buy.*
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - essentials.msg.color
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    options:
+      prefix: '&c[MiniYT] '
+  Developer:
+    permissions:
+    - system.admin
+    - maxbans.*
+    - system.bypass.all
+    - system.*
+    - worldedit.*
+    - PlayerPoints.set
+    - Ajuda.admin
+    - factions.voar.bypass
+    - skychests.firstfree
+    - skychests.open.each
+    - skychests.open
+    - skychests.nomax
+    - skychests.enderchest
+    - yequipa.equipa
+    - Set.Color
+    - permissions.*
+    - cloudfactions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - worldguard.*
+    - snockmc.commands.factions.admin
+    - snockmc.commands.chat.mute
+    - snockmc.grupos.staff
+    - snockmc.grupos.vip
+    - snockmc.chat.staff.bypass
+    - snockmc.grupos.staff.plus
+    - setspawn.spawn
+    - use.loja
+    - vfornalha.qnt.7
+    - cloudfactions.admin
+    - cloudfactions.fly
+    - essentials.sethome.multiple.vip
+    - essentials.kits.semanal4
+    - essentials.kits.membromensal
+    - essentials.kits.membrodiario
+    - legendchat.color.allcolors
+    - encomenda.use
+    - report.info
+    - staff.chat
+    - staff.ver
+    - config.tell.usar
+    - config.coins.usar
+    - config.tpa.usar
+    - config.usar
+    - Chestshop.admin
+    - essentials.fly
+    - essentials.ping
+    - essentials.clearinventoryin
+    - essentials.use.*
+    - ss.usar
+    - essentials.invsee
+    - essentials.vanish
+    - essentials.vanish.see
+    - essentials.invsee.use
+    - essentials.vanish.use
+    - essentials.invsee
+    - essentials.tp
+    - essentials.back
+    - essentials.hat
+    - voxelsniper.sniper
+    - minecraft.command.tp
+    - essentials.enderchest
+    - essentials.echest
+    - essentials.keepxp
+    - essentials.teleport.timer.bypass
+    - chestcommands.open.livros.yml
+    - BLoginStaff.login
+    - chestcommands.open.kits.*
+    - essentials.sethome
+    - jyoutube.use
+    - essentials.sethome.multiple.gerente
+    - essentials.balance
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.noob
+    - essentials.kit.noob
+    - essentials.kit
+    - essentials.kits
+    - chestcommands.open.yt.yml
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - SmiteAPI.10
+    - forum.usar
+    - site.usar
+    - lixeira.use
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - nte.dev
+    - reluz.usar
+    - spawnershop.buy.*
+    - oreparar.usar
+    - simplehomes.homes
+    - enderpearl.cooldown
+    - bspawners.silk
+    - enderpearl.use
+    - blackmoney.top
+    - regras.use
+    - mercado.use
+    - tpaccept.use
+    - tpanegar.use
+    - tpa.use
+    - ticket.ajuda
+    - veconomy.cmd.toggle
+    - veconomy.cmd.pay
+    - veconomy.cmd.top
+    - playerpoints.me
+    - PlayerPoints.pay
+    - silkspawners.silkdrop.*
+    - money.plus
+    - vipzero.use
+    - reluz.usar
+    - Renomei.use
+    - scf.check
+    - silkspawners.destroydrop.*
+    - silkspawners.explodedrop
+    - playervaults.amount.2
+    - playervaults.size.2
+    - randomtp.tp
+    - randomtp.use
+    - multiverse.teleport.self.world.minerar
+    - multiverse.access.minerar
+    - lobbycompass.use
+    - vipzero.usarkey
+    - isslimechunk.command.use
+    - automessage.receive.default
+    - modifyworld.*
+    - playervaults.size.1
+    - automessage.receive.*
+    - automessage.receive.message-list
+    - automessage.receive.message-lists
+    - towny.chat.local
+    - playervaults.signs.use
+    - spawner.mine.zombie
+    - playervaults.amount.1
+    - playervaults.size.6
+    - faccion.desinvite
+    - faccion.disband
+    - faccion.invite
+    - faccion.kick
+    - faccion.desc
+    - faccion.officer
+    - facction.create
+    - facction.kick
+    - facction.officer
+    - facctions.chat
+    - facctions.officer
+    - factions.
+    - factions.create
+    - factions.seechunk
+    - factions.loock
+    - factions.leader
+    - factions.officer
+    - factions.cick
+    - factions.flag
+    - factions.perm
+    - factions.demote
+    - factions.tag
+    - factions.power
+    - factions.title
+    - factions.show
+    - factions.access.view
+    - factions.autoclaim
+    - factions.claim
+    - factions.unclaim
+    - factions.claim.radius
+    - Factions.create.*
+    - factions.description
+    - factions.player
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.leave
+    - factions.map
+    - vipzero.user
+    - mycommand.cmd.1
+    - groupmanager.notify.self
+    - bukkit.broadcast.user
+    - towny.chat.local
+    - silkspawners.place.
+    - silkspawners.silkdrop
+    - pickupspawners.place
+    - pickupspawners.place.cavespider
+    - pickupspawners.allworlds
+    - silkspawners.place.cavespider
+    - silkspawners.place.*
+    - ytdivulgar.usar
+    - pickupspawners.pickup
+    - legendchat.channel.global.chat
+    - legendchat.channel.local.chat
+    - legendchat.channel.staff.chat
+    - SmiteAPI.10
+    - dhvoar.cmd
+    - essentials.sethome.multiple.mod
+    - forum.usar
+    - site.usar
+    - dhvoar.cmd
+    - lixeira.use
+    - essentials.condense
+    - essentials.compact
+    - essentials.compactar.use
+    - essentials.back
+    - essentials.sethome.multiple.5
+    - essentials.pay
+    - essentials.money
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tell
+    - essentials.w
+    - essentials.msg
+    - essentials.m
+    - essentials.r
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.spawn
+    - essentials.home
+    - essentials.delhome
+    - essentials.workbench
+    - essentials.kits.basico
+    - chestcommands.open.Especiais.yml
+    - chestcommands.open.caixasshop.yml
+    - chestcommands.open.kitsbasicos.yml
+    - chestcommands.open.kitsvips.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitvip.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.kitnormal.yml
+    - chestcommands.open.warp.yml
+    - chestcommands.open.kit.yml
+    - chestcommands.open.shop.yml
+    - blackmarket.cmd.view
+    - blackmarket.cmd.sell
+    - blackmarket.cmd.collect
+    - blackmarket.cmd
+    - reluz.usar
+    - cclear.usar
+    - cstop.usar
+    - con.usar
+    - staff.online
+    - vppunish.punir
+    - BLoginStaff.login
+    - HR.derreter
+    - betavip.bypass
+    - alphachest.bau
+    - mg.vip.admin
+    - playervaults.amount.10
+    - playervaults.size.6
+    - vender.usar
+    - ticket.staff
+    - report.ver
+    - report.info
+    - KeepXP.Keep
+    - factions.admin
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.tempban
+    - maxbans.ipban
+    - maxbans.tempipban
+    - maxbans.mute
+    - maxbans.tempmute
+    - maxbans.kick
+    - maxbans.checkip
+    - maxbans.uuid
+    - maxbans.togglechat
+    - maxbans.dupeip
+    - maxbans.checkban
+    - maxbans.warn
+    - maxbans.clearwarnings
+    - maxbans.unwarn
+    - maxbans.unmute
+    - maxbans.history
+    - maxbans.reload
+    - maxbans.import
+    - maxbans.export
+    - maxbans.rangeban
+    - maxbans.temprangeban
+    - maxbans.unrangeban
+    - essentials.back
+    - essentials.hat
+    options:
+      prefix: '&a[Developer] '
+  direotr:
+    permissions:
+    - chromanetwork.gamemode
+  ajudnate:
+    permissions:
+    - nexusnetwork.vip
+  viphyper:
+    permissions:
+    - system.kit.hyperdiario
+  youtuber:
+    permissions:
+    - Mabazi.Geradores.usar
+  Streamer:
+    inheritance:
+    - YT
+    options:
+      prefix: '&a[Streamer]&f '
+    worlds:
+      '&f':
+        options:
+          prefix: '&a[Streamer]&f'
+      .:
+        options:
+          prefix: '&a[Streamer]&f'
+  Master:
+    permissions:
+    - lc.spy
+    - legendchat.spy
+    - legendchat.*
+  Builder:
+    inheritance:
+    - Moderador
+    options:
+      prefix: '&b[BUILDER] &f'
+    permissions:
+    - nte.Builder
+    - fawe.*
+    - worldedit.*
+    - holograms.*
+    - worldguard.*
+schema-version: 1
+users:
+  f61e001d-5e48-36b9-a788-c5fd47312264:
+    group:
+    - FUNDADOR
+    options:
+      name: vidamilionaria
+  da746d1f-479f-3e03-be5d-dc294b3f12f6:
+    options:
+      name: vidamilionaria
+    group:
+    - FUNDADOR
+    permissions:
+    - '*'
+  8308fce4-5c37-3381-a7f1-cf1d854a8701:
+    group:
+    - Membro
+    - MEMBRO
+    options:
+      name: Croonox
+  a479e8e9-43e9-3124-be53-b916b6a4889d:
+    group:
+    - DIRETOR
+    options:
+      name: vidamilionaria
+    permissions: []
+  c97288d3-da44-3f51-8142-cf4d2abf840d:
+    group:
+    - Membro
+    options:
+      name: _kever
+  e1344de8-e6e1-3b9a-967e-ebe2487972d4:
+    group:
+    - Membro
+    options:
+      name: arthur4714_
+  1981b4d3-d05e-3bef-9dcd-c0460639b3e3:
+    group:
+    - MEMBRO
+    options:
+      name: oSpop_
+    permissions: []
+  798cb60e-64d8-350e-90ed-219a698a7f53:
+    group:
+    - SUPREMO
+    options:
+      name: Cassiano_14
+  3e3f0401-7b52-30a9-b671-f4af7988728f:
+    group:
+    - MAGO
+    - Membro
+    - MEMBRO
+    options:
+      name: Yeahzy
+  58843794-61a0-332a-9156-92eb5c1ae5a3:
+    options:
+      name: zFlorest_
+  314105cd-7183-3941-929e-f6861f4320f7:
+    group:
+    - Membro
+    options:
+      name: JhoniGamerOfYT
+  12a0e3d1-277a-3cdb-afc6-c5e675c4e61a:
+    group:
+    - Membro
+    options:
+      name: NaturalHD
+  6a2d770b-c444-3e37-b421-2af82232cdad:
+    group:
+    - DIRETOR
+    options:
+      name: Tornadokbm
+  909e4f71-3fac-3925-a163-92b6aaed6b85:
+    group:
+    - Membro
+    options:
+      name: CPS_303
+  6d32af9d-3304-3e9a-a5fb-acb95bb6367d:
+    options:
+      name: ZzIsBack
+  fba348f9-d641-30a3-a726-1a1b03797eaa:
+    options:
+      name: _IcaroSouza_
+    group:
+    - Ajudante
+  b83ec12a-9d69-3158-aaff-efb5be77f93f:
+    options:
+      name: DaddyZiblackingg
+  06a8c216-1a7c-3594-9f9c-1962dd68efb0:
+    group:
+    - MINIYT
+    options:
+      name: NeyGamer
+  8e7dae3c-3a3d-3856-865c-8359fdbb8b27:
+    group:
+    - Membro
+    options:
+      name: NandoBrHue
+  ed47af9d-90fa-3598-96f8-e461604188ac:
+    group:
+    - GUERREIRO
+    - Membro
+    options:
+      name: NINHO_99
+  128b121b-d233-375d-9ddc-b19d0bb2d2c7:
+    group:
+    - Membro
+    options:
+      name: __PedroSHW__
+  27136185-a322-3bfd-bdd4-334db5185346:
+    group:
+    - Membro
+    options:
+      name: ImJoaooV
+  f19b6b59-c736-323d-b67c-58b862858be6:
+    group:
+    - Membro
+    options:
+      name: bruno07
+  cb5b170c-f9fc-3075-848d-6dcae095c768:
+    group:
+    - Membro
+    options:
+      name: Sr_noturno
+  a472f143-0a91-3666-810a-fec8f9bb1e30:
+    group:
+    - Membro
+    options:
+      name: LukasBDF_
+  a8e24cee-ba06-3216-b580-2cef3c081946:
+    group:
+    - Membro
+    options:
+      name: XXXtentacionPDL
+  8419c6ab-f40d-3d93-9df9-f8b734ca738c:
+    group:
+    - Membro
+    options:
+      name: zLeandroGOD_
+  3e33a547-776a-3612-8bc9-686c5c99f23f:
+    group:
+    - Membro
+    options:
+      name: henrique011_
+  2c8b1010-a613-3605-8655-0be8f4bebdac:
+    group:
+    - Membro
+    options:
+      name: RelasheyG0D
+  409ccf4a-7a8a-37c0-ba4e-b53da639001a:
+    group:
+    - YT
+    options:
+      name: Cibi
+  34744098-4801-305a-81c5-b223a1103b30:
+    group:
+    - Membro
+    options:
+      name: ManohXD
+  5c81b0cf-043f-38da-9736-5a6b74524250:
+    group:
+    - GUERREIRO
+    - Membro
+    options:
+      name: ySpeed_AG
+  6d618856-ee44-37ce-b111-f9d02a34164b:
+    group:
+    - Membro
+    options:
+      name: NovakSHW
+  4fee75d4-074a-3847-8d30-d76fb631e925:
+    group:
+    - Membro
+    options:
+      name: iBrunooPvP
+  2f335cc6-35f7-3e74-b62c-afbb00b5de20:
+    group:
+    - Membro
+    options:
+      name: xXOnGamesXx
+  0ca74883-c8ec-3dcb-b4ba-09af5e76f4b2:
+    group:
+    - Membro
+    options:
+      name: Multigames30000
+  7d6bcc18-e012-3c07-bc1c-fe83fdd7a998:
+    group:
+    - Membro
+    options:
+      name: turtelman
+  84621d8e-b222-3cc3-bcc2-a3e90f625c24:
+    group:
+    - Membro
+    options:
+      name: zNickMc
+  10faff3b-625c-3f7d-a927-caf85b50a905:
+    group:
+    - Membro
+    options:
+      name: _XxRyan12345Xx_
+  85d85ed5-762e-348f-b48d-51cd3b773d59:
+    group:
+    - Membro
+    options:
+      name: MarshMell0_PvP
+  ce3c62dc-8adb-373e-97e3-0371a651fd1b:
+    group:
+    - Membro
+    options:
+      name: TiagoProPinho_
+  09ad8d0d-e744-3257-a248-b5c78f3c5d50:
+    group:
+    - Membro
+    options:
+      name: kaua_Gamer321
+  8f01b509-8ad3-3a48-9ce2-b1421b667949:
+    group:
+    - Membro
+    options:
+      name: uGuiisz
+  47a15fc7-c688-3a07-84a8-50a884de4073:
+    group:
+    - Membro
+    options:
+      name: NinjaCreeper04
+  905fe44a-9c1b-3bc3-b92b-c2109886559d:
+    group:
+    - Membro
+    options:
+      name: RowCraft
+  diretor:
+    permissions:
+    - vipzero.admin
+    - vipzero.*
+  6e1f8d97-a938-37a3-90e4-e4c9dab2ef61:
+    group:
+    - Membro
+    options:
+      name: JoaoSoPro
+  68ace07c-a6f6-3fbf-a662-4255f16495b9:
+    group:
+    - Membro
+    options:
+      name: DaddyGusta__
+  ea5702e9-9e62-3f30-bfbb-b77ab3dc5b67:
+    group:
+    - MEMBRO
+    options:
+      name: yNinjaOrange
+  64d1c6b5-8965-3c2d-aa9b-3a8ba2723f4d:
+    group:
+    - Membro
+    options:
+      name: Dv_tututu23
+  2f68f5a7-c2e4-3033-ab51-b46851bedfca:
+    group:
+    - MAGO
+    - Membro
+    options:
+      name: LanteciaReach
+  da7f90ca-17d2-3433-9706-a1c33c058e9f:
+    group:
+    - MEMBRO
+    options:
+      name: olaputo
+  0aec672c-d4f3-364e-8fc8-bc8a2416d50e:
+    group:
+    - Membro
+    options:
+      name: SpoxayUS
+  47bbe147-e873-3340-ab09-d64cd1b11b85:
+    group:
+    - Membro
+    options:
+      name: NomeFakezinho_
+  24b3530f-9328-3043-94bd-b214d0846afa:
+    group:
+    - MAGO
+    - Membro
+    options:
+      name: WizardPvP_
+    permissions: []
+  2362508b-2a03-3273-a30d-d13d4b07831f:
+    worlds:
+      youtuber:
+        group:
+        - '['
+    options:
+      name: VuXa24
+    group:
+    - MINIYT
+  7f172c45-723f-3a4d-8cd5-8cef495f9daa:
+    group:
+    - IMPERADOR
+    - Membro
+    options:
+      name: Ryo
+  2da13736-9803-3dfd-ae15-e63f92ce1267:
+    group:
+    - MINIYT
+    options:
+      name: SrPetteBR
+  a6d048e7-1626-307c-9d9c-2355303764bb:
+    group:
+    - Membro
+    options:
+      name: tocomcambria
+  07116626-a7d9-325f-91e8-3460f70c4801:
+    group:
+    - Membro
+    options:
+      name: edurador1
+  0a891a22-6f99-366b-b5c4-c115e8fedbbb:
+    group:
+    - Membro
+    options:
+      name: Ghosthremort
+  5adde0e6-c7ac-38a0-a716-5d1c3493b229:
+    group:
+    - Membro
+    options:
+      name: carla2004
+  51505acc-f236-3b7f-bf68-fd2fb74783d4:
+    group:
+    - Membro
+    options:
+      name: MrMilcab
+  25d0a4e1-8279-34d6-8dd4-ec3100cdd911:
+    group:
+    - Membro
+    options:
+      name: RafaelWerner
+  890c903b-9f30-3829-a535-94db085d61fc:
+    group:
+    - MINIYT
+    options:
+      name: Dutra
+  37c950db-c8ea-303d-90bc-b0c1a7b807f8:
+    group:
+    - Membro
+    options:
+      name: YT_Bielhsd_YT
+  e2b46cf5-268b-3a19-bbac-f59502b8ced9:
+    group:
+    - Membro
+    options:
+      name: Poopruias
+  1836e1fc-4f8f-3b9a-88fe-ea54104a7696:
+    group:
+    - Membro
+    options:
+      name: Joao1227luiz
+  a7cfab58-e1cb-3aed-b336-924803a1e8b1:
+    group:
+    - Membro
+    options:
+      name: ItzChapadoG0D
+  a6194392-26a4-3e3d-aaa3-ffec029becf2:
+    group:
+    - MEMBRO
+    options:
+      name: SrMaicon
+  20cfec48-87a2-3fdc-a98e-3f93f4444a5f:
+    group:
+    - Membro
+    options:
+      name: wtrg
+  3f4d2769-0aee-3cc3-84fe-85293a707059:
+    group:
+    - Membro
+    options:
+      name: iBaratagames
+  9d08e760-4ac9-38eb-98da-84c85ad29ff4:
+    group:
+    - Membro
+    options:
+      name: SnOw027
+  01c6f252-a070-36b1-b219-2dfdbbcaad2a:
+    group:
+    - Membro
+    options:
+      name: ZazuzaBOLADO
+  b5de0047-7120-3471-a7f3-324a2873b057:
+    group:
+    - Membro
+    options:
+      name: boxman51
+  c2b33d03-0e06-3121-98aa-ce06a904c2ad:
+    group:
+    - Membro
+    options:
+      name: rodrigo2057
+  02a05439-a733-3212-8b91-1f6494bb77b4:
+    group:
+    - Membro
+    options:
+      name: __Will_YT
+  95efccb9-1ec0-35e1-828a-68cfbd13e119:
+    group:
+    - Membro
+    options:
+      name: masterjean
+  9e6f32a9-b5c6-3e2b-bb7f-a5c5219efb6a:
+    group:
+    - Membro
+    options:
+      name: uH4rley_
+  44b2b897-9b4a-3634-bf52-dffbecf2ff08:
+    group:
+    - Membro
+    options:
+      name: Enzopico
+  6332962a-0632-3541-843f-87ff58ee8b4f:
+    group:
+    - Membro
+    options:
+      name: MtZinhoVlogs_YT
+  d21e8445-5276-3d75-8452-84190bf0abf9:
+    group:
+    - Membro
+    options:
+      name: xxshAmexx
+  66625b3f-bcdb-32d4-b78c-c4e658a93448:
+    group:
+    - Membro
+    options:
+      name: SrPeixoto
+  2ecac698-68ac-3e2a-9965-333ea0225818:
+    group:
+    - Membro
+    options:
+      name: ImAdrian
+  b09069c5-20aa-309e-ac67-f92ace1018a8:
+    group:
+    - Membro
+    options:
+      name: Sergip_XD
+  b1a0e327-1c56-3054-ab5f-96ab952214b0:
+    group:
+    - Membro
+    options:
+      name: mineratudoBR
+  c4b43324-fc20-3261-ac2d-e6548c3333cb:
+    group:
+    - Membro
+    options:
+      name: SmonGaming
+  36056e68-2930-3c7a-97fa-6c4b9b167488:
+    group:
+    - Membro
+    options:
+      name: PabloLordz
+  aa505fd8-54e5-3a11-9b21-6f327422555c:
+    group:
+    - Membro
+    options:
+      name: GetTheCombo
+  5a525775-58cc-31b3-9afc-e84acab866b5:
+    group:
+    - GUERREIRO
+    - Membro
+    options:
+      name: Cidy
+  b75009b9-9e6a-341d-9b5d-8def54d32438:
+    group:
+    - Membro
+    options:
+      name: GamerDarkPro
+  6dfc2f71-26df-3c51-aa93-0bcc403c10a8:
+    group:
+    - Membro
+    options:
+      name: ImStrike
+  3d9dd860-f982-3863-9fd6-95fe910db23e:
+    group:
+    - Membro
+    options:
+      name: Z_Caio123_PvP_Z
+  c30606c5-a3ff-35ce-b71f-6feb35541517:
+    group:
+    - Membro
+    options:
+      name: fezin7w7
+  f510d540-0570-3ec6-9fcd-623d22a7b27b:
+    group:
+    - Membro
+    options:
+      name: KawaSousa1v9
+  422c4d1e-7461-3ec2-9bda-a5ffa6fc88f1:
+    group:
+    - Membro
+    options:
+      name: DrBiscoitinho
+  2990b2a6-0b99-3746-a9f3-420bf1dc881f:
+    group:
+    - Membro
+    options:
+      name: Gravitey
+  30ca641b-070c-32e9-bd13-528e038c1843:
+    group:
+    - Membro
+    options:
+      name: Juan_Pablo13
+  51e306ad-c867-39bb-96f1-2ee45ec4186d:
+    group:
+    - Membro
+    options:
+      name: Biew_Br289
+  a1e22842-8216-3443-9dc5-d6e717637434:
+    group:
+    - Membro
+    options:
+      name: SrKiiing_
+  39c99b9a-2972-3536-8f3b-54865dd7aeeb:
+    group:
+    - FUNDADOR
+    options:
+      name: Cake_Sweet
+      prefix: '&b[Moc] &b'
+  d7e03b0b-002a-3ad9-be0a-f9b91eee4fb7:
+    group:
+    - Streamer
+    options:
+      name: Lirubruno
+  5d64a637-bb36-396b-ae62-a22676d2ead3:
+    group:
+    - Membro
+    options:
+      name: Canal_MasterKing
+  7e57b350-4071-3871-9ce6-97fd361f8abe:
+    group:
+    - Membro
+    options:
+      name: Wallyson12
+  f1ba0490-99b8-38d4-a862-626cf6dc7826:
+    group:
+    - Membro
+    options:
+      name: lepc_epic
+  c6c7b193-7615-3824-b658-6e5852db406f:
+    group:
+    - YT
+    options:
+      name: zJoninho
+  0ad552b4-3c15-3c3c-bbf9-4f26397881b5:
+    group:
+    - Membro
+    options:
+      name: Caiio13Das
+  c70f922a-984d-37b1-94a2-58bf198a55e5:
+    group:
+    - Membro
+    options:
+      name: md_5
+  5185c874-3f9d-3df7-8e95-07b189ea9c5e:
+    group:
+    - Membro
+    options:
+      name: Kratos_Kiler
+  d26edb06-1671-376a-81de-7d1339054595:
+    group:
+    - Membro
+    options:
+      name: hominggames
+  15c704d1-3cc5-3d5c-8db3-1a4486123f79:
+    group:
+    - Membro
+    options:
+      name: MaloakeiroBR
+  23fe3948-57d5-349a-aa1e-483e4fa864a2:
+    group:
+    - Membro
+    options:
+      name: gustavobr100
+  33b0eab3-f22c-3f70-b621-6b0c96ff33d6:
+    group:
+    - Membro
+    options:
+      name: brunorafael2001
+  265027cc-720c-3ed4-bdeb-001658978fc3:
+    group:
+    - Membro
+    options:
+      name: gamerpt4657
+  9e971155-ef44-3f00-bac3-a1d6cb937229:
+    group:
+    - Membro
+    options:
+      name: Lucas_2710
+  900a0421-ab0a-386f-8457-8ce1c22be645:
+    group:
+    - Membro
+    options:
+      name: _17_
+  292c7b05-8d17-3dcd-8b47-69c111600e01:
+    group:
+    - Membro
+    options:
+      name: M4X1MG4M3Z
+  6e840ab3-3dfb-3cb1-b1ac-affd9da6240b:
+    group:
+    - GERENTE
+    options:
+      name: zJellyBean_
+  f3484fe8-9b12-32f4-aff3-1a5f75370d7b:
+    group:
+    - Membro
+    options:
+      name: Godbws
+  4a107beb-20df-388c-a589-5df729f9e2db:
+    group:
+    - Membro
+    options:
+      name: yJoWow
+  jetinho:
+    group:
+    - MEMBRO
+  86c092aa-b565-3016-954f-cef973b65788:
+    group:
+    - MEMBRO
+    options:
+      name: yLux_Kun
+  45c8def1-d5dd-37a7-960b-7cfddef3cfd8:
+    group:
+    - Membro
+    options:
+      name: Cotoco_
+  d153da04-77a3-3854-bbc7-093c32aa7669:
+    group:
+    - Membro
+    options:
+      name: Arete07
+  a7236648-2994-3219-830c-a212e076711f:
+    group:
+    - ADMIN
+    options:
+      name: Sxigames
+  13caec36-df34-383f-b93d-2d11fc0735ac:
+    group:
+    - Ajudante
+    options:
+      name: MateusRibeiro
+  e4538d32-b584-3269-b827-c8011e49ca5e:
+    group:
+    - SUPREMO
+    options:
+      name: DiegoGamerBrz
+  f14c66b6-c6ab-32a1-9d1c-d086c92588bf:
+    group:
+    - Membro
+    options:
+      name: Mari_Sweet
+  271af796-64a1-328f-97cb-0a34c3c842b3:
+    group:
+    - Membro
+    options:
+      name: zG0D_OwNa
+  4ccbd241-8f8c-3c13-bafa-dbdd2bedc7cd:
+    group:
+    - Membro
+    options:
+      name: zGabrielYT_
+  f1a5b2d1-2bf2-3039-b076-4eee5af537dd:
+    group:
+    - Membro
+    options:
+      name: UrSoNexT
+  ea324605-ead5-3678-8f61-5d4b0d7688d7:
+    group:
+    - Membro
+    options:
+      name: yLagares
+  01e6af72-2933-317e-a925-3cd30cae5d9b:
+    group:
+    - Membro
+    options:
+      name: YerickFTW
+  26735626-a353-3ed0-a41f-30b3b0c5b313:
+    group:
+    - Membro
+    options:
+      name: dwarf367
+  ff9845a1-3951-3512-baf2-7005abdebc50:
+    group:
+    - Membro
+    options:
+      name: RayzerGamer_
+  17ee4c2c-19fd-3cd4-8ccc-083b9fdceeda:
+    group:
+    - MEMBRO
+    options:
+      name: Zybows
+  0d10dcb3-5ab1-3269-9cbb-c1943455ac32:
+    group:
+    - Membro
+    options:
+      name: MeninuhIzoladuh
+  de1bd556-048f-33a1-b0ea-550c1ef5c479:
+    group:
+    - Membro
+    options:
+      name: RyanCharles
+  c0167ca6-4781-399a-a132-1a00df8a6c2b:
+    group:
+    - Membro
+    options:
+      name: V2ni3_YT
+  6cd2f2e8-efb3-3f9b-90c8-84312904a2bc:
+    group:
+    - Membro
+    options:
+      name: niqgod
+  f0f59d88-04ea-3463-ae2a-2127463e6258:
+    group:
+    - Membro
+    options:
+      name: Bailox
+  f0b8ef39-0296-3d81-8dc8-08f942299326:
+    group:
+    - Membro
+    options:
+      name: Blessed
+  8c96cc41-7f6d-3e7e-a67d-94d4e9a2d4a8:
+    group:
+    - Membro
+    options:
+      name: MysteriosoPTPS
+  75ad76c4-f549-365d-b35f-b5e44f5c6ee9:
+    group:
+    - Membro
+    options:
+      name: UltraHD
+  20c86a33-1b14-3740-96af-51eb458d053c:
+    group:
+    - Membro
+    options:
+      name: Capitao_Kenway
+  87183104-b009-3a38-804e-88c6603612ee:
+    group:
+    - Membro
+    options:
+      name: Aveerdeado
+  53b584ea-e605-3a4d-b3da-feffd8b7846b:
+    group:
+    - Membro
+    options:
+      name: CESARFREIT
+  01b532b4-690f-3684-9aa5-64cb4195e9b4:
+    group:
+    - Membro
+    - MEMBRO
+    options:
+      name: Menina_Grau555
+    worlds:
+      teste:
+        group:
+        - Builder
+    permissions: []
+  807d0898-b199-3d5c-bce7-d7fc338f9862:
+    group:
+    - Membro
+    options:
+      name: SkyofGames_YT
+  58ebadea-57ed-3abb-8233-a2986399d40a:
+    group:
+    - SUPREMO
+    options:
+      name: CostaPvHero1447
+  22c255a5-25a1-3e5a-b896-b2640e4b4bdd:
+    group:
+    - Membro
+    options:
+      name: VPXOWNERDAANIEL_
+  ab36d508-ae4e-3090-a202-4b551ccd49ec:
+    group:
+    - Membro
+    options:
+      name: uShaDowZin_
+  9c3bf7f2-3a4c-35b2-a523-a3f749f492f2:
+    group:
+    - Membro
+    options:
+      name: PedroSilva0204
+  4dae3709-3ef5-3ddb-ba5d-55e26babfb01:
+    group:
+    - Membro
+    options:
+      name: KILLERZN
+  c5e78af0-2b3b-3fbf-987e-e91bc2f07334:
+    group:
+    - Membro
+    options:
+      name: bernardo11
+  737e052d-c8e6-3637-b502-f9cf5a4af8c2:
+    group:
+    - MEMBRO
+    options:
+      name: ICombei_F4lcoon
+  f5b65464-f5be-387f-b1c0-2340a04269d6:
+    group:
+    - Membro
+    options:
+      name: DudaGamesYT
+  5ddf26b2-9575-3f1c-a888-292fff1a1db5:
+    group:
+    - MINIYT
+    options:
+      name: Wesley_Martins
+    permissions: []
+  ea61e0fe-78b9-308e-998e-3dba2c3f8762:
+    group:
+    - YT
+    options:
+      name: skay_0
+  75a8ad37-ea86-3e74-97e3-ef7b547e746f:
+    group:
+    - Membro
+    options:
+      name: Druckness
+  4a6112dc-45b6-3099-826d-0b045dae3307:
+    group:
+    - MEMBRO
+    options:
+      name: MaggyMia
+  3bff9e8e-67a0-32a9-a8f8-772e8acf03c0:
+    group:
+    - Membro
+    options:
+      name: Celezian
+  aa72c9cc-2a25-382e-a4b7-31d85d6c1dd8:
+    group:
+    - Membro
+    options:
+      name: CactusPvP_BR
+  345933ae-81cd-3e77-b0f0-0d5f65d6a1e9:
+    group:
+    - YT
+    options:
+      name: DragonCrafters
+  ae8506ac-069f-319b-abf3-7865af48b3ed:
+    group:
+    - Membro
+    options:
+      name: JokerONP
+  bb48e863-a80b-3111-8207-323a96f83e47:
+    group:
+    - Membro
+    options:
+      name: G3lucas
+  e109dd58-1679-3db6-9841-5d81d0e699d9:
+    group:
+    - Membro
+    options:
+      name: B3M_B0ST4
+  a5b686ea-8952-3bcd-a500-e7cbd6fd2f02:
+    group:
+    - Membro
+    options:
+      name: kaneki
+  a77d23c4-c4ff-3dcf-9854-4f6f81d315d4:
+    group:
+    - Membro
+    options:
+      name: yMariiah_
+  8fd620f1-223b-3aab-a29f-fb2875f6a71d:
+    group:
+    - Membro
+    options:
+      name: SkanBR
+  48b24767-0640-3476-a5cc-03060e117fc4:
+    group:
+    - Membro
+    options:
+      name: Gabriel4578
+  6449d09f-7abd-3a1b-9bdc-d21fa703bcf3:
+    group:
+    - Membro
+    options:
+      name: LuisColpo
+  263706ad-9c6c-3300-b829-de6c97cfab51:
+    group:
+    - Ajudante
+    options:
+      name: ryanggg
+  720c2203-14a4-3476-a091-a95315fb9849:
+    group:
+    - GUERREIRO
+    - Membro
+    options:
+      name: DynamicKaynan
+  54eef115-fa2e-3285-9953-5a3e077c7933:
+    group:
+    - Membro
+    options:
+      name: iTunesz
+  a062c877-6881-3fbd-911b-bce36a08430a:
+    group:
+    - MEMBRO
+    options:
+      name: Garota
+  dfed3d3a-50e1-3ee8-b393-b71716441831:
+    group:
+    - Membro
+    options:
+      name: Ender_Giirll
+  d365189d-726a-39b9-adef-c981b31c6ec7:
+    group:
+    - MINIYT
+    options:
+      name: RubenCosta
+  6536d6b0-a968-3dcd-bace-a0df76311f79:
+    group:
+    - Membro
+    options:
+      name: andrefixe321
+  ec2bb9a3-4bb8-3bb0-bd40-156072f1980c:
+    group:
+    - Membro
+    options:
+      name: FakeDoyPhonix
+  8dba3bf8-f7c2-37de-9d6b-5b51bf8a65f8:
+    group:
+    - Membro
+    options:
+      name: TrashMito
+  b060ec03-ec34-320b-8f36-a08292ba88bb:
+    group:
+    - YT
+    options:
+      name: sumexr123
+  fe889ec4-9e2c-348e-adb9-441bb7a8b0f5:
+    group:
+    - MINIYT
+    options:
+      name: VAPEMEMBERMI
+  ff00bbba-1c48-34a6-a847-acce746110af:
+    group:
+    - Membro
+    options:
+      name: zDonatoPvP
+  66a78e4c-f187-3721-9399-70298f72133c:
+    group:
+    - GUERREIRO
+    options:
+      name: ZeBelunga
+  996d725a-5980-3b7f-9d63-516c12861cce:
+    group:
+    - Membro
+    options:
+      name: KillaDuster
+  a8382ed6-632a-3f97-9b65-d4e6bd8f4967:
+    group:
+    - MEMBRO
+    options:
+      name: MisterDrawn_
+  6d5e5bd4-88cf-3238-b755-5690a8da37c0:
+    group:
+    - Membro
+    options:
+      name: Alice_Gamer
+  2d22f6fc-74fd-326f-b821-42668c8d1aae:
+    group:
+    - Membro
+    options:
+      name: _DarkBoy395_
+  6e42d2bf-1de4-3c2d-b09b-8383c326812b:
+    group:
+    - Membro
+    options:
+      name: CS17
+  b050f360-2e7e-38ee-9088-1b904242f207:
+    group:
+    - Membro
+    options:
+      name: Firmino_HS
+  a1cfa816-ca2d-35c7-95e5-22619362791e:
+    group:
+    - YT
+    options:
+      name: GOTALIEN
+  1e055556-6294-345c-837a-964de3fbf163:
+    group:
+    - MINIYT
+    options:
+      name: Renato123_BR
+  290a06fd-3591-3bde-ab8e-d6144af293a3:
+    permissions: []
+    options:
+      name: JohnnyBazzinga
+    group: []
+  a9e22cb1-2a0d-3c58-8342-57d21a89e965:
+    group:
+    - MINIYT
+    options:
+      name: KauaGostosao
+  2185b056-e934-336b-b3da-26e351cfe033:
+    group:
+    - Membro
+    options:
+      name: ralon
+  8d691889-461f-34fa-9d85-eae044b56b31:
+    group:
+    - YT
+    options:
+      name: ivitorHG2
+  094512dd-71e1-31e5-8429-533a94ba5fdf:
+    group:
+    - Membro
+    options:
+      name: Nick_
+  14985aa0-1a71-3049-9a91-4919ce130efe:
+    group:
+    - Membro
+    options:
+      name: MrJohn_
+  a2cc8f90-deeb-3a9a-a5b0-5285002d2042:
+    group:
+    - Membro
+    options:
+      name: kadupvp_YT
+  db82d366-f3a0-346f-842d-006ec02bbb00:
+    group:
+    - Membro
+    options:
+      name: victorskygames
+  270ba880-332e-3dac-a104-c49a58571656:
+    group:
+    - Membro
+    options:
+      name: Defulto_vivO
+  000c3ed5-c6ed-3d55-993a-7bbaedcee442:
+    group:
+    - Membro
+    options:
+      name: ResurgedAlone
+  a0c3980d-f8ab-32ad-bc3c-e8676eb06ce8:
+    group:
+    - Membro
+    options:
+      name: inyhasky
+  b7cec2da-80fd-37f2-bb19-ddc4130bdda9:
+    group:
+    - Membro
+    options:
+      name: _GuGa157_
+  464417f5-fce5-3036-af39-8875677eb29a:
+    group:
+    - MINIYT
+    options:
+      name: ArThurVinicius21
+  1da77b71-8af1-33bc-8132-dd3993df9e97:
+    group:
+    - YT
+    options:
+      name: MyNameIsCombedy
+  d7aff465-e92c-3628-bb7b-a784e2bb6b5b:
+    group:
+    - Membro
+    options:
+      name: ZecaPagodinBr
+  ef1bb4ab-c4c3-32be-bd0e-9f61250fa4d5:
+    group:
+    - Membro
+    options:
+      name: zMichael245
+  9f50669f-1667-3fa8-9bd2-86e855dde89d:
+    group:
+    - Membro
+    options:
+      name: NocaB_026
+  0b2c1ebb-23ab-3190-9ed8-0b6d481fec69:
+    group:
+    - Membro
+    options:
+      name: ryckito
+  6ebae856-c6ca-306b-8c1a-589ab8add14c:
+    group:
+    - Membro
+    options:
+      name: _Ayudhee_
+  7ba0cb84-37bf-3a5b-be79-06627ce96cf7:
+    group:
+    - Membro
+    options:
+      name: Geovani_VG
+  354e2adc-380f-3cc5-bdd1-51814363bc52:
+    group:
+    - SUPREMO
+    options:
+      name: NoobGmer
+  e8cb1a12-2273-3313-9865-00f6cc86fda3:
+    group:
+    - Membro
+    options:
+      name: 0mohammed0
+  6e518096-57c8-355c-b834-3f2206532ed6:
+    group:
+    - Membro
+    options:
+      name: douglas_447
+  b96905c6-dc20-3788-9164-d1a10b00e85f:
+    group:
+    - Membro
+    options:
+      name: DaddyZombieEz199
+  1556e8f2-fba3-30cd-a7f0-52126edda1b3:
+    group:
+    - MEMBRO
+    options:
+      name: D_Nick_D
+  d8eb6f4d-fa04-3076-a108-248267a251b1:
+    group:
+    - GUERREIRO
+    options:
+      name: vito12hugo44
+  fe5a4d65-1287-3fac-927b-31fbc2e35abd:
+    group:
+    - Membro
+    options:
+      name: iiBrunO_
+  07cc6c23-24b6-322a-90a5-833d3f8b6c26:
+    group:
+    - Membro
+    options:
+      name: Thor993
+  92c59f32-118d-3b9f-b5bd-96c57ef04765:
+    group:
+    - SUPREMO
+    options:
+      name: iHx_
+  e53cca0c-3817-3a7d-978d-4aba209cb961:
+    group:
+    - Membro
+    options:
+      name: BlackPaper
+  3cd9151d-8f3a-3c00-918d-00d32cd3cb90:
+    group:
+    - Membro
+    options:
+      name: LHeNriQueReTurNs
+  42d479e5-a843-355d-8984-5cba70c6f893:
+    group:
+    - Membro
+    options:
+      name: gueslopes
+  b24e7a00-0b5c-3488-a0b9-57915819fd48:
+    group:
+    - MINIYT
+    options:
+      name: iTzSrJuaN2y
+  154ad967-8c5d-3719-94ed-edd66779a26b:
+    group:
+    - Membro
+    options:
+      name: Daniel3000TM
+  1fd297e1-978a-3f6d-a241-cc8f33b0be4c:
+    group:
+    - Membro
+    options:
+      name: MateysRick
+  f53f46b4-bdfb-3dd7-8477-c1c484113515:
+    group:
+    - Membro
+    options:
+      name: JuninOLOKO
+  b395658d-160b-314f-94b3-3c23f1e247c0:
+    options:
+      name: DAAYDpira
+  latenciareach:
+    group:
+    - MEMBRO
+  80450bc4-04cc-365b-9b7a-694a68e923a2:
+    group:
+    - FUNDADOR
+    options:
+      name: Wizard_Woap
+    permissions:
+    - '*'
+  6c5dcf09-f663-30b6-9783-f5dae1b5dc55:
+    group:
+    - Membro
+    options:
+      name: guibrpvp1000
+  031522b9-3ad7-3e49-99f5-f1332513fb72:
+    group:
+    - Membro
+    options:
+      name: brsales
+  c619d186-3d27-3ee9-beae-f2ce86343a05:
+    group:
+    - Membro
+    options:
+      name: ToxicPvp
+  a6e5a0c3-852f-33d4-b9a2-7e0346f1e858:
+    group:
+    - YT
+    options:
+      name: HyeDan_
+  b7daed38-e26f-360a-a721-befee6a2fc5e:
+    group:
+    - GERENTE
+    options:
+      name: Brankiin
+    permissions: []
+  22aed01a-a014-3e49-8d98-5987c1f51a95:
+    group:
+    - Membro
+    options:
+      name: NoUsingHax1793
+  5e2d19cf-4814-3cb7-a4df-81b81e838b69:
+    group:
+    - Membro
+    options:
+      name: DarkBlizzard
+  5595ac35-3ab5-3231-8b2f-c2e60ee3ab18:
+    group:
+    - Membro
+    options:
+      name: OTAVIOTXR_01
+  513dbdb8-9955-3a8f-9a80-1a5868f2fbd7:
+    group:
+    - MINIYT
+    options:
+      name: nyrutobcs17
+  4e446ffc-e173-388d-b4b4-650d1d455007:
+    group:
+    - MINIYT
+    options:
+      name: DreekMC
+  6e8ae91d-f19b-3be2-807a-37f99898638e:
+    group:
+    - Membro
+    options:
+      name: Ziomek2018
+  91d86662-7ad0-335f-abd8-22a9080e3764:
+    group:
+    - Membro
+    options:
+      name: drew8104
+  c79317e9-bb8a-37d9-9492-d0c1548c9b0f:
+    group:
+    - Membro
+    options:
+      name: ZephyrPvP
+  ee7ec291-853d-3fc4-a51e-bd4eef76a2da:
+    group:
+    - Moderador
+    options:
+      name: Icaro_Sweet
+  bd87cdfc-6a2b-3202-a83a-fa1483686172:
+    group:
+    - GUERREIRO
+    options:
+      name: LoogBr
+  d679519f-320e-3800-9cbd-384f1e0fa632:
+    group:
+    - MINIYT
+    options:
+      name: Xibungo_Games
+  a732285a-381b-3d73-96d8-4a2b7755df0d:
+    group:
+    - Membro
+    options:
+      name: Daddygladdid
+  48634bc4-f86c-36a8-8ad5-e349c4e69ebc:
+    group:
+    - Membro
+    options:
+      name: BanInjusto
+  89417fb8-6b9d-3e43-be2a-21a88a6200c5:
+    group:
+    - Membro
+    options:
+      name: _IBlackS_
+  df141d72-7b5a-315f-b959-b2500f02d375:
+    group:
+    - AJUDANTE
+    options:
+      name: Jaaao
+  c560c123-68e3-33c7-8541-a4b40c7de5e9:
+    group:
+    - Membro
+    options:
+      name: Dircik18
+  e4d97c72-b063-35f2-9ef8-fd1a1fe32c6b:
+    group:
+    - Membro
+    options:
+      name: Osakage_
+  592ca0fd-91e2-3e91-aec1-8321df939d39:
+    group:
+    - Membro
+    options:
+      name: iLzMSrCombo
+  09ffc94c-7f99-3069-912b-fa0b4bcf5785:
+    group:
+    - Membro
+    options:
+      name: IxCombo
+  f987d52c-0d9a-35bf-a030-973660df0a2b:
+    group:
+    - FUNDADOR
+    options:
+      name: vidamilionaria
+  76e59714-b93f-34c7-a6b9-0f15888db2a9:
+    group:
+    - FUNDADOR
+    options:
+      name: Batman152444v
+  17b68158-2f8a-32b5-be65-aa322685f1b9:
+    group:
+    - FUNDADOR
+    options:
+      name: Legiterxzy
+  8d30330a-aaf7-384a-93ff-01a2770ff5e9:
+    group:
+    - Membro
+    - FUNDADOR
+    options:
+      name: UltrxxzyL
+    permissions:
+    - gerente
+  ce23c597-6f8c-33f7-b0a3-b6c3c2763c75:
+    group:
+    - FUNDADOR
+    options:
+      name: 157yy
+  0b1e335c-f701-37b5-8a50-83da72c2d4cc:
+    group:
+    - GUERREIRO
+    options:
+      name: choraprovelocity

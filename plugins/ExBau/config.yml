@@ -1,0 +1,9 @@
+# Caso "true" o primeiro baú será gratuito;
+PrimeiroBau: true
+
+# Preços dos baús
+1: 500000
+2: 500000
+3: 300000
+4: 400000
+5: 500000

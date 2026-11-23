@@ -1,0 +1,1180 @@
+Caixas:
+ Basica:
+  Nome: "&eCaixa Misteriosa"
+  Preco: 1000
+  Glow: false
+  Slot: 11 #Para o menu de compra
+  ID: 54
+  Lore:
+   - "&eTipo: &fBasica"
+  LorePreco:
+   - "&eTipo: &fBasica"
+   - "&7Clique com botão esquerdo para ver o conteudo!"   
+  Itens: #Encantamentos por id: http://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/2786190-enchantment-id-list-1-11-2-updated
+   0:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   1:
+    ID: 311
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   2:
+    ID: 312
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   3:
+    ID: 313
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   4:
+    ID: 322
+    Data: 1
+    Chance: 35
+    Quantia: 12
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   5:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   6:
+    ID: 311
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   7:
+    ID: 312
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   8:
+    ID: 313
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   9:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   10:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-2/34-2/35-1"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   11:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-3/34-3/35-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   12:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-4/34-3/35-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   13:
+    ID: 133
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   14:
+    ID: 57
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   15:
+    ID: 41
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   16:
+    ID: 42
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   17:
+    ID: 152
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   18:
+    ID: 22
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+ Avancada:
+  Nome: "&5Caixa Misteriosa"
+  Preco: 2000
+  Glow: false
+  Slot: 12 #Para o menu de compra
+  ID: 130
+  Lore:
+   - "&5Tipo: &fAvancada"
+  LorePreco:
+   - "&5Tipo: &fAvancada"
+   - "&7Clique com botão esquerdo para ver o conteudo!"
+  Itens: #Encantamentos por id: http://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/2786190-enchantment-id-list-1-11-2-updated
+   0:
+    ID: 133
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   1:
+    ID: 57
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   2:
+    ID: 41
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   3:
+    ID: 42
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   4:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   5:
+    ID: 138
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&bSinalizador"
+    Lore: "null"
+    Raridade: "Rarissimo"
+    Comando: "givebeacon $player 1"
+    Glow: false
+   6:
+    ID: 312
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   7:
+    ID: 313
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   8:
+    ID: 310
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   9:
+    ID: 311
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   10:
+    ID: 312
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   11:
+    ID: 313
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   12:
+    ID: 385
+    Data: 0
+    Chance: 3
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&cBola De Fogo"
+    Lore: "&fUse este item para invadir bases com agilidade."
+    Raridade: "Rarissimo"
+    Comando: "especial bola_de_fogo 1 $player"
+    Glow: false
+   13:
+    ID: 383
+    Data: 50
+    Chance: 3
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&aSuper Creeper"
+    Lore: "&fUse este item para invadir bases com agilidade."
+    Raridade: "Rarissimo"
+    Comando: "especial creeper 1 $player "
+    Glow: false
+   14:
+    ID: 399
+    Data: 0
+    Chance: 1
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&6Poder Maximo"
+    Lore: "&fUse este item e aumente seu poder, o poder maximo e &e20&f!"
+    Raridade: "Rarissimo"
+    Comando: "especial poder_maximo 1 $player"
+    Glow: false
+   15:
+    ID: 322
+    Data: 1
+    Chance: 25
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Rarissimo"
+    Comando: "null"
+    Glow: false
+   16:
+    ID: 399
+    Data: 0
+    Chance: 2
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&6Poder Maximo"
+    Lore: "&fUse este item e aumente seu poder, o poder maximo e &e20&f!"
+    Raridade: "Rarissimo"
+    Comando: "especial poder_maximo 1 $player"
+    Glow: false
+ Suprema:
+  Nome: "&4Caixa Misteriosa"
+  Preco: 1000000000000
+  Glow: true
+  Slot: 15 #Para o menu de compra
+  ID: 120
+  Lore:
+   - "&4Tipo: &fSuprema"
+  LorePreco:
+   - "&4Tipo: &fSuprema"
+   - "&7Clique com botão esquerdo para ver o conteudo!"
+  Itens: #Encantamentos por id: http://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/2786190-enchantment-id-list-1-11-2-updated
+   0:
+    ID: 133
+    Data: 0
+    Chance: 30
+    Quantia: 32
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   1:
+    ID: 57
+    Data: 0
+    Chance: 30
+    Quantia: 32
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   2:
+    ID: 41
+    Data: 0
+    Chance: 30
+    Quantia: 32
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   3:
+    ID: 42
+    Data: 0
+    Chance: 30
+    Quantia: 32
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   4:
+    ID: 310
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   5:
+    ID: 311
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   6:
+    ID: 312
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-4/34-4"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   7:
+    ID: 138
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&bSinalizador"
+    Lore: "null"
+    Raridade: "Rarissimo"
+    Comando: "givebeacon $player 1"
+    Glow: false
+   8:
+    ID: 310
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "null"
+    Glow: false
+   9:
+    ID: 311
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "null"
+    Glow: false
+   10:
+    ID: 312
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "null"
+    Glow: false
+   11:
+    ID: 313
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "0-5/34-5"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "null"
+    Glow: false
+   12:
+    ID: 385
+    Data: 0
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&cBola De Fogo"
+    Lore: "&fUse este item para invadir bases com agilidade."
+    Raridade: "Rarissimo"
+    Comando: "especial bola_de_fogo 1 $player"
+    Glow: false
+   13:
+    ID: 383
+    Data: 50
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&aSuper Creeper"
+    Lore: "&fUse este item para invadir bases com agilidade."
+    Raridade: "Rarissimo"
+    Comando: "especial creeper 1 $player "
+    Glow: false
+   14:
+    ID: 399
+    Data: 0
+    Chance: 20
+    Quantia: 2
+    Encantamentos: "null"
+    Nome: "&6Poder Maximo"
+    Lore: "&fUse este item e aumente seu poder, o poder maximo e &e20&f!"
+    Raridade: "Raro"
+    Comando: "especial poder_maximo 2 $player"
+    Glow: false
+   15:
+    ID: 322
+    Data: 1
+    Chance: 1
+    Quantia: 32
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "null"
+    Glow: false
+   16:
+    ID: 399
+    Data: 0
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&6Poder Maximo"
+    Lore: "&fUse este item e aumente seu poder, o poder maximo e &e20&f!"
+    Raridade: "Rarissimo"
+    Comando: "especial poder_maximo 1 $player"
+    Glow: false
+   17:
+    ID: 52
+    Data: 0
+    Chance: 2
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de IronGolem"
+    Lore: "null"
+    Raridade: "Rarissimo"
+    Comando: "spawner give $player Iron_Golem 1"
+    Glow: false
+   18:
+    ID: 52
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de Porco Zumbi"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "spawner give $player PIG_ZOMBIE 1"
+    Glow: false
+   19:
+    ID: 52
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de Blaze"
+    Lore: "null"
+    Raridade: "Raro"
+    Comando: "spawner give $player Blaze 1"
+    Glow: false
+   20:
+    ID: 52
+    Data: 0
+    Chance: 13
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de Vaca"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "spawner give $player COW 1"
+    Glow: false 
+   21:
+    ID: 52
+    Data: 0
+    Chance: 8
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de Esqueleto"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "spawner give $player Skeleton 1"
+    Glow: false 
+   22:
+    ID: 52
+    Data: 0
+    Chance: 8
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eGerador de Zumbi"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "spawner give $player Zombie 1"
+    Glow: false
+ Sinalizador:
+  Nome: "&bCaixa Misteriosa"
+  Preco: 1000000000000
+  Glow: true
+  Slot: 15 #Para o menu de compra
+  ID: 138
+  Lore:
+   - "&bTipo: &fSinalizador"
+  LorePreco:
+   - "&bTipo: &fSinalizador"
+   - "&7Clique com botão esquerdo para ver o conteudo!"
+  Itens: #Encantamentos por id: http://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/2786190-enchantment-id-list-1-11-2-updated
+   0:
+    ID: 402
+    Data: 0
+    Chance: 30
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   1:
+    ID: 402
+    Data: 0
+    Chance: 30
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Velocidade I"
+    Raridade: "null"
+    Comando: "givechave $player Velocidade 1 1"
+    Glow: false
+   2:
+    ID: 402
+    Data: 0
+    Chance: 30
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Velocidade II"
+    Raridade: "null"
+    Comando: "givechave $player Velocidade 2 1"
+    Glow: false
+   3:
+    ID: 402
+    Data: 0
+    Chance: 30
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Velocidade III"
+    Raridade: "null"
+    Comando: "givechave $player Velocidade 3 1"
+    Glow: false
+   4:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Força I"
+    Raridade: "null"
+    Comando: "givechave $player Forca 1 1"
+    Glow: false
+   5:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Força II"
+    Raridade: "null"
+    Comando: "givechave $player Forca 2 1"
+    Glow: false
+   6:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Regeneração I"
+    Raridade: "null"
+    Comando: "givechave $player Regeneracao 1 1"
+    Glow: false
+   7:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Regeneração II"
+    Raridade: "null"
+    Comando: "givechave $player Regeneracao 2 1"
+    Glow: false
+   8:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Resistência I"
+    Raridade: "null"
+    Comando: "givechave $player Resistencia 1 1"
+    Glow: false
+   9:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Resistência II"
+    Raridade: "null"
+    Comando: "givechave $player Resistencia 2 1"
+    Glow: false
+   10:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Pressa I"
+    Raridade: "null"
+    Comando: "givechave $player Pressa 1 1"
+    Glow: false
+   11:
+    ID: 402
+    Data: 0
+    Chance: 50
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Pressa II"
+    Raridade: "null"
+    Comando: "givechave $player Pressa 2 1"
+    Glow: false
+   12:
+    ID: 402
+    Data: 0
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Pressa III"
+    Raridade: "null"
+    Comando: "givechave $player Pressa 3 1"
+    Glow: false
+   13:
+    ID: 402
+    Data: 0
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Pressa IIII"
+    Raridade: "null"
+    Comando: "givechave $player Pressa 4 1"
+    Glow: false
+   14:
+    ID: 402
+    Data: 0
+    Chance: 20
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Pressa IV"
+    Raridade: "null"
+    Comando: "givechave $player Pressa 4 1"
+    Glow: false
+   15:
+    ID: 402
+    Data: 0
+    Chance: 1
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Absorção I"
+    Raridade: "null"
+    Comando: "givechave $player Absorcao 1 1"
+    Glow: false
+   16:
+    ID: 402
+    Data: 0
+    Chance: 45
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7Absorção II"
+    Raridade: "null"
+    Comando: "givechave $player Absorcao 2 1"
+    Glow: false
+   17:
+    ID: 402
+    Data: 0
+    Chance: 2
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7SuperPulo I"
+    Raridade: "null"
+    Comando: "givechave $player SuperPulo 1 1"
+    Glow: false
+   18:
+    ID: 402
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7SuperPulo II"
+    Raridade: "null"
+    Comando: "givechave $player SuperPulo 2 1"
+    Glow: false
+   19:
+    ID: 402
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7SuperPulo III"
+    Raridade: "null"
+    Comando: "givechave $player SuperPulo 3 1"
+    Glow: false
+   20:
+    ID: 402
+    Data: 0
+    Chance: 13
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&eChave de Ativação"
+    Lore: "&fTipo: &7SuperPulo IV"
+    Raridade: "null"
+    Comando: "givechave $player SuperPulo 4 1"
+    Glow: false 
+ Evento:
+  Nome: "&aCaixa Misteriosa"
+  Preco: 1000000000000
+  Glow: false
+  Slot: 22 #Para o menu de compra
+  ID: 342
+  Lore:
+   - "&7Tipo: &fEvento"
+  LorePreco:
+   - "&7Tipo: &fEvento"
+   - "&7Clique com botão esquerdo para ver o conteudo!"
+  Itens: #Encantamentos por id: http://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/2786190-enchantment-id-list-1-11-2-updated
+   0:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   1:
+    ID: 311
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   2:
+    ID: 312
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   3:
+    ID: 313
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   4:
+    ID: 322
+    Data: 1
+    Chance: 35
+    Quantia: 12
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   5:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   6:
+    ID: 311
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   7:
+    ID: 312
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   8:
+    ID: 313
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-2/34-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   9:
+    ID: 310
+    Data: 0
+    Chance: 40
+    Quantia: 1
+    Encantamentos: "0-3/34-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   10:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-2/34-2/35-1"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   11:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-3/34-3/35-2"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   12:
+    ID: 278
+    Data: 0
+    Chance: 35
+    Quantia: 1
+    Encantamentos: "32-4/34-3/35-3"
+    Nome: "null"
+    Lore: " "
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   13:
+    ID: 133
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   14:
+    ID: 57
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   15:
+    ID: 41
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   16:
+    ID: 42
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   17:
+    ID: 152
+    Data: 0
+    Chance: 20
+    Quantia: 16
+    Encantamentos: "null"
+    Nome: "null"
+    Lore: "null"
+    Raridade: "null"
+    Comando: "null"
+    Glow: false
+   18:
+    ID: 138
+    Data: 0
+    Chance: 5
+    Quantia: 1
+    Encantamentos: "null"
+    Nome: "&bSinalizador"
+    Lore: "null"
+    Raridade: "Rarissimo"
+    Comando: "givebeacon $player 1"
+    Glow: false
+Raridades:
+ Raro:
+  Broadcast: true
+  BroadcastMsg: "&5&l[CAIXAS]&6 $player &eganhou um item &5&lRARO&a &ena &bcaixa misteriosa"
+  Raio: false
+ Rarissimo:
+  Broadcast: true
+  BroadcastMsg: "&5&l[CAIXAS]&6 $player &eganhou um item &6&lULTRA-RARO&a &ena &bcaixa misteriosa"
+  Raio: true 
+  
+  
+NPC:
+ Nome: "&6Conteudo Caixas misteriosas"
+ Profissao: BLACKSMITH #BLACKSMITH, BUTCHER, FARMER, LIBRARIAN, PRIEST
+ Economia: PLAYERPOINTS #Tipos: VAULT, MINESHOP, PLAYERPOINTS, PICOMOEDAS, MINEPAG
+  
+Geral:
+ Som: "NOTE_PLING"
+ #Sons na 1.8: http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/mapping-and-modding-tutorials/2213619-1-8-all-playsound-sound-arguments
+ #Sons na 1.9 - 1.11: http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/mapping-and-modding-tutorials/2567682-all-playsound-names-1-9-1-11-updated
+  
+Menu:
+ AtivarCompra: false
+ Tamanho: 45
+ Nome: "Caixas"
+   
+#Permissoes:
+# dont.darcaixas
+# dont.darcaixas.all
+# dont.setnpc

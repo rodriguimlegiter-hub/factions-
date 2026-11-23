@@ -1,0 +1,6 @@
+{
+  "priority": 5000,
+  "nome": "friendlyfire",
+  "desc": "Membros da facção e aliados poderão se bater no território da facção?",
+  "padrao": false
+}

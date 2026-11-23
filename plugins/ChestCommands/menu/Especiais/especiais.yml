@@ -1,0 +1,415 @@
+menu-settings:
+
+
+
+  name: 'Itens Especiais'
+
+  rows: 5
+
+  type: CHEST
+
+  command: 'especiais; shop'
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       CAIXAS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+lancador:
+
+  LEFT-CLICK-COMMAND: 'console: especial LANCADOR 20 {player} '
+
+  RIGHT-CLICK-COMMAND: 'console: especial LANCADOR 20 {player} '
+
+  POINTS: 500 
+   
+  NAME: '&eLançador'
+
+  LORE:
+    - ''
+    - ' &7Use este item para dar um salto de &660&7 blocos,'
+    - ' &7e torne sua invasão mais fácil!'
+    - ''
+    - ' &fPreço: &a500 Cash.'
+
+  ID: '401, 20'
+
+  SLOT: 11
+  
+  HIDE-ATTRIBUTES: true
+  
+  ENCHANTMENT: unbreaking, 1
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+
+picaretaa:
+
+  LEFT-CLICK-COMMAND: 'console: especial poder_maximo 1 {player} '
+
+  RIGHT-CLICK-COMMAND: 'console: especial poder_maximo 1 {player} '
+
+  POINTS: 1000 
+   
+  NAME: '&e+1 De Poder Máximo'
+  
+  HIDE-ATTRIBUTES: true
+  
+  ENCHANTMENT: unbreaking,1
+
+  LORE:
+    - ''
+    - ' &7Tenha +1 de poder máximo!'
+    - ''
+    - ' &fPreço: &a1.000 Cash.'
+  
+  ID: '399'
+
+  SLOT: 13
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+poderinstantaneo:
+
+  LEFT-CLICK-COMMAND: 'console: especial poder_instantaneo 1 {player} '
+
+  RIGHT-CLICK-COMMAND: 'console: especial poder_instantaneo 1 {player} '
+
+  POINTS: 300 
+   
+  NAME: '&ePoder Instantâneo'
+
+  LORE:
+    - ''
+    - ' &7Use este item para deixar seu poder'
+    - ' &7positivo para evitar de ser invadido. '
+    - ''
+    - ' &fPreço: &a300 Cash.'
+
+  ID: '399'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 29
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+espadakitfarm:
+
+  LEFT-CLICK-COMMAND: 'console: kit farm {player}'
+
+  POINTS: 2000 
+   
+  RIGHT-CLICK-COMMAND: 'console: kit farm {player}'
+
+  NAME: '&2Espada &a&lKIT FARM'
+
+  LORE:
+    - ''
+    - ' &7Use este item para conseguir mais'
+    - ' &7drops e com isso lucrar mais com spawners!'
+    - ''
+    - ' &fPreço: &a2.000 Cash.'
+    - ''
+
+  ID: '276'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 31
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+picaretakitfarm:
+
+  LEFT-CLICK-COMMAND: 'console: kit picaretafarm {player}'
+
+  POINTS: 2000 
+   
+  RIGHT-CLICK-COMMAND: 'console: kit picaretafarm {player}'
+
+  NAME: '&2Picareta &a&lKIT FARM'
+
+  LORE:
+    - ''
+    - ' &7Use este item para conseguir mais'
+    - ' &7minérios e com isso lucrar mais minerando!'
+    - ''
+    - ' &fPreço: &a2.000 Cash.'
+
+  ID: '278'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 33
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+permissaobau:
+
+  LEFT-CLICK-COMMAND: 'open: camadas.yml'
+   
+  RIGHT-CLICK-COMMAND: 'open: camadas.yml'
+  
+
+  NAME: '&4Gerador de camadas'
+
+  LORE:
+    - ''
+    - ' &7Use este item para conseguir fazer camadas fácilmente'
+    - ' &7Dificulte a invasão dos inimigos.'
+    - ''
+    - ' &aClique para comprar'
+
+  ID: '327'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 19
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+agrupadorpot:
+
+  LEFT-CLICK-COMMAND: 'console: especial agrupador 1 {player}'
+
+  PRICE: 700000
+   
+  RIGHT-CLICK-COMMAND: 'console: especial agrupador 1 {player}'
+  
+
+  NAME: '&aAgrupador de poções'
+
+  LORE:
+    - ''
+    - ' &7Agrupe até 9 poções consumíveis do'
+    - ' &7mesmo tipo para que você tenha vantagens nas batalhas.'
+    - ''
+    - ' &fPreço: &a700.000 Money.'
+
+  ID: '154'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 21
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+armadilha:
+
+  LEFT-CLICK-COMMAND: 'console: especial armadilha 1 {player}'
+
+  PRICE: 160000
+   
+  RIGHT-CLICK-COMMAND: 'console: especial armadilha 1 {player}'
+  
+
+  NAME: '&eArmadilha'
+
+  LORE:
+    - ''
+    - ' &7Use essa armadilha para trapar seus inimigos.'
+    - ''
+    - ' &fPreço: &a160.000 Money.'
+
+  ID: '332'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 23
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+booster:
+
+  LEFT-CLICK-COMMAND: 'console: givebooster {player}'
+
+  RIGHT-CLICK-COMMAND: 'console: givebooster {player}'
+
+  POINTS: 1000 
+   
+  NAME: '&aBooster x2'
+
+  LORE:
+    - ''
+    - ' &7Use este item para multiplicar o xp no mcmmo,'
+    - ' &7e upe suas skills mais fácil!'
+    - ''
+    - ' &fPreço: &a1.000 Cash.'
+  
+  ID: '384'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 15
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true  
+reparador:
+
+  LEFT-CLICK-COMMAND: 'console: especial reparador 1 {player}'
+
+  POINTS: 2000
+   
+  RIGHT-CLICK-COMMAND: 'console: especial reparador 1 {player}'
+  
+
+  NAME: '&5Reparador Instantâneo'
+
+  LORE:
+    - ''
+    - ' &7Ao usar este item você irá reparar'
+    - ' &7toda a armadura que estiver no seu inventário'
+    - ''
+    - ' &fPreço: &a2.000 Cash.'
+
+  ID: '145:0'
+
+  
+  
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 25
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+picaretaxx:
+
+  LEFT-CLICK-COMMAND: 'console: especial picareta 1 {player}'
+
+  POINTS: 2000
+   
+  RIGHT-CLICK-COMMAND: 'console: especial picareta 1 {player}'
+  
+
+  NAME: '&bPicareta SilkTouch 2'
+
+  LORE:
+    - ''
+    - ' &7Tenha poder de quebrar bedrocks'
+    - ' &7usando esta picareta'
+    - ''
+    - ' &fPreço: &a2.000 Cash.'
+
+  ID: 'diamond_pickaxe'
+
+  
+  
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 39
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+bausenha:
+
+  LEFT-CLICK-COMMAND: 'console: givebausenha {player} 1'
+
+  POINTS: 2000
+   
+  RIGHT-CLICK-COMMAND: 'console: givebausenha {player} 1'
+  
+
+  NAME: '&aBau com Senha'
+
+  LORE:
+    - ''
+    - ' &7Use esse bau para guardar itens'
+    - ' &7esse bau possui um sistema de senha'
+    - ' &7o bau só pode ser quebrado com creepercharger'
+    - ''
+    - ' &fPreço: &a2.000 Cash.'
+
+  ID: 'chest'
+
+  
+  
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: unbreaking, 1
+
+  SLOT: 41
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SKULL-OWNER: 
+  HIDE-ATTRIBUTES: true
+  SLOT: 0

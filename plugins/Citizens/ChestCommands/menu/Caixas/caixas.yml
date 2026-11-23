@@ -1,0 +1,389 @@
+menu-settings:
+
+
+
+  name: 'Caixas Misteriosas'
+
+  rows: 6
+
+  type: CHEST
+
+  command: 'caixas'
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       CAIXAS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+caixabasica:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 1 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 1 '
+
+  POINTS: 250
+  
+  NAME: '&6Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fBasica'
+  - '&7Quantia:&f 1'  
+  - '&7Preço: &f250 de cash'
+
+  ID: '54'
+
+  SLOT: 11
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+
+caixabasica2:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 5 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 5 '
+
+  POINTS: 1250
+  
+  NAME: '&6Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fBasica'
+  - '&7Quantia:&f 5'  
+  - '&7Preço: &f1.250 de cash'
+  
+  ID: '54, 5'
+
+  SLOT: 20
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+
+caixabasica3:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 10 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 10 '
+
+  POINTS: 1500
+  
+  NAME: '&6Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fBasica'
+  - '&7Quantia:&f 10'
+  - '&7Preço: &f1.500 de cash'
+
+  ID: '54, 10'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 29
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixabasica4:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 25 '
+
+  POINTS: 3000
+  
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Basica 25 '
+
+  NAME: '&6Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fBasica'
+  - '&7Quantia:&f 25'
+  - '&7Preço: &f3.000 de cash'
+
+  ID: '54, 25'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 38
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixaavancada:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 1 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 1 '
+
+  NAME: '&5Caixa Misteriosa'
+
+  POINTS: 500
+  
+  LORE:
+  
+  - '&7Tipo: &fAvancada'
+  - '&7Quantia:&f 1'
+  - '&7Preço: &f500 de cash'
+
+  ID: '130'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 12
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixaavancada2:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 5 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 5 '
+
+  POINTS: 2500
+  
+  NAME: '&5Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fAvancada'
+  - '&7Quantia:&f 5'
+  - '&7Preço: &f2.500 de cash'
+  
+  ID: '130, 5'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 21
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixaavancada3:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 10 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 10 '
+
+  POINTS: 5000
+   
+  NAME: '&5Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fAvancada'
+  - '&7Quantia:&f 10'
+  - '&7Preço: &f5.000 de cash'
+  
+  ID: '130, 10'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 30
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixaavancada4:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 25 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Avancada 25 '
+
+  POINTS: 12500
+  
+  NAME: '&5Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fAvancada'
+  - '&7Quantia:&f 25'
+  - '&7Preço: &f12.500 de cash'
+  
+  ID: '130, 25'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 39
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixareload4:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 25 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 25 '
+
+  POINTS: 25000
+  
+  NAME: '&4Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fSuprema'
+  - '&7Quantia:&f 25'
+  - '&7Preço: &f25.000 de cash'
+  
+  ID: '120, 25'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: protection, 4
+
+  SLOT: 42
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixareload3:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 10 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 10 '
+
+  POINTS: 10000
+  
+  NAME: '&4Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fSuprema'
+  - '&7Quantia:&f 10'
+  - '&7Preço: &f10.000 de cash'
+  
+  ID: '120, 10'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: protection, 4
+
+  SLOT: 33
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixareload2:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 5 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 5 '
+
+  POINTS: 5000
+  
+  NAME: '&4Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fSuprema'
+  - '&7Quantia:&f 5'
+  - '&7Preço: &f5.000 de cash'
+  
+  ID: '120, 5'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: protection, 4
+
+  SLOT: 24
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+caixareload1:
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 1 '
+
+  LEFT-CLICK-COMMAND: 'console: darcaixa {player} Suprema 1 '
+
+  POINTS: 1000
+  
+  NAME: '&4Caixa Misteriosa'
+
+  LORE:
+  
+  - '&7Tipo: &fSuprema'
+  - '&7Quantia:&f 1'
+  - '&7Preço: &f1.000 de cash'
+  
+  ID: '120, 1'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: protection, 4
+
+  SLOT: 15
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+  
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SKULL-OWNER: 
+
+  SLOT: 0

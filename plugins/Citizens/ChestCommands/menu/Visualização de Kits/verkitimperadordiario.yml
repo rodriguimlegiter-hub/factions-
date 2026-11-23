@@ -1,0 +1,290 @@
+menu-settings:
+
+
+
+  name: 'Conteúdo: Kit Imperador Diário'
+  
+  rows: 5
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: note pling'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,4
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '302'
+
+
+
+  SLOT: 10
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,4
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '303'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,4
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '304'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,4
+
+  LORE:
+
+    - '&bImperador'
+
+  ID: '305'
+  
+  SLOT: 13
+  
+maca:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '322, 50'
+  
+  SLOT: 14
+  
+file:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '396, 50'
+  
+  SLOT: 15
+  
+cenoura:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '384, 50'
+  
+  SLOT: 16
+  
+espada:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: sharpness,4
+
+  LORE:
+  
+  - '&bImperador'
+  
+  ID: '267'
+  
+  SLOT: 19
+  
+picareta:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,4
+
+  LORE:
+  
+  - '&bImperador'
+  
+  ID: '257'
+  
+  SLOT: 20
+  
+machado:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,4
+
+  LORE:
+  
+  - '&bImperador'
+  
+  ID: '258'
+  
+  SLOT: 21
+  
+pa:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,4
+
+  LORE:
+  
+  - '&bImperador'
+  
+  ID: '256'
+  
+  SLOT: 22
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SLOT: 0
+  

@@ -1,0 +1,25 @@
+# Plugin criado por ViniPlugner
+
+MySQL:
+  sqlite: true
+  host: 'localhost'
+  porta: 3306
+  database: 'db'
+  user: 'root'
+  pass: ''
+
+# Coloque tempo em minutos!!!  
+Tempo:
+  RegenerarDurabidalide: 1
+  
+Mensagens:
+  Givebeacon: '&eVocê enviou ao player &f@player&e a quantia de &f@quantia&e Beacon(s).'
+  Givechave: '&eVocê enviou ao player &f@player&e a quantia de &f@quantia&e Chave(s) de Ativação.'
+  Chaveinexistente: '&cEste level de Chave de Ativação não existe!'
+  Nivelinexistente: '&cNível de chave inexistente!'
+  InvCheio: '&cEsvazei seu inventário para limpar a chave empoeirada!'
+  Japossuichave: '&cO beacon já possui este tipo de chave de ativação!'
+  Chaveutilizada: '&aChave de ativação utilizada com sucesso!'
+  Precisafacção: '&cVocê precisa ter uma facção para ativar o restringir efeitos!'
+  Maximodeefeitoson: '&cVocê execedeu o número máximo de efeitos que podem ser ativos ao mesmo tempo!'
+  Durabilidade: '&fDurabilidade: &7@qnt/@total'

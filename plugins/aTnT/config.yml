@@ -1,0 +1,9 @@
+TnT:
+    name: '&eTnT de Impulsão'
+    lore:
+    - ''
+    - '&7Ao colocar esse bloco no chão'
+    - '&7ele se transformará em uma TNT,'
+    - '&7que não destroi outros blocos'
+    - ''
+    glow: true

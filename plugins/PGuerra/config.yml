@@ -1,0 +1,7 @@
+#Ative o MYSQL para funcionar
+Config:
+  MySQL: false
+  Usuario: root
+  Host: root
+  Database: guerra
+  Senha: root

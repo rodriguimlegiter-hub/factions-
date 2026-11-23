@@ -1,0 +1,47 @@
+message:
+  noPermission: '&cLack permission: &b%extra'
+  noConsole: '&cCannot use command as console'
+  notIntenger: '&6%extra &cis not an integer'
+  reload: '&6Configuration reloaded'
+  broadcast: '&eO Jogador &a%player &epossui &6%amount &epontos'
+  command:
+    unknown: '&cComando desconhecido ''%extra'''
+    give: '&e/points give <name> <points>'
+    giveall: '&e/points giveall <points>'
+    take: '&e/points take <name> <points>'
+    look: '&e/points look <name>'
+    pay: '&e/points give <name> <points>'
+    set: '&e/points set <name> <points>'
+    reset: '&e/points reset <name>'
+    me: '&e/points me'
+    lead: '&e/points lead [next|prev|#]'
+    broadcast: '&e/points broadcast <name>'
+  points:
+    success: '&eO Jogador &6%player &eagora tem &6%amount &epontos'
+    successall: '&eDeu &6%amount &epontos para o jogador &6%player'
+    fail: "&cTransa\xc3\u0192\xc2\xa7\xc3\u0192\xc2\xa3o falhou"
+    failall: '&cFalhou o envio de &6%amount &epontos para o jogador &6%player'
+    look: '&eO Jogador &6%player &epossui &6%amount &epontos'
+    pay:
+      send: "&eVoc\xc3\u0192\xc2\xaa setou &6%amount &epontos para o jogador &6%player"
+      receive: "&eVoc\xc3\u0192\xc2\xaa recebeu &6%amount &epontos do jogador &6%player"
+      invalid: "&eN\xc3\u0192\xc2\xa3o \xc3\u0192\xc2\xa9 poss\xc3\u0192\xc2\xadvel\
+        \ pagar 0 ou pontos negativos."
+    lack: "&eVoc\xc3\u0192\xc2\xaa n\xc3\u0192\xc2\xa3o tem pontos suficientes!"
+    reset: '&eOs pontos de &a%player &eforam resetado com sucesso'
+    me: "&eVoc\xc3\u0192\xc2\xaa tem &6%amount &epontos"
+  help:
+    header: '&e======= &e======='
+    me: '&e/points me &6: Veja seus pontos'
+    give: '&e/points give <name> <points> &6: Envie cash para outros jogadores'
+    giveall: '&e/points giveall <points> &6: Envie cash para todos os jogadores'
+    take: '&e/points take <name> <points> &6: Tire cash de jogadores'
+    look: '&e/points look <name> &6: Pontos do jogador de pesquisa'
+    set: '&e/points set <name> <points> &6: Defina os pontos do jogador para o valor'
+    reset: "&e/points reset <name> &6: Rep\xc3\u0192\xc2\xb5a os pontos do jogador\
+      \ para 0"
+    pay: '&e/points pay <name> <points> &6: Enviar pontos para determinado jogador'
+    lead: '&e/points lead [prev/next/page] &6: Entre os melhores'
+    broadcast: "&e/points broadcast <name> &6: Pontos do jogador de transmiss\xc3\u0192\
+      \xc2\xa3o"
+    reload: '&e/points reload &6: Recarregar config'

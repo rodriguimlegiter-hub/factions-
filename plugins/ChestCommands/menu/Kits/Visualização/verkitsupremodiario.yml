@@ -1,0 +1,289 @@
+menu-settings:
+
+
+
+  name: 'Conteúdo: Supremo Diário'
+  
+  rows: 5
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,3
+
+  LORE:
+
+
+
+    - '&4Supremo'
+
+
+
+  ID: '302'
+
+
+
+  SLOT: 10
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,3
+
+
+
+  LORE:
+
+
+
+    - '&4Supremo'
+
+
+
+  ID: '303'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,3
+
+
+
+  LORE:
+
+
+
+    - '&4Supremo'
+
+
+
+  ID: '304'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,3
+
+  LORE:
+
+    - '&4Supremo'
+
+  ID: '305'
+  
+  SLOT: 13
+  
+maca:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '322, 40'
+  
+  SLOT: 14
+  
+file:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '396, 40'
+  
+  SLOT: 15
+  
+cenoura:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '384, 40'
+  
+  SLOT: 16
+  
+espada:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: sharpness,3
+
+  LORE:
+  
+  - '&4Supremo'
+  
+  ID: '267'
+  
+  SLOT: 19
+  
+picareta:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,3
+
+  LORE:
+  
+  - '&4Supremo'
+  
+  ID: '257'
+  
+  SLOT: 20
+  
+machado:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,3
+
+  LORE:
+  
+  - '&4Supremo'
+  
+  ID: '258'
+  
+  SLOT: 21
+  
+pa:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,3
+
+  LORE:
+  
+  - '&4Supremo'
+  
+  ID: '256'
+  
+  SLOT: 22
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+  HIDE-ATTRIBUTES: true
+  ID: '262'
+
+  SLOT: 0

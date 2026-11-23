@@ -1,0 +1,11 @@
+name: local
+nickname: l
+format: '{local}'
+color: yellow
+shortcutAllowed: true
+needFocus: false
+distance: 60.0
+crossworlds: false
+delayPerMessage: 5
+costPerMessage: 0.0
+showCostMessage: true

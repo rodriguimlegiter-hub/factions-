@@ -1,0 +1,43 @@
+prefix: '&e[REDECHOMA]'
+anunciar: sim
+comando_para_definir_grupo: pex user @jogador group set @grupo
+grupo_padrao: Membro
+usar_comando_para_add_remover_grupo: nao
+comando_para_add_grupo: pex user @jogador group add @grupo
+comando_para_remover_grupo: pex user @jogador group remove @grupo
+tamanho_da_chave: 10
+venderchave_anunciar_segundos: 120
+MySQL:
+  ativado: nao
+  Hostname: 127.0.0.1
+  Port: 3306
+  Database: factions
+  Username: root
+  Password: root
+mercadopago:
+  CLIENT_ID: 0
+  CLIENT_SECRET: 0
+pagseguro:
+  e-mail: email
+  token: token
+paypal:
+  usuario_NVP/SOAP: usuario
+  senha_NVP/SOAP: senha
+  assinatura_NVP/SOAP: assinatura
+grupos:
+  guerreiro:
+    estilo: '&3[Guerreiro]'
+    comandos:
+    - tm bc &3@jogador<nl>&ftornou-se &3[Guerreiro]
+  mago:
+    estilo: '&5[Mago]'
+    comandos:
+    - tm bc &5@jogador<nl>&ftornou-se &5[Mago]
+  supremo:
+    estilo: '&4[Supremo]'
+    comandos:
+    - tm bc &4@jogador<nl>&ftornou-se &4[Supremo]
+  imperador:
+    estilo: '&b[Imperador]'
+    comandos:
+    - tm bc &b@jogador<nl>&ftornou-se &b[Imperador]

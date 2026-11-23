@@ -1,0 +1,6 @@
+{
+  "priority": 7000,
+  "nome": "permanent",
+  "desc": "A facção não pode ser deletada (permanente)?",
+  "padrao": false
+}

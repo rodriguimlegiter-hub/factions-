@@ -1,0 +1,130 @@
+menu-settings:
+
+
+
+  name: 'Conteúdo: Guerreiro Semanal'
+  
+  rows: 3
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+caixa-basica:
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+  
+  NAME: '&6Caixa Misteriosa'
+
+  ENCHANTMENT: 
+
+  LORE:
+
+
+
+    - '&7Tipo: &fBasica'
+
+
+
+  ID: '54, 2'
+
+
+
+  SLOT: 10
+  
+caixa-avancada:
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+  
+  NAME: '&5Caixa Misteriosa'
+
+  ENCHANTMENT: 
+
+  LORE:
+
+
+
+    - '&7Tipo: &fAvancada'
+
+
+
+  ID: '130'
+
+
+
+  SLOT: 11
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+  HIDE-ATTRIBUTES: true
+  ID: '262'
+
+  SLOT: 18
+  

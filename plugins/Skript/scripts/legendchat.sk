@@ -1,0 +1,9 @@
+command /s [<text>]:
+	permission: legendchat.channel.staff.chat
+	permission message: &8[&6REDECHROMA&8]&c Você precisa ser um staff para utilizar este comando :/
+	trigger:
+		if arg-1 is not set:
+			send "&8[&6REDECHROMA&8]&c /s <mensagem>"
+		if arg-1 is set:
+			make player execute "staff %arg-1%"
+			stop

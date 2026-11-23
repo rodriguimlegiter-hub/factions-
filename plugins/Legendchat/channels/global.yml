@@ -1,0 +1,11 @@
+name: global
+nickname: g
+format: '{global}'
+color: gray
+shortcutAllowed: true
+needFocus: false
+distance: 0.0
+crossworlds: true
+delayPerMessage: 10
+costPerMessage: 0.0
+showCostMessage: true

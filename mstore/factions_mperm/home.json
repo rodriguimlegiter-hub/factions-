@@ -1,0 +1,12 @@
+{
+  "priority": 7000,
+  "name": "home",
+  "desc": "se teleportar para a home",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT"
+  ],
+  "territory": false
+}

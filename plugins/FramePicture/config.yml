@@ -1,0 +1,18 @@
+AutoSize:
+  Enabled: true
+  Width: 128
+  Height: 128
+  Center: true
+Money:
+  Enabled: false
+  CreatePrice: 10.0
+WorldGuard:
+  Enabled: false
+  ProtectBuild: true
+  ProtectBreak: true
+Frame:
+  RemoveImageWhenFrameDestroy: false
+  CacheOnStart: true
+FrameLoader:
+  TickDelay: 1
+  LoadsPerTick: 5

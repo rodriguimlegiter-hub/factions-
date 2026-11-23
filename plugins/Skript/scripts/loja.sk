@@ -1,0 +1,27 @@
+command /setloja:
+	permission: loja.setar
+	trigger:
+		set {Spawn} to player's location
+		send "&f&lRede&2&lChroma &7» Loja setada com sucesso!"
+		stop
+		
+command /loja:
+	trigger:
+		set {_y} to rounded y coordinate of player
+		set {_x} to rounded x coordinate of player
+		set {_z} to rounded z coordinate of player
+		wait 1 seconds
+		if {_y} is rounded y coordinate of player:
+			if {_x} is rounded x coordinate of player:
+				if {_z} is rounded z coordinate of player:
+					teleport player to {Spawn}
+					send "&f&lRede&2&lChroma &7» &aTeleportado com sucesso!"
+				else:
+					send "&f&lRede&2&lChroma &7» &cTeleporte cancelado."
+					stop
+			else:
+				send "&f&lRede&2&lChroma &7» &cTeleporte cancelado."
+				stop
+		else:
+			send "&&f&lRede&2&lChroma &7» cTeleporte cancelado."
+			stop

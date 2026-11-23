@@ -1,0 +1,374 @@
+Icone:
+  ==: org.bukkit.inventory.ItemStack
+  type: NOTE_BLOCK
+Nome: '§eCaixa Misteriosa '
+Lore:
+- '§fTipo: §3Máscaras '
+Itens:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+    amount: 64
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 64
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+    amount: 64
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dMáscara de Blaze V
+      lore:
+      - ''
+      - '§aEfeitos:'
+      - ' §d* §7Atirar com arco sua flecha irá se transformar em uma bola de fogo.'
+      - ' §d* §7Ao receber ataque de seu inimigo deixe-o pegando fogo.'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        PROTECTION_FIRE: 5
+        PROTECTION_EXPLOSIONS: 5
+        PROTECTION_PROJECTILE: 5
+        OXYGEN: 5
+        WATER_WORKER: 5
+      internal: H4sIAAAAAAAAAE2QzZKqSBSEuTdmIvp2zGPMzugQEBAWs1BBfoRC/qE2E0iBFBSgCCg8033IsXezOJsTmV9m5CdFfVJ/efVIyLnvCkzyD+qnjqi/uWwj5ohhvnhJSL+4AnFf6YVBX6xQbEQhY7JLmn1Sn2/TLe8HnD9+UR9D/hrGPn98UhT144P65eFrm35/fv62cucsDVrzqvfPVQjErOORJB26qIC82bckAeozHCAnHiZGtzSYqla2MR2L3owiUE3NsrsD4cXBKDzC3rSpt+gAiyOxCFRzz7xdc53zUzl1kHe7btJG1n3TqblVf1+yJxNLA7kCC7u+Ac7WOgv3DNTpQ7laD/RbDPiJ60BX7+SeC7fLrpDCQxG1g/niGH3yu3OR+JuhPJ/4vBAcRXJJD2LX6+Xz0BIFdO1zEQ7rrOHpkxoFB6u621dJf3FBMAaQWfenzNvv+Ejv7yl6rHjOtLLxKO44L56wqIq1KXGOVFlArbahg3wQ8nsNBrtLKArFqyyGtfgILq97CEV1/bLVceT0zJAriQVHUXC3HHaysHw0wizENC+CpzChVY8EOhRds56doI/EaRe087ozh3BpMk6bHUUl7phNXXSZfZO+RLxySVQBCrNqYZ/eLacd7FOwZRYyPvIYgvu0qEyZIaybEVrJdNUq7FZG2X3vmKp7ivmEOTSP89B1NnLt/fk28tsk3sN229uDXSNhLdKy2LOeNOm8w6GWvwqKRlYd9rHL6/S2ivOTeWgFexoZW/SVqhft+sLMta3LRMNeYQ2cRF5LKNV3oGf2A13U0GiZkoG8QnOPM5c2heoK0X2VnVq/i+an0O5nia/v7L1fj9ukkYQMHGtBuDf9bvUyq9WdoGacvGOrxhFeh/kM2SD554P6M0zJmP+I89mg04gh2cYtL/EO25XCAFlZwLJjLT+YbV9/6O+QCwtv323gQRf0yq2spSRQVl7Ar9nEdxsou2VSHWurgo21XNlkOVZJc6x0/MSZZkywIQ8Y8OUlCrCNDeApsHCaV5k3ATYPxpJGaExil8ma0IPxkUljg3xnIc1goPfESA05pIUzjC1stw8c0IPhY1149397nt/MDmnu08bi9D/teInICCMwJxGkzYYn6CDRMC5p9OabrPMETbAA2Whsf0+SJVhs9Vgm/nsD38BWpdOw0lmgKk8g77j38ZZsEMvXWSjXrzeXgEpZ7OhYgkhfkgVVyWLhImYkivqg/gBpk1O/LO34756kS05R/wH51tXIjAQAAA==
+      skull-owner: MHF_Blaze
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dMáscara de Galinha V
+      lore:
+      - ''
+      - '§aEfeitos:'
+      - ' §d* §7Você é imune a dano de queda.'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        PROTECTION_FIRE: 5
+        PROTECTION_EXPLOSIONS: 5
+        PROTECTION_PROJECTILE: 5
+        OXYGEN: 5
+        WATER_WORKER: 5
+      internal: H4sIAAAAAAAAAE2T2Y6jVhCGmVEi9fTkMXJntTiA2S7mAgw2iwGz9GFRpIh9xzQ7PFMeMs5dbuv7S/WVSvWOIO/IH3Y9N81jeGZlk74h3+UE+ZPFkzTMQvbjTAD644wn7EcEAPHBMBTASJZJqBi8I++vpj4dpjIdfyBvU7pN85CO7wiCfHtDfthl3oX/Vb7/U4dQv4IZFWdw4cQuTq0VFOPZknGuExUM1dsrG4/Y9lU+CdR8xozcyDlUwoalWJ+SDMm7toalTi0cUBvk9y7T1tiXMvtxbfY9upDOet9bTTztecIwarxVLhgLVugZsgkWPdlgRUHGTOuJQ3u3u5bmCjz+ucpC6HbCYGikavQFzZmfl5Sx7HLqpCosqaoXxotXbPRDj4s5NhSvHlNDXWTK0AKl3qunOz1Hm28ZYQRYGCoyRG/YllmtcMU2Zr17Mn/ckm0UbnO0a1bPwemp4So+4FuUoFFymgabHRZFtalMd56YNJ0Yk7Xp8+SdGQdt2Lrn29MAnfMcBHe5pXmAnW8g53PPGB/LEasLd85Qp6skDXfI/c5Q9s4cz0Uec3/NHcMq6J5KHZpZHOOy8uTMPzGR4G2yc1bsVh6H+lkajXVOcsMW41o55YwdqoHMhHPPbPDsouDSDWy+35dE1etL5SeOPygrrL/WHr3nt1gLuQe+SgWjiw5BFKu0n0wLZbDtTD/me3DMm+Wgfk7CLxLNLCKzrkmlfLU7Xftcv3zh173OGk90Uw7FQq2o2E2LdINwnYWOiVO2pSz+EGSQNRsnjFVGL3CntoVe5pWQH5Ebe8bBwbR8pA0vdZiaCxG7XOKOsMPBS0VyxUp77NX7ab6O9Gmt+eGJM+xxzaeZoI3ipI67gJUiHLHs9MkDTfv1hvwOw2ZOv/2V7goIXayJCauIPK40KhHTBfHQDxFo1eemOfEod/we4UEf3aASXGRKruo9uMEiaEVSF7RVP8w9EJpSE7jDEHJcE0TMcIpab7VVLtcylpQlaJsx+CSLyH0do1R0WwwyEy96H5+aqJRfM/Q+wMkikeAeQKWJPdjHLazlqgdxB5v7RQGBV4DEe7Fdpl7ejg0a48VpuYOv/3h5tS8ucdR9Z/+XJafQJRufUIqgM+eoheBOWE0qWVjcfi6GI+J+VTSGk7/cm0p3zM1v5UOvTEw7cky7KZXfmltQJaV/wEJ3ktp3/Nf++ivLYZrgr7rAkfqhEYGrYX4V776tsJkHfiHIG/KbHrYp8lOTrn9fijKu0w5B/gUzeYL4kgQAAA==
+      skull-owner: MHF_Chicken
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 7
+        FIRE_ASPECT: 3
+        DURABILITY: 5
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 4
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dMáscara de Coelho V
+      lore:
+      - ''
+      - '§aEfeitos:'
+      - ' §d* §7Ganha permanentemente Haste III.'
+      - ' §d* §7Ganhe um efeito de mineração 3x3.'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        PROTECTION_FIRE: 5
+        PROTECTION_EXPLOSIONS: 5
+        PROTECTION_PROJECTILE: 5
+        OXYGEN: 5
+        WATER_WORKER: 5
+      internal: H4sIAAAAAAAAAD2Oy06DQBiFf01MkPgYbkmGy6AsumiCtZAyCKVQZgfMEC4zaChYyzP5kLJydc63OF+OCqDC07GfhfgYP+tWcAXuPQbP5YtuVTq2NWSalmYZmGklw7VWldxC3HIYey1UUNfRFx+nll8eQZn4zzSP/KICwJ0CD2khZg6/3IwF38d6JdMlHKbkiES45spX25MNYvutfbg5iJ7XfvZFdcNTkWGRm35Dh2guZYoO/47Td25EiMq4oW7akO7tSt53DUkiTN2dIAvtyUKawAgMKk9LvuRm0MUt7baYdkxSSbrA9WWwEBlmaU8TJvMsFt6gO3W02azP4Q+jEZPuFAEAAA==
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bPicareta de Diamante
+      lore:
+      - ''
+      - §7* Esta picareta tem o poder de quebrar bedrocks.
+      enchants:
+        SILK_TOUCH: 2
+      Unbreakable: true
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dMáscara de Cavalo V
+      lore:
+      - ''
+      - '§aEfeitos:'
+      - ' §d* §7Ganhe velocidade III permanente.'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        PROTECTION_FIRE: 5
+        PROTECTION_EXPLOSIONS: 5
+        PROTECTION_PROJECTILE: 5
+        OXYGEN: 5
+        WATER_WORKER: 5
+      internal: H4sIAAAAAAAAAE2QyZKjRhCGmQnb0dPhx/CN6BC74OCD2ASIRezLjYICikVIAoTEM81DWn3zIS8Z+S/5fWLYJ/a33y19f76PFerhB/ZTL7F/aIHkBY7Mv/YCy34xOVF+8XkBvmh6z7OcIJQcX3xin2/RFd5nBKdf2McMn/Nyh9MnhmE/PrBfPqov+ffm5++bx0LXFxB4aA+lFUF5iyTfjPrREIfN1fSAaRY8GvxoV212PW4ufpdYqtAqu0bnVidqguKytZP8bZ7T/RpnC2+qty3gGs+HZqayRBvRpSgAokPCONXPRLbwsXbc6gTT9MEJpQApjalcT+p4fqtfLa3OCgOzYf9wm4MmHq4lmL1tSCIJKgrZmDCFnQCvjbHul6m4gPNwGVmt5svBG3Gcl+VaB3yoe7q06jVZwW2ai8pVYmrhTC0TGycByTLsaDW+DazagWh3HwHdxSYj01H8RqHD2217BtptaFLoZ3O/Uxv4eu73lKsqpTGzxyKSOenQ5Zdao0tAaHgCbc0o14mKBv0QCvowHA4cU6nHKqQ2J66uZ/Hi33tq3F0Qvpwl16Qbwco3xhprj03ScPWeO/l0NcMYx09VjfD8AGUu4mbtlItAMi5nxt3HXrDMV5Nq79GIGj+2+UAA6mRblmWahZwmYMqBeohcXiM72PombYC7bEiK2lQgYIId/4gR2Q3PvTlfnRPjBee8ZFsH6tAQWAp3vLk4DHpiZuF9Pz3VsSfP4a0RxP6ltmxR63w3eN6yk6FOOyunmIIm1OuVH0TqdPfXNg61s/RgsvFo28QeKLmkmio5ySWH3woxuV4PxV7Z6EOZPvvzkWteCttYwcStYpCTwnX08kj0qCJGzzirz+UoxWc/53cnfNrttlz59wP7M8r7Bf4I4Msg8pjsC9prQHJATquQtqxs9qYQVpu+3jPpF/EFqOwKjpGRSTqntxZrBTVrt2pjbx1pB15jHV0mjW1kbRbtyCHlBH1nt02roxUVmvHIhn7KQrYBcYgcZMhpbDTgyCNTMrY8Lpc08chiiPwsUck8MfrvnFIzyMxfUXmMmFKLXlliIecyoZCYjQDp3Lv7W7N++42l5q0O4h//u11A3C9ZbL/SOCPMge1LSSCypCHKt7+5GW3WuowVhEy6uYQduFQmp5QlNygNjN5qmyZr1TYd9Pd/YpsGKrI3i3izWS25bFLKGKzYfaWt/rICY7CDkH2zQlVCChj2gf1h5wPE/pJykPcjhv0Hdom2hYUEAAA=
+      skull-owner: Cabalo
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 16
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 8
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    type: FIREWORK
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      display-name: §eLançador
+      lore:
+      - §7Ao usar este item você sera
+      - §7lançado 60 blocos para cima.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 5
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §aBaú com senha§4§4§1§1
+      lore:
+      - '§fSenha: §7123'
+      blockMaterial: CHEST
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 4
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aBooster de Experiência
+      lore:
+      - §7* Receba §f1 hora §7de §fDuplo XP §7em qual quer habilidade!
+      - ''
+      - §7* Caso você seja VIP, este booster
+      - §7será §fsomado §7ao bônus do VIP!
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    type: FIREBALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cBola de Fogo
+      lore:
+      - §7Use este item para disparar
+      - §7uma poderosa bola de fogo que
+      - §7causará uma enorme explosão.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSuper Creeper
+      lore:
+      - §7Use para invocar um creeper
+      - §7eletrizado que causará uma
+      - §7explosão 5 de dano em blocos.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6+1 de Poder Máximo
+      lore:
+      - §fAtivando este item você
+      - §fganhará 1 ponto de poder máximo
+      ItemFlags: !!set
+        HIDE_POTION_EFFECTS: null
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 7
+        FIRE_ASPECT: 3
+        DURABILITY: 5
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    type: HOPPER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §6Agrupador de poções
+      lore:
+      - §7Agrupe até 9 poções consumíveis do
+      - §7mesmo tipo para que você tenha
+      - §7vantagem em suas batalhas.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+      blockMaterial: HOPPER

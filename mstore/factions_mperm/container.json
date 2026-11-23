@@ -1,0 +1,11 @@
+{
+  "priority": 5000,
+  "name": "container",
+  "desc": "usar containers",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER"
+  ],
+  "territory": true
+}

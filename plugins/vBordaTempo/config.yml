@@ -1,0 +1,9 @@
+#Plugin criado por ViniPlugner
+
+#Defina informações sobre a borda se locomover com o tempo  
+BordaTempo:
+  Mundo: 'world'
+  Status: true
+  Limite: 5000
+  Tempo: 1 #Coloque tempo em minutos
+  Quantidade: 5000 #Coloque quantidade em blocos

@@ -1,0 +1,172 @@
+menu-settings:
+
+
+
+  name: 'Kits Básicos'
+
+  rows: 3
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       ITEMS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+vip-free:
+
+  LEFT-CLICK-COMMAND: 'kit basico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitbasico.yml'
+
+  NAME: '&8Kit Membro Básico'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e5 minutos.'
+    - ''
+
+    
+  ID: '16'
+
+  SLOT: 11
+
+Guerreiro-basico:
+
+  LEFT-CLICK-COMMAND: 'kit Guerreirobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitGuerreirobasico.yml'
+
+  NAME: '&3Kit Guerreiro Básico'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e5 minutos.'
+    - ''
+
+    
+  ID: '21'
+
+  SLOT: 12
+
+Mago-basico:
+
+  LEFT-CLICK-COMMAND: 'kit Magobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitMagobasico.yml'
+
+  NAME: '&5Kit Mago Básico'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e5 minutos.'
+    - ''
+
+    
+
+  ID: '15'
+
+  SLOT: 13
+  
+Supremo-basico:
+
+  LEFT-CLICK-COMMAND: 'kit Supremobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitSupremobasico.yml'
+
+  NAME: '&4Kit Supremo Básico'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e5 minutos.'
+    - ''
+
+    
+
+  ID: '14'
+
+  SLOT: 14
+
+imperador-basico:
+
+  LEFT-CLICK-COMMAND: 'kit Imperadorbasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitImperadorbasico.yml'
+
+  NAME: '&bKit Imperador Básico'
+
+  LORE:
+
+    - ''
+    - '&7 &fBotão esquerdo: &eRecolher.'
+    - '&7 &fBotão direito: &eVisualizar.'
+    - ''
+    - '&7 &fTempo: &e5 minutos.'
+    - ''
+
+    
+
+  ID: '56'
+
+  SLOT: 15
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SLOT: 0 

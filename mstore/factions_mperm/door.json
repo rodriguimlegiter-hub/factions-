@@ -1,0 +1,13 @@
+{
+  "priority": 2000,
+  "name": "door",
+  "desc": "usar portas",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY"
+  ],
+  "territory": true
+}

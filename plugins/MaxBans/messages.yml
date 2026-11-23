@@ -1,0 +1,60 @@
+disconnection:
+    you-were-kicked: "&c&lREDE CHROMA\n&a \n&cVocê foi expulso do servidor\n&a \n&cMotivo: Anti-Jogo.\n&a \n&cAuthor: {banner}"
+    you-are-banned: "&c&lREDE CHROMA\n&a \n&cVocê está banido permanentemente do servidor\n&a \n&cMotivo: {reason}\n&a \n&cAutor: {banner}\n&a \n&cUse o ID &6929191 &cpara criar uma revisão em nosso discord &ndiscord.me/redechroma\n"
+    you-are-ipbanned: "&c&lREDE CHROMA\n&a \n&cVocE foi banido permanentemente servidor\n&a \n&cMotivo: {reason}\n&a \n&cAutor: {banner}\n&a \n&cUse o ID &e#87213 &cpara criar uma revisão em nosso discord &ndiscord.me/redechroma\n"
+    you-are-temp-banned: "&c&lREDE CHROMA\n&a \n&cVocê está banido por {time} do servidor\n&a \n&cMotivo: {reason}\n&a \n&cAutor: {banner}\n&a \n&cUse o ID &e#56514 &cpara criar uma revisão em nosso discord &ndiscord.me/redechroma\n"
+    you-are-temp-ipbanned: "&c&lREDE CHROMA\n&a \n&cVocê está banido por {time} do servidor\n&a \n&cMotivo: {reason}\n&a \n&cAutor: {banner}\n&a \n&cUse o ID &e#5512 &cpara criar uma revisão em nosso discord &ndiscord.me/redechroma\n"
+    
+    you-are-rangebanned: "&fSeu Endereço IP (&c{range}&f) fou punido.\nMotivo: &a{reason}&f\nPor: &a{banner}&f.\n{appeal-message}"
+    you-are-temp-rangebanned: "&fSeu Endereço IP (&c{range}&f) foi punido.\nsua punição expira em &a{time}&f.\nReason: &a{reason}&f\nPor: &a{banner}&f.\n{appeal-message}"
+    
+    you-are-proxied: "&cSEU IP ESTA LISTADO NOS PROXY:\n SEU IP ({ip})."
+    
+    lockdown-active: "&fO servidor está no modo de bloqueio. Tente novamente em breve. Motivo: \n{reason}"
+    invalid-letters: "&fREDE CHROMA.\nSeu nick é invalído:\n&c'{letters}'&f"
+    invalid-name: "&Nome invalido"
+    
+    
+announcement:
+    player-was-kicked: "&a \n&c   * {name} foi expulso por {banner}\n&c   * Motivo: {reason}.\n&a "
+    player-was-banned: "&a \n&c   * {name} foi banido por {banner}.\n&c   * Motivo: {reason}\n   * Duracao: Permanente.\n "
+    player-was-ip-banned: "&a \n&c   * {name} foi banido por {banner}\n&c   * Motivo: {reason}\n   * Duracao: Permanente. "
+    player-was-muted: "&a \n&c   * {name} foi silenciado por {banner}\n&c   * Motivo: {reason}\n&a "
+    player-was-tempbanned: "&a \n&c   * {name} foi banido por {banner}\n&c   * Motivo: {reason}\n&c   * Duracao: {time}\n&a "
+    player-was-tempipbanned: "&a \n&c   * {name} foi banido por {banner}\n&c   * Motivo: {reason}\n&c   * Duracao: {time}\n&a "
+    player-was-temp-muted: "&a \n&c   * {name} foi silenciado por {banner}.\n&c   * Motivo: {reason}\n&c   * Duracao: {time}\n&a "
+    player-was-unbanned: "&e  * {name} foi despunido por {banner}\n&e  * Motivo: Punicao aplicada incorretamente."
+    player-was-unmuted: "&e* {name} foi despunido por {banner}\n&e  * Motivo: Punicao aplicada incorretamente."
+    player-was-warned: ""
+    ip-was-unbanned: "&e* {name} foi despunido por {banner}\n&e  * Motivo: Punicao aplicada incorretamente."
+    player-warnings-cleared: "&a "
+    unwarn-success: "&a "
+    
+error:
+    no-player-given: "&cNenhum nome dado."
+    no-permission: "&cVocê precisa ser do grupo &2[Moderador] &cou superior para executar este comando."
+    no-ip-known: "&cEsse jogador não tem histórico de IP!"
+    no-ipban-found: "&cNão foi possível encontrar uma proibição para&a{ip}&f."
+    no-ban-found: "&cNão foi possível encontrar uma proibição para &a{name}&f."
+    no-mute-found: "&a{name}&c não está silenciado."
+    no-dupeip-duplicates: "&fSem duplicatas!"
+    no-history: "&fSem história."
+    no-warnings: "&a{name}&c não tem avisos ao seu nome."
+    
+    unknown-player: "&cNenhum jogador encontrado: &a{name}&f"
+    player-already-banned: "&cJogador já punido."
+    ip-already-banned: "&cO IP já está banido."
+    
+    
+    tempban-shorter-than-last: "&cEsse jogador tem um tempban que durará mais do que o que você forneceu!"
+    tempipban-shorter-than-last: "&Esse IP tem uma proibição temporária que durará mais do que a que você forneceu!"
+    tempmute-shorter-than-last: "&cEsse jogador já tem um mute que dura mais do que o que você tentou dar."
+
+times:
+    hours: hora
+    minutes: minuto
+    seconds: segundo
+    weeks: semana
+    days: dia
+    years: ano
+    months: mes

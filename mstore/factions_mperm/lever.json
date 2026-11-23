@@ -1,0 +1,13 @@
+{
+  "priority": 4000,
+  "name": "lever",
+  "desc": "usar alavancas",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY"
+  ],
+  "territory": true
+}

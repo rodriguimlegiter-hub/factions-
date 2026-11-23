@@ -1,0 +1,38 @@
+AnimalsToKill:
+- Pig
+- Sheep
+- Cow
+- Chicken
+- Squid
+- Wolf
+- MushroomCow
+- Ozelot
+- Villager
+- Bat
+- EntityHorse
+- SnowMan
+- VillagerGolem
+HostileToKill:
+- Witch
+- Zombie
+- Skeleton
+- Creeper
+- Spider
+- Slime
+- Ghast
+- PigZombie
+- Enderman
+- CaveSpider
+- Silverfish
+- Blaze
+- Giant
+- LavaSlime
+- EnderDragon
+- WitherBoss
+- WitherSkull
+KillAllExceptions:
+- Villager
+- Wolf
+- SnowMan
+- VillagerGolem
+- EntityHorse

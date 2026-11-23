@@ -1,0 +1,35 @@
+Romans:
+  Leader: 290a06fd-3591-3bde-ab8e-d6144af293a3|JohnnyBazzinga
+  Locked: true
+  Level: 10
+  Xp: 1546
+  Ally: ''
+  ExpShareMode: EQUAL
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - c182f8f4-aac4-3cbe-b6e5-fb152e09a3cc|zPrake
+  - 290a06fd-3591-3bde-ab8e-d6144af293a3|JohnnyBazzinga
+mcigor123:
+  Leader: 0d0d6528-78a4-3cbb-9cd2-8581ee38e7b4|mcigor123
+  Password: carros123
+  Locked: true
+  Level: 9
+  Xp: 279
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 0d0d6528-78a4-3cbb-9cd2-8581ee38e7b4|mcigor123
+  - 537bb02e-e3c8-3c23-b684-af4d58da43a2|KG_pika

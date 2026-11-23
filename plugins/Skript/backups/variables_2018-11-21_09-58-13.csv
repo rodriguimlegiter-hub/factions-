@@ -1,0 +1,30 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.1.2
+
+recompensa._kever, date, 810974696D657374616D700400000166D7530C71
+recompensa.fasztgames, date, 810974696D657374616D700400000166D7938CCD
+recompensa.gustavo123, date, 810974696D657374616D700400000166D75E399A
+recompensa.ivitorhg2, date, 810974696D657374616D700400000166D7E2B317
+recompensa.m4d4r4157, date, 810974696D657374616D700400000166D746404D
+recompensa.mrdrawn, date, 810974696D657374616D700400000166D722FF52
+recompensa.passa_o_wpp, date, 810974696D657374616D700400000166D751E365
+recompensa.relasheyg0d, date, 810974696D657374616D700400000166D7B8B0FA
+recompensa.wolfmemberwater, date, 810974696D657374616D700400000166D72347F4
+spawn, location, 8605776F726C6480FF0000000181046E616D65208005776F726C64017809C04E3355691EA3400179094065A00000000000017A09C0428123C8223D8B05706974636808C002F02C0379617708C3349960
+
+ajuda.mensagem::mrdrawn, boolean, 01
+ajuda.mensagem::igrizzy__, boolean, 01
+ajuda.mensagem::ibolsonaro, boolean, 01
+ajuda.mensagem::ospop_, boolean, 01
+ajuda.mensagem::ibolsonaro, boolean, 01
+ajuda.mensagem::mrdrawn, boolean, 01
+ajuda.mensagem::ibolsonaro, boolean, 01
+ajuda.mensagem::ospop_, boolean, 01
+ajuda.mensagem::mrdrawn, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01

@@ -1,0 +1,17 @@
+command /setcolor [<text>]:
+    permission: Set.Color
+    permission message: &eColor » &fSeja Um Rank VIP ou Superior Para Executar esse Comando!
+    trigger:
+        if arg-1 is not set:
+            send "&3Color » &fUse /setcolocar COR"
+        if arg-1 is set:
+            set {SetColor::%player%} to "&%arg 1%"}
+            send "&3Color » &fSua Cor Foi Setada! Se Não Funcionar Você Colocou Cor Errada :P"
+            stop
+ 
+on chat:
+    if "%{SetColor::%player%}%" contains "<none>":
+        stop
+    else:
+        set message to "%{SetColor::%player%}%%message%"
+        stop

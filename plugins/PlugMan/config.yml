@@ -1,0 +1,32 @@
+####################################################
+#												   #
+#			   ╔═══╗ ╔╗ ╔╗ ╔═══╗ ╔╗ ╔╗			   #
+#			   ║╔═╗║ ║║ ║║ ║╔═╗║ ║║ ║║			   #
+#			   ║╚═╝║ ║║ ║║ ║╚══╗ ║╚═╝║			   #
+#			   ║╔╗╔╝ ║║ ║║ ╚══╗║ ║╔═╗║			   #
+#			   ║║║╚╗ ║╚═╝║ ║╚═╝║ ║║ ║║			   #
+#			   ╚╝╚═╝ ╚═══╝ ╚═══╝ ╚╝ ╚╝			   #
+# 												   #
+####################################################
+#
+#
+#-> Lista de plugins ignorados pelo PlugMan.
+ignored-plugins: [PlugMan]
+#
+#
+#-> Alertas de atualizações do Plugin.
+update-alerts: false
+#
+#
+#-> Tipo de atualização do plugin:
+updater-type: none
+#
+#
+#############################################################################################################
+#										Opções do Updater-type												#
+#																											#
+# updater-type: download: #-> Faz o downlaod da nova versão do plugin sempre que possivel.					#
+# updater-type: check:    #-> Checa se há uma versão nova do plugin e envia alertas sempre que possivel.	#
+# updater-type: force     #-> Força a atualização do plugin mantendo assim sempre a versão mais atualizada.	#
+# updater-type: none      #-> Ignora todos alertas e atulizações do plugin.									#
+#############################################################################################################

@@ -1,0 +1,54 @@
+name: MyCommand
+main: it.mri.mycommand.Main
+version: 5.3.4
+author: emmerrei a.k.a Ivanpro
+softdepend: [Vault,MyCommandPlus,Spout,PlaceholderAPI]
+description: >
+             Make your own, customized Minecraft commands
+
+commands:
+    mycommand:
+        description: MyCommand Credits command.
+        permission: mycommand.mycommand
+    mycmd:
+        description: Main Help
+        permission: mycommand.mycmd
+    mycmd-reload:
+        description: Reload config files.
+        permission: mycommand.reload
+    mycmd-edit:
+        description: In-Game config editor.
+        permission: mycommand.edit
+    mycmd-runas:
+        description: Run commands as someone else
+        permission: mycommand.runas
+    mycmd-itemset:
+        description: Run commands by items.
+        permission: mycommand.item.set
+    mycmd-blockset:
+        description: Run commands by block.
+        permission: mycommand.block.set
+    mycmd-signset:
+        description: Run commands by signs.
+        permission: mycommand.sign.set
+    lmcmd:
+        description: Show LaunchMultiCommands help.
+        permission: mycommand.lmcmd
+    emptycommand:
+        description: EmptyCommand (Used for the console support)
+        permission: mycommand.emptycommand
+    mycmd-scheduler:
+        description: Manage the Scheduler.
+        permission: mycommand.scheduler
+    mycmd-book:
+        description: Run Commands from books.
+        permission: mycommand.book
+    mycmd-variables:
+        description: Make Variables.
+        permission: mycommand.variables
+    mycmd-playerdata:
+        description: Manage Player Data.
+        permission: mycommand.playerdata
+    mycmd-npcs:
+        description: Run commands from Mobs
+        permission: mycommand.npcs        

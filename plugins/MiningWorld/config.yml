@@ -1,0 +1,143 @@
+#
+# MiningWorld
+# Author: leonardosnt
+#
+
+# Nome do mundo de mineraçăo
+nome_do_mundo: 'mina'
+
+# Isso server pra caso queira usar sempre o mesmo mapa pra mina.
+# Obs: Desta forma o mapa também será recriado quando o servidor iniciar.
+#
+# Caso queira que os mapas sejam gerados aleatoriamente, basta deixar ZERO.
+seed_do_mapa: 2191951571615140104
+
+# Manter area de spawn na memoria?
+# Isso reduz o uso de CPU para carregar as chunks
+# quando um jogador vai ŕ mina.
+manter_na_memoria: false
+
+# Atualmente essa opçăo só funciona da versăo 1.8 pra baixo
+#
+# Devera gerar oceano no mundo de mineraçăo?
+#
+# É recomendável que deixe para năo gerar, pois pode ser que
+# o spawnpoint do mundo seja definido dentro de um oceano,
+# assim fazendo com que os jogadores, na maioria das vezes, 
+# spawnem dentro do oceano.
+nao_gerar_oceano: true
+
+# Configuraçőes do comando /subir
+comando_subir:
+  # Apenas permitir que o comando seja executado na mina.
+  permitir_apenas_na_mina: true
+
+# Configuraçőes do auto-pickup
+auto_pickup:
+  # Enviar o minério direto pro inventário?
+  minerio: false
+  # Enviar a experięncia pro jogador? (năo dropa no chăo)
+  exp: false
+
+# Aqui vocę configura a chance de um jogador conseguir um
+# minerio, baseado na camada que ele esta.
+#
+# Formato:
+#  nome_do_minerio
+#    'camada': porcentagem
+# 
+# Formato das camadas:
+#   'a-b' representa várias camadas, no caso, da camada 'a' até 'b'.
+#   'c' representa uma única camada
+#   'd+' representa a camada 'd' e todas as camadas acima.
+#   'e-' representa a camada 'e' e todas as camadas abaixo.
+#
+# As camadas devem ser números decimais entre 0 e 255.
+# A porcentagem é de 0 a 100
+#
+# Obs: Esmeralda só será dropada no bioma EXTREME_HILLS, como no vanilla.
+chances:
+  emerald:
+    '5-29': 2
+    '29': 1
+    '30-32': 0.5
+    '33+': 0
+  iron:
+    '0-52': 5
+    '64': 4
+    '65-67': 3
+    '68+': 0
+  coal:
+    '5-52': 12
+    '128': 9
+    '129-131': 6
+    '132+': 0
+  diamond:
+    '3-12': 1
+    '12': 0.6
+    '13-15': 0.4
+    '16+': 0
+  redstone:
+    '5-12': 2
+    '12': 1.2
+    '13-15': 0.9
+    '16+': 0
+  gold:
+    '5-29': 4
+    '30-31': 3
+    '32-33': 2
+    '34+': 0
+  lapis:
+    '14-16': 5
+    '16-23': 3
+    '24-33': 1
+    '34+': 0
+
+# Tempo de espera entre o uso do comando "/mina"
+# O tempo é em segundos.
+#
+# Permissăo para ignorar o cooldown: "miningworld.bypass_cooldown"
+tempo_de_espera:
+  ativar: true
+  tempo: 10
+
+# Localizaçăo do spawn do servidor.
+# Caso um jogador desconecte no mundo de mineraçăo ele será enviado para o spawn,
+# para evitar problemas.
+#
+# Formato: 'nome_do_mundo x y z'
+# Para usar o spawn padrăo do mundo basta omitir o "x y z"
+# Exemplo: "spawn: 'world'"
+spawn: 'world'
+
+# Distância máxima do spawnpoint que os jogadores serăo teleportados
+# aleatoriamente.
+#
+# Exemplo:
+#
+#          +100
+#
+# -100     spawn    +100
+#
+#          -100
+#
+# Quanto maior o raior maior será o consumo de CPU/MEMORIA pra carregar os chunks.
+raio_teleporte_aleatorio: 100
+
+# Configuraçăo das mensagens
+mensagens:
+  # Enviado caso o jogador năo esteja no mundo de mineraçăo e uso o comando /subir
+  # Obs: Enviado apenas se 'comando_subir.permitir_apenas_na_mina' for true.
+  nao_pode_usar_neste_mundo: '&cVocê não pode usar este comando neste mundo.'
+  esperar_cooldown: '&cVocê precisa esperar {tempo} segundos para usar este comando novamente.'
+  ja_esta_no_mundo: '&cVocê já está no mundo mundo de mineração.'
+  
+  # Enviado caso o inventário do jogador esteja lotado
+  # Obs: Enviado apenas se 'auto_pickup.minerios' for true
+  inventory_full: '&cSeu inventário está lotado. Dropando minérios no chão!'
+  ao_entrar:
+    - ''
+    - '&7 ● &eEste mundo é &6&lEXCLUSIVO &epara mineração.'
+    - '&7 ● &eNão construa nada aqui, se não voce perderá.'
+    - '&7 ● &eEste mundo será resetado cada vez que o servidor inicia'
+    - ''

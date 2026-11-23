@@ -1,0 +1,13 @@
+no-points: "&cVoc\xea precisa de {points} pontos para poder fazer isso."
+no-open-permission: "&cVoc\xea n\xe3o tem permiss\xe3o (&e{permission}&c) para utilizar\
+  \ este menu."
+default-no-icon-permission: "&cVoc\xea n\xe3o tem permiss\xe3o para usar este bot\xe3\
+  o."
+open-menu: '&aAbrindo menu "{menu}".'
+no-exp: "&cVoc\xea precisa de {levels} n\xedveis de XP para poder fazer isso."
+menu-not-found: "&cMenu n\xe3o encontrado! Por favor informe este erro a um Staff."
+no-money: "&cVoc\xea precisa de {money}$ para poder fazer isso."
+no-required-item: "&cVoc\xea precisa de &e{amount}x {material}&c para poder fazer\
+  \ isso."
+open-menu-others: '&aAbrindo menu "{menu}" para o player {player}.'
+any: '0'

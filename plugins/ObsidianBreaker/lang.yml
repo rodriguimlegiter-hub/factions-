@@ -1,0 +1,11 @@
+DURABILITY: '&6Durabilidade:'
+DURABILITY_LEFT: '&7{0}&6/&7{1}'
+UNLIMITED: '&3Ilimitado'
+UNLIMITED_VOID: '&3Ilimitado (Void Protection)'
+NO_PERMISSION: "&cVoc\xc3\u0192\xc6\u2019\xc3\u201a\xc2\xaa n\xc3\u0192\xc6\u2019\xc3\
+  \u201a\xc2\xa3o possui permiss\xc3\u0192\xc6\u2019\xc3\u201a\xc2\xa3o."
+INVALID_ARGUMENTS: "&cArgumentos \xc3\u0192\xc6\u2019\xc3\u201a\xc2\xadnvalidos"
+CONFIG_RELOADED: "&6Configura\xc3\u0192\xc6\u2019\xc3\u201a\xc2\xa7\xc3\u0192\xc6\u2019\
+  \xc3\u201a\xc2\xa3o recarregada!"
+RELOAD_CONFIG: "Reiniciar configura\xc3\u0192\xc6\u2019\xc3\u201a\xc2\xa7\xc3\u0192\
+  \xc6\u2019\xc3\u201a\xc2\xb5es"

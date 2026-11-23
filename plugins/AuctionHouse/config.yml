@@ -1,0 +1,146 @@
+# 
+# Your database information should go here.# 
+SQLite: true
+sql:
+  host: localhost
+  port: '3306'
+  database: factions
+  user: root
+  pass: root
+auction:
+  listingPrice: 0
+  listingHours: 48
+  unclaimedHours: 240
+  preventCreativeSale: false
+  maxSellPrice: 100000000
+blacklist:
+- '1000'
+blacklistLore:
+- Blacklisted Line Of Lore
+language:
+  mainMenuName: Mercado
+  currentListingsMenuName: Seus itens a venda
+  expiredMenuName: Itens Cancelados / Expirados
+  purchaseItemMenuName: Confirmar
+  menuItemText:
+    listedItem:
+      lore:
+      - '&7'
+      - '&aClique para comprar'
+      - ''
+      - "&7Pre\xc3\xa7o: &2$&f$%price%"
+      - '&7Vendedor: &f%seller%'
+      - '&7'
+    yourListedItem:
+      lore:
+      - '&7'
+      - '&cClique para cancelar'
+      - ''
+      - "&7Pre\xc3\u0192\xc2\xa7o: &2$&f%price%"
+      - '&7Expirando em: &f%time%'
+      - '&7'
+    yourExpiredItem:
+      lore:
+      - '&7'
+      - "&aClique para retornar o item a seu invent\xc3\xa1rio."
+      - '&7'
+    yourListedItems:
+      id: '54'
+      name: '&eSeus itens a venda'
+      lore:
+      - '&7Clique para ver seus itens a venda.'
+      - ''
+      - '&7Vendendo: &f%selling%'
+    yourExpiredItems:
+      id: '145:2'
+      name: '&eItens Cancelados / Expirados'
+      lore:
+      - '&7Clique para ver todos os itens expirados'
+      - '&7ou cancelados.'
+      - ''
+      - '&7Itens para recolher: &f%expired%'
+    returnAllItems:
+      id: '390'
+      name: '&eRecolher todos'
+      lore:
+      - '&7Clique para recolher todos os itens'
+      - "&7expirados para seu invent\xc3\xa1rio."
+    previousPage:
+      id: '395'
+      name: "&eP\xc3\xa1gina anterior"
+    refreshPage:
+      id: '385'
+      name: "&aAtualizar p\xc3\xa1gina"
+    nextPage:
+      id: '395'
+      name: "&ePr\xc3\xb3xima p\xc3\xa1gina"
+    backButton:
+      id: '395'
+      name: '&eVoltar'
+    howToSell:
+      id: '388'
+      name: '&eComo vender um item?'
+      lore:
+      - '&7Para colocar um item a venda no mercado, basta'
+      - "&7segurar o item em sua m\xc3\xa3o e digitar &7/mercado vender <pre\xc3\xa7\
+        o>&7."
+    mainWhatIsThisPage:
+      id: '340'
+      name: "&eOque e esta p\xc3\xa1gina?"
+      lore:
+      - "&7Este e o mercado, aqui Voc\xc3\xaa pode"
+      - '&7vender seus itens ou comprar itens'
+      - '&7de outros jogadores.'
+    yourListedWhatIsThisPage:
+      id: '340'
+      name: "&eOque e esta p\xc3\xa1gina?"
+      lore:
+      - '&7Esta e a sua lista de itens a venda'
+      - '&7atualmente, Clique no item para cancelar'
+      - "&7a venda, e envia-lo para p\xc3\xa1gina de itens cancelados."
+    expiredWhatIsThisPage:
+      id: '340'
+      name: "&eOque e esta p\xc3\xa1gina?"
+      lore:
+      - '&7Aqui ficam os itens expirados / cancelados'
+      - "&7Voc\xc3\xaa pode recolher-os clicando no bot\xc3\u0192o&f Recolher todos."
+    purchaseConfirm:
+      name: '&aConfirmar'
+    purchaseCancel:
+      name: '&cCancelar'
+    purchaseItem:
+      lore:
+      - ''
+      - "&7Pre\xc3\xa7o: &2$&f$%price%"
+      - '&7Vendedor: &f%seller%'
+  clickFails:
+    notEnoughInventory: "Espa\xc3\xa7o no invent\xc3\xa1rio insuficiente"
+    cannotPurchaseSelf: "Voc\xc3\xaa n\xc3\xa3o pode comprar seu pr\xc3\xb3pio item"
+    notExists: "Este item n\xc3\xa3o existe"
+    cannotAfford: "Voc\xc3\xaa n\xc3\xa3o pode pagar isso"
+    noListingsToReturn: Nenhuma listagem para retornar
+  chatMessages:
+    itemPurchased: Item comprado
+    buyerPurchased: '&e%buyer% &eComprou seu item por &2$&f%price%&e!'
+    listedItem: "&eVoc\xc3\xaa acaba de colocar um item no mercado"
+    listingCancel: "&eVoc\xc3\xaa cancelou seu item v\xc3\xa1 ate a lista de expirados"
+    adminRemoveListing: '&eListagem Removida.'
+    expiredReturned: "&eItem removido para seu invent\xc3\xa1rio"
+    notEnoughInventory: "&cVoc\xc3\xaa n\xc3\xa3o tem Espa\xc3\xa7o suficiente no\
+      \ invent\xc3\xa1rio."
+    returnedAll: '&6Todas os itens expirados foram devolvidos'
+    unknownCommand: '&cComando desconhecido. Use /mercado para comandos do mercado.'
+    notHoldingItem: "&cVoc\xc3\xaa n\xc3\xa3o esta segurando um item em sua m\xc3\xa3\
+      o."
+    inCreative: "&cVoc\xc3\xaa n\xc3\xa3o pode vender itens enquanto estiver criativo."
+    noMore: "&cN\xc3\xa3o e poss\xc3\xadvel listar mais itens ao mesmo tempo."
+    max: "&cN\xc3\xa3o \xc3\xa9 poss\xc3\xadvel listar mais de 45 itens de cada vez."
+    invalidPrice: "&cIsso n\xc3\xa3o e um pre\xc3\xa7o valido."
+    maxMoney: "&cN\xc3\xa3o \xc3\xa9 poss\xc3\xadvel listar com um pre\xc3\xa7o superior\
+      \ a $999,999,999."
+    maxSetMoney: "&cN\xc3\xa3o \xc3\xa9 poss\xc3\xadvel listar com um pre\xc3\xa7\
+      o superior a $1,000,000,000,000"
+    notEnoughMoney: "&cVoc\xc3\xaa n\xc3\xa3o tem dinheiro suficiente para listar\
+      \ um mercado."
+    getHelp: '&cUse /mercado para obter ajuda.'
+    isBlacklisted: "&cEsse item n\xc3\xa3o pode ser colocado no mercado!"

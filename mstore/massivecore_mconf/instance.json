@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "aliasesMcore": [
+    "massivecore"
+  ],
+  "versionSynchronizationEnabled": true,
+  "tabCompletionLimit": 100,
+  "recipientChatEventEnabled": false,
+  "consoleColorsEnabled": true,
+  "permissionDeniedFormats": {
+    "some.awesome.permission.node": "§cVocê não tem permissão para fazer isso.",
+    "some.derp.permission.node.1": "derp",
+    "some.derp.permission.node.2": "derp",
+    "some.derp.permission.node.3": "derp",
+    "derp": "§cVocê não tem permissão para fazer isso."
+  },
+  "permissionToTpdelay": {
+    "massivecore.notpdelay": 0,
+    "default": 10
+  },
+  "deleteFiles": [],
+  "variableBookName": "***book***",
+  "variableBookEnabled": true,
+  "variableBufferName": "***buffer***",
+  "variableBufferEnabled": true,
+  "clickSound": {
+    "soundId": "UI_BUTTON_CLICK",
+    "volume": 0.75,
+    "pitch": 1.0
+  },
+  "millisBetweenLocalPoll": 300000,
+  "millisBetweenRemotePollWithoutPusher": 10000,
+  "millisBetweenRemotePollWithPusher": 60000,
+  "warnOnLocalAlter": false,
+  "cleanTaskPeriodMillis": 86400000,
+  "cleanTaskOffsetMillis": 0,
+  "cleanTaskLastMillis": 1795398603707,
+  "catchingMongoDbErrorsOnSave": true,
+  "catchingMongoDbErrorsOnDelete": true,
+  "debugEnabled": false,
+  "sponsorUpdateMillis": 1795398604493,
+  "sponsorEnabled": true,
+  "metricsEnabled": true,
+  "loreSortOnInventoryClick": false,
+  "loreSortOnInventoryOpen": false,
+  "lorePrioritiesPrefix": {},
+  "lorePrioritiesRegex": {}
+}

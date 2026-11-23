@@ -1,0 +1,353 @@
+Icone:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENDER_CHEST
+Nome: '§eCaixa Misteriosa '
+Lore:
+- '§fTipo: §6Lendária '
+Itens:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+    amount: 64
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 64
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+    amount: 64
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 4
+        LOOT_BONUS_BLOCKS: 2
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: BEDROCK
+    amount: 64
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_STONE
+    amount: 64
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 16
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DAMAGE_ALL: 5
+        FIRE_ASPECT: 2
+        DURABILITY: 4
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bPicareta de Diamante
+      lore:
+      - ''
+      - §7* Esta picareta tem o poder de quebrar bedrocks.
+      enchants:
+        SILK_TOUCH: 2
+      Unbreakable: true
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 32
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 16
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    type: HOPPER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §6Agrupador de poções
+      lore:
+      - §7Agrupe até 9 poções consumíveis do
+      - §7mesmo tipo para que você tenha
+      - §7vantagem em suas batalhas.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+      blockMaterial: HOPPER
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSuper Creeper
+      lore:
+      - §7Use para invocar um creeper
+      - §7eletrizado que causará uma
+      - §7explosão 5 de dano em blocos.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSuper Creeper
+      lore:
+      - §7Use para invocar um creeper
+      - §7eletrizado que causará uma
+      - §7explosão 5 de dano em blocos.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DAMAGE_ALL: 5
+        FIRE_ASPECT: 2
+        DURABILITY: 4
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 4
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    type: FIREWORK
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      display-name: §eLançador
+      lore:
+      - §7Ao usar este item você sera
+      - §7lançado 60 blocos para cima.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aBooster de Experiência
+      lore:
+      - §7* Receba §f1 hora §7de §fDuplo XP §7em qual quer habilidade!
+      - ''
+      - §7* Caso você seja VIP, este booster
+      - §7será §fsomado §7ao bônus do VIP!
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    type: BEACON
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6+1 de Poder Máximo
+      lore:
+      - §fAtivando este item você aumenta
+      - §f1 ponto em seu limite de poder.
+      - ''
+      - '§f* Limite máximo de poder: 20'
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §aBaú com senha§2§5§9§3
+      lore:
+      - '§fSenha: §7123'
+      blockMaterial: CHEST

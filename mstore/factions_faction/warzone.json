@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "name": "§4Zona de Guerra",
+  "description": "Não é um lugar seguro para se estar!",
+  "createdAtMillis": 1545513001695,
+  "invitations": {},
+  "flags": {
+    "permanent": true,
+    "infpower": true,
+    "peaceful": true,
+    "powerloss": true,
+    "pvp": true,
+    "friendlyfire": true
+  },
+  "perms": {
+    "build": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "door": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "button": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "lever": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "container": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "territory": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "home": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "claimnear": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ]
+  }
+}

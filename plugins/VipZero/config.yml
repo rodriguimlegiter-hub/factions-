@@ -1,0 +1,61 @@
+MySQL:
+  use: false
+  Host: localhost
+  Port: 3306
+  Username: test
+  Password: '123'
+  Database: minecraft
+language: br
+server_name: RedeChroma
+check_for_updates: true
+case_sensitive_for_flatfile: false
+key_length: 10
+one_vip_change: false
+usekey_global: false
+rvip_unlisted: true
+use_vault_for_permissions: false
+check_time: 10
+pagseguro:
+  use: false
+  email: suporte@lojamodelo.com.br
+  token: 95112EE828D94278BD394E91C4388F20
+  mode: 1
+  mysql_log: false
+paypal:
+  use: false
+  username: username
+  password: password
+  signature: signature
+  mode: 1
+  mysql_log: false
+logging:
+  usekey: false
+vip_groups:
+- GUERREIRO
+- MAGO
+- SUPREMO
+- IMPERADOR
+- LEGEND
+default_group: Membro
+set_default: true
+vip_items:
+- GUERREIRO,0,cmd,tm bc &3@player <nl> &fTornou-se VIP &3GUERREIRO&7.
+- GUERREIRO,0,cmd,trocarvip @player GUERREIRO
+- MAGO,0,cmd,tm bc &3@player <nl> &fTornou-se VIP &bMAGO&7.
+- MAGO,0,cmd,trocarvip @player MAGO
+- SUPREMO,0,cmd,tm bc &5@player <nl> &fTornou-se VIP &dSUPREMO&7.
+- SUPREMO,0,cmd,trocarvip @player SUPREMO
+- IMPERADOR,0,cmd,tm bc &b@player <nl> &fTornou-se VIP &4IMPERADOR&7.
+- IMPERADOR,0,cmd,trocarvip @player IMPERADOR
+- LEGEND,0,cmd,tm bc &b@player <nl> &fTornou-se VIP &eLEGEND&7.
+- LEGEND,0,cmd,trocarvip @player LEGEND
+vips:
+  vidamilionaria:
+    inicio: 22/11/2026
+    usando: GUERREIRO
+    GUERREIRO: 2000
+  choraprovelocity:
+    inicio: 22/11/2026
+    usando: GUERREIRO
+    GUERREIRO: 1
+    IMPERADOR: 1

@@ -1,0 +1,6 @@
+{
+  "priority": 3000,
+  "nome": "powerloss",
+  "desc": "Ao morrer neste território, você ira perder poder? ",
+  "padrao": true
+}

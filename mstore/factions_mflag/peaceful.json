@@ -1,0 +1,6 @@
+{
+  "priority": 8000,
+  "nome": "peaceful",
+  "desc": "A facção esta em trégua com todos?",
+  "padrao": false
+}

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "name": "§6Zona Protegida",
+  "description": "Livre de monstros e PvP!",
+  "createdAtMillis": 1545513001694,
+  "invitations": {},
+  "flags": {
+    "permanent": true,
+    "infpower": true,
+    "peaceful": true,
+    "powerloss": false,
+    "pvp": false,
+    "friendlyfire": false
+  },
+  "perms": {
+    "build": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "door": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "button": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "lever": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "container": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "territory": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "home": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "claimnear": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ]
+  }
+}

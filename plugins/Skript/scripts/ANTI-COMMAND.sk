@@ -1,0 +1,143 @@
+#-------------------
+#Skript by: SerioYT
+#-------------------
+command /pl:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /plugins:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:pl:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:plugins:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:?:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /?:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /minecraft:me:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /minecraft:gamemode:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /minecraft:gm:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /minecraft:op:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /me:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /ver:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /version:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."	
+command /about:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /unregister:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /desregistrar:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:ver:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:about:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:help:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:version:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:timings:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:rl:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:reload:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:?:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:pl:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /bukkit:plugins:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /op:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."
+command /kill:
+	permission: false
+	executable by: players
+	trigger:
+		message "&cVocê precisa ser do grupo &4[Gerente] &cou superior para executar este comando."

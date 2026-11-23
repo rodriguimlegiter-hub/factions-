@@ -1,0 +1,35 @@
+Spawners:
+#    - BAT,
+     - BLAZE,450000
+#    - CAVESPIDER,150000
+#    - CHICKEN,75000
+     - COW,60000
+#    - CREEPER,
+#    - ENDERMAN,
+#    - ENDERMITE,
+#    - GHAST,
+#    - GUARDIAN,
+#    - ENTITYHORSE,
+     - LAVASLIME,10000000
+#    - MUSHROOMCOW,
+#    - OZELOT,
+#    - PIG,50000
+     - PIGZOMBIE,300000
+#    - RABBIT,
+#    - SHEEP,75000
+#    - SILVERFISH,
+     - SKELETON,120000
+#    - SLIME,1632000
+#    - SNOWMAN,
+     - SPIDER,80000
+#    - SQUID,
+#    - VILLAGER,
+     - VILLAGERGOLEM,1000000
+#    - WITCH,
+     - WITHERBOSS,100000000
+#    - WOLF,
+     - ZOMBIE,100000
+
+#    - NomeDoMob,Preço
+#    - Não coloquem aspas '', não usem TAB coloquem espaço, talvez algum desses nomes esteja errado tem que testar!
+#    - Qualquer erro só reportar! Suporte 24 horas.

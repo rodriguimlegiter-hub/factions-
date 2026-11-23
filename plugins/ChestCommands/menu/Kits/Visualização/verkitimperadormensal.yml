@@ -1,0 +1,904 @@
+menu-settings:
+
+
+
+
+
+
+
+  name: 'Conteúdo: Imperador Mensal'
+
+
+
+  rows: 6
+
+
+
+  type: CHEST
+
+
+
+  command: ''
+
+
+
+  auto-refresh: 5
+
+
+
+  open-action: 'sound: click'
+
+
+
+  open-with-item:
+
+
+
+    id:
+
+
+
+    left-click: false
+
+
+
+    right-click: false
+
+
+
+
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,6 ; fireprotection,6 ; unbreaking,6 ; blastprotection,6
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '310'
+
+
+
+  SLOT: 10
+
+  
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,6 ; fireprotection,6 ; unbreaking,6 ; blastprotection,6
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '311'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,6 ; fireprotection,6 ; unbreaking,6 ; blastprotection,6
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '312'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: protection,6 ; fireprotection,6 ; unbreaking,6 ; blastprotection,6
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '313'
+
+
+
+  SLOT: 13
+
+  
+
+espada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: Sharpness,6 ; unbreaking,6 ; fireaspect,3
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '276'
+
+
+
+  SLOT: 19
+
+  
+
+picareta:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: efficiency,6 ; unbreaking,6 ; fortune,3
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '278'
+
+
+
+  SLOT: 20
+  
+picaretao:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: silktouch,1
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '278'
+
+
+
+  SLOT: 21
+
+machado:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,6 ; unbreaking,6 ; fortune,3
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '279'
+
+
+
+  SLOT: 22
+  
+machadao:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: Sharpness,5 ; unbreaking,6
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '279'
+
+
+
+  SLOT: 23
+
+  
+
+pa:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,6 ; unbreaking,6 ; fortune,3
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '277'
+
+
+
+  SLOT: 24
+  
+pazona:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: silktouch,1
+
+
+
+  LORE:
+
+
+
+    - '&bImperador'
+
+
+
+  ID: '277'
+
+
+
+  SLOT: 25
+
+  
+
+macaencantada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT:
+
+
+
+  LORE:
+
+
+
+  ID: '322:1, 50'
+
+
+
+  SLOT: 14
+
+arco:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: power,6 ; unbreaking,6 ; flame,3 ; infinity,1
+
+
+
+  LORE: 
+  
+ 
+
+    - '&bImperador'
+
+
+
+  ID: '261'
+
+
+
+  SLOT: 15
+
+  
+
+flecha:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '262,64'
+
+
+
+  SLOT: 16
+
+  
+
+tnt:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 37
+
+  
+
+tnt2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 38
+
+  
+
+tnt3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 39
+
+  
+
+tnt4:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 40
+
+  
+
+tnt5:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 41
+  
+
+tnt6:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 42
+  
+
+tnt7:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 43
+
+
+
+xp:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 28
+
+  
+
+xp2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 29
+
+  
+
+xp3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 30
+
+  
+
+xp4:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 31
+  
+xp5:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 32
+  
+xp6:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 33
+  
+xp7:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 34
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+  HIDE-ATTRIBUTES: true
+  ID: '262'
+
+  SLOT: 0

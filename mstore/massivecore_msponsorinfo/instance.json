@@ -1,0 +1,57 @@
+{
+  "enabled": false,
+  "enabledToMillis": 2473890400000,
+  "indicatorFileNames": [
+    "/home/smpicnic"
+  ],
+  "consoleEnabled": false,
+  "consoleDelayTicks": 100,
+  "consoleMsgs": [
+    "",
+    "<pink>____----====[ <aqua>Anuncio by MassiveCore<pink> ]====----____",
+    "§aEsta versao do MassiveCore foi totalmente adaptada por RUSHyoutuber.",
+    "",
+    "§eReporte qualquer tipo de BUG atraves dos meios de comunicacao:",
+    "",
+    "§bSkype:§f live:eduardo-mior.",
+    "§9Facebook:§f www.fb.com/eduardo.mior.3",
+    "§3TeamSpeak:§f rush.ts3elite.com",
+    "§bTwiiter:§f @CanalDaRUSH",
+    "§aWhatsApp:§f (54) 91343192",
+    "§cE-Mail:§f 172422@upf.br",
+    "",
+    "<i>Voce desativar esta mensagem acessando na config do plugin.",
+    ""
+  ],
+  "ingameEnabled": false,
+  "ingameDelayTicks": 600,
+  "ingameMsgs": [
+    "",
+    "<pink>____----====[ <aqua>Anúncio by MassiveCore<pink> ]====----____",
+    "§aEsta versão do MassiveCore foi totalmente adaptada por RUSHyoutuber.",
+    "",
+    "§eReporte qualquer tipo de BUG através dos meios de comunicacao:",
+    "",
+    "§bSkype:§f live:eduardo-mior.",
+    "§9Facebook:§f www.fb.com/eduardo.mior.3",
+    "§3TeamSpeak:§f rush.ts3elite.com",
+    "§bTwiiter:§f @CanalDaRUSH",
+    "§aWhatsApp:§f (54) 91343192",
+    "§cE-Mail:§f 172422@upf.br",
+    "",
+    "<i>Você desativar esta mensagem acessando na config do plugin."
+  ],
+  "ingameSoundEffects": [
+    {
+      "soundId": "ENTITY_PLAYER_LEVELUP",
+      "volume": 1.0,
+      "pitch": 0.8
+    },
+    {
+      "soundId": "ENTITY_EXPERIENCE_ORB_PICKUP",
+      "volume": 1.0,
+      "pitch": 0.8
+    }
+  ],
+  "ingameLink": "https://www.youtube.com/iRUSHeSports"
+}

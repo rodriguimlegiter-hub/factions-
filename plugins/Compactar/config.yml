@@ -1,0 +1,5 @@
+permissao: 'compactar.blocks'
+
+msg-sem-permissao: '&cVocê precisa ser &3[Guerreiro] &cou superior para executar o comando.'
+msg-item-nao-valido: '&cSegure o item na mão que deseja compactar.'
+msg-compactado: '&6Você compactou &e{total} &6em &e{blocos} &6blocos e &e{itens} &6itens.'

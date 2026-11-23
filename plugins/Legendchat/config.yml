@@ -1,0 +1,40 @@
+language: br
+default_channel: local
+bungeecord:
+  use: false
+  channel: bungeecord
+check_for_updates: true
+log_to_bukkit: false
+log_to_file:
+  use: false
+  time: 10
+block_repeated_tags: true
+show_no_one_hears_you: true
+block_shortcuts_when_cancelled: true
+force_remove_double_spaces_from_bukkit: true
+send_fake_message_to_chat: true
+maintain_spy_mode: false
+use_async_chat_event: true
+text_to_tag: []
+format:
+  default: '{color}[{nick}] {mctoptag}{mctop}{solary_economy_magnata}{magnata}{killer}{groupprefix}{prefix}{faccao}{bprefix2}&f{sender}: {msg}'
+  local: '&e[L] {mctoptag}{mctop}{magnata}{solary_economy_magnata}{groupprefix}{killer}{faccao}{bprefix2}&f{sender}&e: &e{msg}'
+  global: '&7[G] {mctoptag}{mctop}{magnata}{solary_economy_magnata}{groupprefix}{killer}{faccao}{bprefix2}&f{sender}&7: &7{msg}'
+  spy: '&8[ESPIÃO] &7{msg}'
+  bungeecord: '{color}[{nick}] -{server}- {groupprefix}{prefix}{bprefix2}{bprefix}&f{sender}{bsuffix}{suffix}{groupsuffix}{color}:
+    {msg}'
+  staff: '&d[STAFF] {mctoptag}{mctop}{magnata}{solary_economy_magnata}{groupprefix}{killer}{faccao}{bprefix2}&f{sender}&7: &d{msg}'
+private_message_format:
+  send: '&7[&6Mensagem para &8{receiver}&7]: &7{msg}'
+  receive: '&7[&6Mensagem de &8{sender}&7]: &7{msg}'
+  spy: '&7[&8Espião&7] &7{ignored} &7[{sender} -> {receiver}] {msg}'
+censor:
+  use: true
+  censored_words:
+  - censor_with_stars
+  - censor_with_replace;replace_here
+JSONChannelFormat: '[@Channel]'
+JSONTags:
+  sender:
+    HoverAction:
+    - '&eFactions Paladino'

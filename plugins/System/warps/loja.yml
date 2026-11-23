@@ -1,0 +1,10 @@
+Localizacao: world,6.50863866651028,172.0,11.39711197648842,-0.109802246,23.813223
+Permissao: system.warp.loja
+MensagemSemPermissao: '&cVocê não tem permissão para se teleportar para a warp loja!'
+Delay: 5
+DelayParaVips: false
+MensagemInicio: '&aVocê sera teleportado para a warp loja em 5 segundos!'
+MensagemFinal: '&aTeleportado com sucesso para a warp loja!'
+EnviarTitle: true
+Title: '&aVOCÊ FOI TELEPORTADO'
+SubTitle: '&ePARA A WARP loja'

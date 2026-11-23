@@ -1,0 +1,6 @@
+{
+  "priority": 9000,
+  "nome": "infpower",
+  "desc": "A facção possui poder ifinito?",
+  "padrao": false
+}

@@ -1,0 +1,253 @@
+Icone:
+  ==: org.bukkit.inventory.ItemStack
+  type: CHEST
+Nome: '§eCaixa Misteriosa '
+Lore:
+- '§fTipo: §aSimples '
+Itens:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+    amount: 16
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+    amount: 16
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 16
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+    amount: 16
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 3
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRaio Mestre
+      lore:
+      - §7Ao usar este item, um raio irá
+      - §7cair onde você você estiver olhando.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 16
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSuper Creeper
+      lore:
+      - §7Use para invocar um creeper
+      - §7eletrizado que causará uma
+      - §7explosão 5 de dano em blocos.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSuper Creeper
+      lore:
+      - §7Use para invocar um creeper
+      - §7eletrizado que causará uma
+      - §7explosão 5 de dano em blocos.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DAMAGE_ALL: 6
+        DURABILITY: 5
+        FIRE_ASPECT: 3
+        LOOT_BONUS_MOBS: 3
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 5
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 32
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 16
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+    amount: 8
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - ' '
+      enchants:
+        DAMAGE_ALL: 6
+        DURABILITY: 5
+        FIRE_ASPECT: 3
+        LOOT_BONUS_MOBS: 3
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    type: HOPPER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §6Agrupador de poções
+      lore:
+      - §7Agrupe até 9 poções consumíveis do
+      - §7mesmo tipo para que você tenha
+      - §7vantagem em suas batalhas.
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_ENCHANTS: null
+      blockMaterial: HOPPER

@@ -1,0 +1,23 @@
+# DO NOT EDIT THIS
+Version: 1
+# Depend on VanishNoPacket?
+VanishNoPacket: true
+# Staff Chat prefix
+prefix: '&8[&4Staff Chat&8]'
+# Color of staff chat messages
+color: '&e'
+# Change the the name/message separator
+separator: "&8: "
+# Use nicknames instead of regular names?
+nicknames: false
+# Color of the player name when using /sc if nicknames are disabled
+name_color: '&f&l'
+# Will staff recieve staff login/logout notifcations?
+logMessages: true
+# Staff log in message
+joinMessage: '&7Staff&a+ &f@p'
+# Staff log out message
+leaveMessage: '&7Staff&c- &f@p'
+# Staff toggle messages
+toggleEnable: '&8[&4Staff Chat&8]&7 Toggle enabled'
+toggleDisable: '&8[&4Staff Chat&8&7 Toggle disabled.'

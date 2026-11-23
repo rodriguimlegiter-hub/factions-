@@ -1,0 +1,652 @@
+menu-settings:
+
+
+
+
+
+
+
+  name: 'Conteúdo: Guerreiro Mensal'
+
+
+
+  rows: 6
+
+
+
+  type: CHEST
+
+
+
+  command: ''
+
+
+
+  auto-refresh: 5
+
+
+
+  open-action: 'sound: click'
+
+
+
+  open-with-item:
+
+
+
+    id:
+
+
+
+    left-click: false
+
+
+
+    right-click: false
+
+
+
+
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,4 ; fireprotection,3 ; unbreaking,3 ; blastprotection,3
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '310'
+
+
+
+  SLOT: 10
+
+  
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,4 ; fireprotection,3 ; unbreaking,3 ; blastprotection,3
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '311'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,4 ; fireprotection,3 ; unbreaking,3 ; blastprotection,3
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '312'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: protection,4 ; fireprotection,3 ; unbreaking,3 ; blastprotection,3
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '313'
+
+
+
+  SLOT: 13
+
+  
+
+espada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: Sharpness,4 ; unbreaking,3 ; fireaspect,2
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '276'
+
+
+
+  SLOT: 19
+
+  
+
+picareta:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,3 ; fortune,2
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '278'
+
+
+
+  SLOT: 20
+
+machado:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,3 ; fortune,2
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '279'
+
+
+
+  SLOT: 21
+
+pa:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,3 ; fortune,2
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '277'
+
+
+
+  SLOT: 22
+
+macaencantada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT:
+
+
+
+  LORE:
+
+
+
+  ID: '322:1, 20'
+
+
+
+  SLOT: 14
+
+arco:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: power,4 ; unbreaking,3 ; flame,1 ; infinity,1
+
+
+
+  LORE: 
+  
+ 
+
+    - '&3Guerreiro'
+
+
+
+  ID: '261'
+
+
+
+  SLOT: 15
+
+  
+
+flecha:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '262,64'
+
+
+
+  SLOT: 16
+
+  
+
+tnt:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 29
+
+  
+
+tnt2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 30
+
+  
+
+tnt3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 31
+
+  
+
+tnt4:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 32
+
+xp:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 23
+
+  
+
+xp2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 24
+
+  
+
+xp3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 25
+
+  
+
+xp4:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 28
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+  HIDE-ATTRIBUTES: true
+  SKULL-OWNER: 
+
+  SLOT: 0

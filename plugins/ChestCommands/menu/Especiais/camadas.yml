@@ -1,0 +1,132 @@
+menu-settings:
+
+
+
+  name: 'Geradores de Camadas'
+
+  rows: 3
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       CAIXAS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+lancador:
+
+  LEFT-CLICK-COMMAND: 'console: kit 5nfwdib2dovrh3ryebvvdf {player}'
+
+  RIGHT-CLICK-COMMAND: 'console: kit 5nfwdib2dovrh3ryebvvdf {player}'
+
+  POINTS: 500 
+   
+  NAME: '&cGerador'
+
+  LORE:
+    - '&7Tipo: &5Obsidian'
+    - ''
+    - ' &fPreço: &a500 Cash.'
+
+  ID: '327'
+
+  SLOT: 11
+  
+  HIDE-ATTRIBUTES: true
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+
+picaretaa:
+
+  LEFT-CLICK-COMMAND: 'console: kit 0wftilf5gdvahyl1iiow {player}'
+
+  RIGHT-CLICK-COMMAND: 'console: kit 0wftilf5gdvahyl1iiow {player}'
+
+  POINTS: 2000 
+   
+  NAME: '&cGerador'
+
+  LORE:
+    - '&7Tipo: &eEndStone'
+    - ''
+    - ' &fPreço: &a2000 Cash.'
+
+  ID: '327'
+
+  SLOT: 13
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+
+booster:
+
+  LEFT-CLICK-COMMAND: 'console: kit 2ndprlw2g7bpm8ox8rdd {player}'
+
+  RIGHT-CLICK-COMMAND: 'console: kit 2ndprlw2g7bpm8ox8rdd {player}'
+
+  POINTS: 3000
+   
+  NAME: '&cGerador'
+
+  LORE:
+    - '&7Tipo: &8BedRock'
+    - ''
+    - ' &fPreço: &a3000 Cash.'
+
+  ID: '327'
+
+  HIDE-ATTRIBUTES: true
+  SLOT: 15
+  
+  SKULL-OWNER: 
+  
+  KEEP-OPEN: true
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: especiais.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: especiais.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SKULL-OWNER: 
+  HIDE-ATTRIBUTES: true
+  SLOT: 0

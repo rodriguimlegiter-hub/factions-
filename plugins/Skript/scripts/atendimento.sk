@@ -1,0 +1,45 @@
+command /atendimento:
+    trigger:
+        loop all players:
+            if loop-player has permission "atendente.ver":
+                send "&aAguarde Um Staff Ira Te Atender" to player
+                send "&e[ATENDIMENTO] &7Um Player Quer Ser Atendido De &e/Atender [%player%]" to loop-player
+                set {atender.player} to true
+
+command /atender [<player>] [<text>]:
+    trigger:
+        if player has permission "Ajuda.admin":
+            if arg 1 is set:
+                if arg 2 is set:
+                    send "&e[ATENDIMENTO] &7&l%arg 1% ➜ &7%arg 2%" to arg 1
+                    stop
+                else:
+                    send "&c/atender [Jogador] [Resposta]"
+            else:
+                send "&c/atender [Jogador] [Resposta]"
+
+command /reponder [<player>] [<text>]:
+    trigger:
+        if arg 1 is set:
+            if arg 2 is set:
+                send "&e[ATENDIMENTO]&f %player% ➜ &7%arg 2%" to arg 1
+                stop
+            else:
+                send "&c/reponder [Jogador] [Resposta]"
+        else:
+            send "&c/reponder [Jogador] [Resposta]"
+			
+command /att [<player>] [<text>]:
+    trigger:
+        if arg 1 is set:
+            if arg 2 is set:
+                if arg 2 is "Resolvido":
+                    send "&e[ATENDIMENTO]&7 O Seu Atendimento Foi marcado Como &a&lResolvido&7 por %player%" to arg 1
+                    stop
+                else if arg 2 is "Inativo":
+                    send "&e[ATENDIMENTO]&7 O Seu Atedimento foi marcado como &c&lInativo&7 por %player%" to arg 1
+                    stop
+            else:
+                send "&c/att [Jogador] [Resolvido/Inativo]"
+        else:﻿
+            send "&c/att [Jogador] [Resolvido/Inativo]" 

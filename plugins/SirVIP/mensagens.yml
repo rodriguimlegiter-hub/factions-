@@ -1,0 +1,88 @@
+reload: '&aSirVIP foi recarregado!'
+sem_perm: '&4Você não tem permissão para executar esta ação/comando.'
+anunciar: '&e@jogador &facaba de ativar o seu vip &e@grupo&f!'
+nao_jogador: '&cVocê não é um jogador.'
+usarchave_erro: '&cUse &f/usarchave <chave>&c.'
+gerarchave: '&fChave: &e@chave&f - &e@grupo&f com &e@dias&f dia(s) vip!'
+gerarchave_perma: '&fChave: &e@chave&f - &e@grupo&f com tempo &ePermanente&f de vip!'
+gerarchave_erro: '&cUse &f/gerarchave <vip> <dias>&c.'
+criarchave_erro: '&cUse &f/criarchave <chave> <vip> <dias>&c.'
+criarchave_erro2: '&fVocê não pode criar uma chave com mesmo nome de um grupo.'
+tempovip: '&fSeu vip acaba dia &e@data&f, exatamente em &e@dias&f dia(s)!'
+tempovip_perma: '&fSeu vip é &ePermanente&f!'
+jogador_tempovip: '&fVip de &e@jogador&f acaba dia &e@data&f, exatamente em &e@dias&f
+  dia(s)!'
+jogador_tempovip_perma: '&fVip de &e@jogador&f é &ePermanente&f!'
+chaves: '&fChaves:#&f[&e@chave&f] - [&e@grupo&f com &e@dias&f dia(s)]#&f[&e@chave&f]
+  - [&e@grupo&f com tempo &ePermanente&f]'
+chaves_erro: '&fNão há chaves, crie com &e/criarchave&f ou &e/gerarchave&f.'
+apagarchaves: '&fTodas as chaves foram apagadas!'
+apagarchave_erro: '&cUse &f/apagarchave <chave>&c.'
+apagarchave: '&fChave &e@chave&f foi apagada!'
+tirarvip_erro: '&cUse &f/tirarvip <jogador>&c.'
+tirarvip_erro2: '&cUse &f/tirarvip confirmar&c.@nl&4&lAVISO: &cSe você usar o comando
+  automaticamente você ira perder seu vip.'
+tirarvip: '&fO vip de &e@jogador&f foi removido!'
+mudardias: '&fO tempo vip de &e@jogador&f foi alterado!@nl&fAgora tem &e@dias dia(s)&f
+  vip apartir de hoje.'
+mudardias_perma: '&fO Tempo vip de &e@jogador&f foi alterado!@nl&fAgora tem tempo
+  &ePermanente&f de vip.'
+mudardias_erro: '&cUse &f/mudardias <jogador> <dias>&c.'
+darvip_erro: '&cUse &f/darvip <jogador> <vip> <dias>&c.'
+tamanho_mair_15_erro: '&4&lErro: &cTamanho da chave configurado maior que &415&c.'
+tamanho_menor_4_erro: '&4&lErro: &cTamanho da chave configurado menor que &44&c.'
+chave_nao_existe: '&fChave &e@chave&f não existe.'
+chave_ja_existe: '&fChave &e@chave&f já existe.'
+grupo_nao_existe: '&fEste vip &e@grupo&f não existe.'
+ja_vip: '&fVocê já tem um vip ativado no momento.@nl&fPara deixar de ser vip use &e/tirarvip
+  confimar&f.'
+jogador_ja_vip: '&e@jogador&f já tem um vip ativado no momento.@nl&fPara tirar o vip
+  use &e/tirarvip @jogador&f.'
+nao_vip: '&fVocê não tem vip ativo no momento.'
+jogador_nao_vip: '&e@jogador&f não tem um vip ativo no momento.'
+vip_acabou: '&fInfelizmente o seu vip acabou :('
+venderchave_erro: '&cUse &f/venderchave <chave/cancelar> <valor>&c.'
+venderchave_cancelar_erro: '&fVocê não esta vendendo nenhuma chave vip.'
+venderchave_cancelar: '&fChave: &e@chave&f restaurada!'
+venderchave_erro2: '&fVocê já esta vendendo uma chave vip!@nl&fCancelar? &e/venderchave
+  cancelar&f.'
+venderchave_desconectado: '&fVocê saiu do server, sua venda foi cancelada!'
+venderchave: '&e@jogador&f está vendendo uma chave vip!#&fVip: &e@grupo#&fDia(s):
+  &e@dias#&fPreço: &e@valor#&fPara comprar use: &e/comprarchave @jogador'
+comprarchave_erro: '&cUse &f/comprarchave <jogador>&c.'
+comprarchave_erro2: '&e@jogador&f não esta vendendo uma chave vip.'
+comprarchave_erro3: '&fVocê não pode comprar sua propria chave vip.'
+comprarchave_erro4: '&fVocê não tem dinheiro suficiente.'
+comprarchave: '&fChave vip comprada com sucesso!@nl&fChave: &e@chave'
+comprarchave2: '&e@jogador&f comprou sua chave vip!'
+resgatarchave_erro: '&cUse &f/resgatarchave <ID/Código>&c.'
+resgatarchave_erro2: '&fEste ID/Código já foi utilizado.'
+resgatarchave_erro3: '&fProvalvemente este ID/Código não existe ou não é valido.'
+resgatarchave: '&fVocê resgatou uma chave vip com sucesso!#&fChave: &e@chave#&fVip:
+  &e@grupo#&fDia(s): &e@dias#&fTempo &ePermanente&f de vip!'
+resgatarchave_status: '&fSua compra ainda está em processamento ou em revisão.'
+resgatarchave_status2: '&fSua compra está com algum problema.'
+sirvip_inicio: '@prefix &eComandos do SirVIP:'
+sirvip_usarchave: '&6/usarchave <chave> &f- Utiliza uma chave vip.'
+sirvip_resgatarchave: '&6/resgatarchave <ID/Código> &f- Para resgatar uma chave vip,
+  a partir de uma compra.'
+sirvip_venderchave: '&6/venderchave <chave/cancelar> <valor> &f- Anuncia sua chave
+  vip ou cancela o anuncio de venda.'
+sirvip_comprarchave: '&6/comprarchave <jogador> &f- Compra a chave vip á venda de
+  outro jogador.'
+sirvip_tempovip_admin: '&6/tempovip [jogador] &f- Mostra o(s) dia(s) restante(s) de
+  vip.'
+sirvip_tempovip: '&6/tempovip &f- Mostra o(s) dia(s) restante(s) de vip.'
+sirvip_gerarchave: '&6/gerarchave <vip> <dias> &f- Gera uma nova chave com X dias
+  de vip.'
+sirvip_criarchave: '&6/criarchave <chave> <vip> <dias> &f- Cria uma nova chave com
+  X dias de vip.'
+sirvip_chaves: '&6/chaves &f- Mostra todas chaves disponíveis.'
+sirvip_apagarchaves: '&6/apagarchaves &f- Apaga todas chaves disponíveis.'
+sirvip_apagarchave: '&6/apagarchave <chave> &f- Apaga apenas uma chave.'
+sirvip_tirarvip_admin: '&6/tirarvip <jogador/confirmar> &f- Tira o vip de um jogador.'
+sirvip_tirarvip: '&6/tirarvip confirmar &f- Tira o seu próprio vip.'
+sirvip_mudardias: '&6/mudardias <jogador> <dias> &f- Muda o(s) dia(s) de vip de um
+  jogador.'
+sirvip_darvip: '&6/darvip <jogador> <vip> <dias> &f- Dá vip sem uso de uma chave.'
+sirvip_reload: '&6/sirvip reload &f- Recarrega as configurações.'

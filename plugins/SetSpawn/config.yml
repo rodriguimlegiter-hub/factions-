@@ -1,0 +1,15 @@
+Spawn-Message: '&eTeleportado com sucesso.'
+Set-Spawn-Message: '&eSpawn setado com sucesso.'
+No-Spawn-Message: "&eSpawn n\xc3\u0192\xc2\xa3o setado ainda."
+Reload-Message: "&eConfigura\xc3\u0192\xc2\xa7\xc3\u0192\xc2\xa3o recarregada"
+Spawn-Effect: true
+On-Join-Spawn: true
+Respawn-At-Spawn: true
+Cooldown: 1
+spawn:
+  world: world
+  x: -60.479834903933764
+  y: 174.0
+  z: 30.491673126929662
+  yaw: 90.088295
+  pitch: -2.1999965

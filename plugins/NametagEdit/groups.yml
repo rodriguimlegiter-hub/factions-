@@ -1,0 +1,86 @@
+Groups:
+  Fundador:
+    Permission: nte.fundador
+    Prefix: '&4[FUNDADOR] '
+    Suffix: '&f'
+    SortPriority: 1
+  Diretor:
+    Permission: nte.master
+    Prefix: '&6[DIRETOR] '
+    Suffix: '&f'
+    SortPriority: 2
+  Gerente:
+    Permission: nte.gt
+    Prefix: '&5[GERENTE] '
+    Suffix: '&f'
+    SortPriority: 3
+  Developer:
+    Permission: nte.dev
+    Prefix: '&a[DEVELOPER] '
+    Suffix: '&f'
+    SortPriority: 4
+  Admin:
+    Permission: nte.adm
+    Prefix: '&c[ADMIN] '
+    Suffix: '&f'
+    SortPriority: 5
+  Moderador:
+    Permission: nte.mod
+    Prefix: '&2[MODERADOR] '
+    Suffix: '&f'
+    SortPriority: 6
+  Ajudante:
+    Permission: nte.ajudante
+    Prefix: '&e[AJUDANTE] '
+    Suffix: '&f'
+    SortPriority: 7
+  Youtuber:
+    Permission: nte.youtuber
+    Prefix: '&c[YT] '
+    Suffix: '&f'
+    SortPriority: 8
+  MiniYT:
+    Permission: nte.miniyt
+    Prefix: '&c[MiniYT] '
+    Suffix: '&f'
+    SortPriority: 9
+  CHROMA:
+    Permission: nte.LEGEND
+    Prefix: '&2[CHROMA] '
+    Suffix: '&f'
+    SortPriority: 10
+  IMPERADOR:
+    Permission: nte.IMPERADOR
+    Prefix: '&b[IMPERADOR] '
+    Suffix: '&f'
+    SortPriority: 11
+  SUPREMO:
+    Permission: nte.SUPREMO
+    Prefix: '&4[SUPREMO] '
+    Suffix: '&f'
+    SortPriority: 12
+  MAGO:
+    Permission: nte.MAGO
+    Prefix: '&5[MAGO] '
+    Suffix: '&f'
+    SortPriority: 13
+  GUERREIRO:
+    Permission: nte.GUERREIRO
+    Prefix: '&3[GUERREIRO] '
+    Suffix: '&f'
+    SortPriority: 14
+  MEMBRO:
+    Permission: nte.membro
+    Prefix: '&7'
+    Suffix: '&f'
+    SortPriority: 15
+  Streamer:
+    Permission: ''
+    Prefix: '&a[Streamer]'
+    Suffix: ''
+    SortPriority: -1
+  Builder:
+    Permission: nte.Builder
+    Prefix: '&b[BUILDER] &b'
+    Suffix: '&f'
+    SortPriority: 5

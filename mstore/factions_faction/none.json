@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "name": "§2Zona Livre",
+  "description": "É perigoso sair sózinho!",
+  "createdAtMillis": 1545513001689,
+  "invitations": {},
+  "flags": {
+    "permanent": true,
+    "infpower": true,
+    "peaceful": false,
+    "powerloss": true,
+    "pvp": true,
+    "friendlyfire": false
+  },
+  "perms": {
+    "build": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "door": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "button": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "lever": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "container": [
+      "LEADER",
+      "ALLY",
+      "TRUCE",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "NEUTRAL"
+    ],
+    "territory": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "home": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "claimnear": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+menu-settings:
+
+
+
+  name: 'Kits Básicos'
+
+  rows: 3
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: click'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       ITEMS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+vip-free:
+
+  LEFT-CLICK-COMMAND: 'kit basico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitbasico.yml'
+
+  NAME: '&8Kit Membro Básico'
+
+  LORE:
+
+    - ''
+    - ' &fBotão esquerdo: &eRecolher.'
+    - ' &fBotão direito: &eVisualizar conteúdo.'
+    - ''
+    - ' &fTempo: &e5 minutos.'
+    - ''
+
+  HIDE-ATTRIBUTES: true
+  ID: '16'
+
+  SLOT: 11
+
+guerreiro-basico:
+
+  LEFT-CLICK-COMMAND: 'kit guerreirobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitguerreirobasico.yml'
+
+  NAME: '&3Kit Guerreiro Básico'
+
+  LORE:
+    - ''
+    - ' &fBotão esquerdo: &eRecolher.'
+    - ' &fBotão direito: &eVisualizar conteúdo.'
+    - ''
+    - ' &fTempo: &e5 minutos.'
+    - ''
+  ID: '15'
+  HIDE-ATTRIBUTES: true
+  SLOT: 12
+
+mago-basico:
+
+  LEFT-CLICK-COMMAND: 'kit magobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitmagobasico.yml'
+
+  NAME: '&5Kit Mago Básico'
+
+  LORE:
+    - ''
+    - ' &fBotão esquerdo: &eRecolher.'
+    - ' &fBotão direito: &eVisualizar conteúdo.'
+    - ''
+    - ' &fTempo: &e5 minutos.'
+    - ''
+  ID: '14'
+  HIDE-ATTRIBUTES: true  
+  SLOT: 13
+  
+supremo-basico:
+
+  LEFT-CLICK-COMMAND: 'kit supremobasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitsupremobasico.yml'
+
+  NAME: '&4Kit Supremo Básico'
+
+  LORE:
+    - ''
+    - ' &fBotão esquerdo: &eRecolher.'
+    - ' &fBotão direito: &eVisualizar conteúdo.'
+    - ''
+    - ' &fTempo: &e5 minutos.'
+    - ''
+  ID: '56'
+  HIDE-ATTRIBUTES: true  
+  SLOT: 14
+
+reload-basico:
+
+  LEFT-CLICK-COMMAND: 'kit imperadorbasico'
+
+  RIGHT-CLICK-COMMAND: 'open: verkitimperadorbasico.yml'
+
+  NAME: '&bKit Imperador Básico'
+
+  LORE:
+    - ''
+    - ' &fBotão esquerdo: &eRecolher.'
+    - ' &fBotão direito: &eVisualizar conteúdo.'
+    - ''
+    - ' &fTempo: &e5 minutos.'
+    - ''
+  ID: '129'
+  HIDE-ATTRIBUTES: true  
+  SLOT: 15
+
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kits.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kits.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+  HIDE-ATTRIBUTES: true  
+  SLOT: 0

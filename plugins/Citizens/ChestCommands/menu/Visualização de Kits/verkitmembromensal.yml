@@ -1,0 +1,558 @@
+menu-settings:
+
+
+
+
+
+
+
+  name: 'Conteúdo: Kit Membro Mensal'
+
+
+
+  rows: 6
+
+
+
+  type: CHEST
+
+
+
+  command: ''
+
+
+
+  auto-refresh: 5
+
+
+
+  open-action: 'sound: note pling'
+
+
+
+  open-with-item:
+
+
+
+    id:
+
+
+
+    left-click: false
+
+
+
+    right-click: false
+
+
+
+
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,3 ; fireprotection,2 ; unbreaking,3 ; blastprotection,2
+
+
+
+  LORE:
+
+
+
+  ID: '310'
+
+
+
+  SLOT: 10
+
+  
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,3 ; fireprotection,2 ; unbreaking,3 ; blastprotection,2
+
+
+
+  LORE:
+
+
+
+  ID: '311'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,3 ; fireprotection,2 ; unbreaking,3 ; blastprotection,2
+
+
+
+  LORE:
+
+
+
+  ID: '312'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: protection,3 ; fireprotection,2 ; unbreaking,3 ; blastprotection,2
+
+
+
+  LORE:
+
+
+  ID: '313'
+
+
+
+  SLOT: 13
+
+  
+
+espada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: Sharpness,3 ; unbreaking,3 ; fireaspect,1
+
+
+
+  LORE:
+
+
+
+  ID: '276'
+
+
+
+  SLOT: 19
+
+  
+
+picareta:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,2 ; fortune,2
+
+
+
+  LORE:
+
+
+
+  ID: '278'
+
+
+
+  SLOT: 20
+
+machado:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,2 ; fortune,2
+
+
+
+  LORE:
+
+
+
+  ID: '279'
+
+
+
+  SLOT: 21
+
+pa:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: efficiency,4 ; unbreaking,2 ; fortune,2
+
+
+
+  LORE:
+
+
+
+  ID: '277'
+
+
+
+  SLOT: 22
+
+macaencantada:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT:
+
+
+
+  LORE:
+
+
+
+  ID: '322:1, 10'
+
+
+
+  SLOT: 14
+
+arco:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: power,3 ; unbreaking,3 ; flame,1
+
+
+
+  LORE: 
+
+
+
+  ID: '261'
+
+
+
+  SLOT: 15
+
+  
+
+flecha:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '262,64'
+
+
+
+  SLOT: 16
+
+  
+
+tnt:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 29
+
+  
+
+tnt2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 30
+
+  
+
+tnt3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '46, 64'
+
+
+
+  SLOT: 28
+
+xp:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 23
+
+  
+
+xp2:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 24
+
+  
+
+xp3:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+  
+
+  ENCHANTMENT: 
+
+
+
+  LORE:
+
+
+
+  ID: '384, 64'
+
+
+
+  SLOT: 25
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+  ID: '262'
+
+  SKULL-OWNER: 
+
+  SLOT: 0

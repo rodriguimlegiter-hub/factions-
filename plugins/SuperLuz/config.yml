@@ -1,0 +1,30 @@
+#-------------------------------#
+ #         HaskPlugins         #
+ #         Versăo: V1.5        #
+#-------------------------------#
+
+# Permissőes                                          #  
+# reluz.admin (Recarregar as configuraçőes do Plugin) #
+#Permissao para usar o comando /luz reluz.usar        #
+
+permission: 'reluz.usar'
+
+#Cooldown para usar o comando.
+#Observaçăo: Necessário colocar em segundos.
+
+Delay:
+  enable: true
+  delay: 15
+  mensagem: '&cAguarde para utilizar o comando novamente.'
+
+#Mensagens do plugin.
+Mensagens:
+  luz-ativada: 
+  - ''
+  - ' &e&lLANTERNA: &6Você ligou sua lanterna.'
+  - ''
+  luz-desativada:
+  - ''
+  - ' &e&lLANTERNA: &cVocê desligou sua lanterna.'
+  - ''
+  sem-permissao: '&cVocê precisa ser do grupo &7[Membro] &cou superior para executar este comando.'

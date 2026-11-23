@@ -1,0 +1,10 @@
+{
+  "priority": 6000,
+  "name": "territory",
+  "desc": "administrar territórios",
+  "standard": [
+    "LEADER",
+    "OFFICER"
+  ],
+  "territory": false
+}

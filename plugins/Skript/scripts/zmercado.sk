@@ -1,0 +1,17 @@
+command /mercado [<text>] [<text>] :
+	trigger:
+		if arg 1 is not set:
+			send " "
+			send "&a/mercado ver &7- para ver os itens à venda"
+			send "&a/mercado vender (preço) &7- para vender OBS: Com o item na sua mão."
+			send " "
+			stop
+		if arg 1 is "ver":
+			make player execute command "ah"
+			stop
+		if arg 1 is "vender":
+			make player execute command "ah sell %arg 2%"
+			stop
+		if arg 1 is not "ver" or "vender" or "chest" or "enviar" or "historico":
+			make player execute command "mercado"
+			stop

@@ -1,0 +1,150 @@
+menu-settings:
+
+
+
+  name: 'Afiliados - Requisitos'
+
+  rows: 3
+
+  type: CHEST
+
+  command: 'requisitos; youtuber; yts'
+
+  auto-refresh: 5
+
+  open-action: 'sound: note pling'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       ITEMS        #
+
+#+                  +#
+
+######################
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+twitter:
+
+  LEFT-CLICK-COMMAND: 'twitter'
+
+  RIGHT-CLICK-COMMAND: 'twitter'
+
+  NAME: '&bComo se associar ao programa?'
+
+  LORE:
+    - ''
+    - '&3 • &fPara se associar ao programa, você deverá enviar'
+    - '&3 • &fuma &e&nmensagem&f em nosso &b&nTwitter&f (@RedeChroma).'
+    - ''
+    - '&3 • &fOu você pode se associar por meio do discord, enviando.'
+    - '&3 • &fseu pedido no canal &c#solicitar-tag&f.'
+    - ''
+    - '&cCaso você cometa "Flood" ou "Spam", seu pedido será rejeitado.'
+    - '&cApenas solicite tag caso você obtenha &c&ltodos&c os requisitos.'
+    - '&cCaso contrário, seu pedido será automaticamente rejeitado.'
+    - ''
+
+    
+
+  ID: '397:3'
+
+  
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  DATA-VALUE: 3
+
+  SLOT: 16
+
+  SKULL-OWNER: MHF_TWITTER
+
+  KEEP-OPEN: true
+
+afiliados:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  NAME: '&cPrivilégios da Tag YouTuber'
+
+  LORE:
+
+    
+    - ''
+    - '&3 • &fAcessar o servidor, mesmo estando lotado.'
+    - '&3 • &fTag exclusiva dentro do servidor e em nosso discord.'
+    - '&3 • &fTerá acesso ao um VIP dentro do servidor. '
+    - '&3 • &fRecebe Cash por vídeos gravados, dependendo do feedback.'
+    - '&3'
+
+  ID: '397:3'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT:
+
+  SLOT: 10
+
+  SKULL-OWNER: MHF_YOUTUBE
+
+  KEEP-OPEN: true
+
+
+youtuber:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  NAME: '&c[YouTuber]'
+
+  LORE:
+
+    
+
+    - ''
+    - '&3 • &FPossuir no mínimo 300 inscritos.'
+    - '&3 • &fPossuir 1 vídeo gravado dentro do servidor.'
+    - '&3 • &fAtingir 50 visualizações no vídeo gravado.'
+    - '&3 • &fAtribuir ao vídeo o &9&nDiscord&f e o &e&nIP&f do servidor.'
+    - '&3'
+    - '&3&eCaso você obtenha todos os requisitos, solicite'
+    - '&3&esua tag em nosso Discord no canal &f#solicitar-tag&e.'
+
+    
+
+  ID: '378'
+
+  HIDE-ATTRIBUTES: true
+
+  ENCHANTMENT: protection,4
+
+  SLOT: 13
+
+  SKULL-OWNER: MHF_YOUTUBE
+
+  KEEP-OPEN: true

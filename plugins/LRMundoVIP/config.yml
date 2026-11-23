@@ -1,0 +1,26 @@
+# ###############################################################################################
+# Plugin: LRMundoVIP                    |||         Comandos       |||      Permissoes          #
+# Author: LeoRamos111                   |||    * /vip              |||   * mundovip.ir          #
+# Vers�o: 2.0                           |||    * /setvip           |||   * mundovip.remover     #
+#  * Espero que gostem do Plugin *      |||    * /delvip           |||   * mundovip.setvip      #
+SemPermissao:
+- '&cVocê não tem permissão para esse comando!'
+ApenasVIP:
+- ''
+- '&cOpa, este é o mundo VIP, Para acessa-lo adquira um VIP em'
+- '&cnosso site: &bwww.redechroma.com'
+- ''
+VIPNaoDefinido: '&cO Mundo VIP ainda não foi definido.'
+VIPRemovida: '&cVoê removeu o Mundo VIP com sucesso.'
+VIP_Setado: '&aVocê setou o Mundo VIP com sucesso.'
+VIP:
+- ''
+- '&6&l          REDE CHROMA'
+- '&a  Seja bem-vindo ao Mundo VIP.'
+- ''
+x: -64.40176252047956
+y: 8.0
+z: -155.4959874247031
+pitch: 1.0600033
+yaw: -269.8414
+world: vip

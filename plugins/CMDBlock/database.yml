@@ -1,0 +1,13 @@
+blocked_cmds:
+- //calc
+- minecraft:me
+- time
+- /.time
+- /.
+- /time
+- /?
+- /bukkit:help
+- hax
+- pontos
+- /unreg
+- /authme:unreg

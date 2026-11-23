@@ -1,0 +1,290 @@
+menu-settings:
+
+
+
+  name: 'Conteúdo: Kit Guerreiro Diário'
+  
+  rows: 5
+
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+
+  open-action: 'sound: note pling'
+
+  open-with-item:
+
+    id:
+
+    left-click: false
+
+    right-click: false
+
+
+
+
+
+
+
+######################
+
+
+
+#+                  +#
+
+
+
+#       ITEMS        #
+
+
+
+#+                  +#
+
+
+
+######################
+
+
+
+
+
+
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+
+
+
+
+
+
+# ID/Nome do Icone (não pode ser repetido!)
+
+
+
+elmo:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,1
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '302'
+
+
+
+  SLOT: 10
+
+peitoral:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,1
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '303'
+
+
+
+  SLOT: 11
+
+  
+
+calca:
+
+
+
+  LEFT-CLICK-COMMAND: ''
+
+
+
+  RIGHT-CLICK-COMMAND: ''
+
+  
+
+  ENCHANTMENT: protection,1
+
+
+
+  LORE:
+
+
+
+    - '&3Guerreiro'
+
+
+
+  ID: '304'
+
+
+
+  SLOT: 12
+
+  
+
+bota:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: protection,1
+
+  LORE:
+
+    - '&3Guerreiro'
+
+  ID: '305'
+  
+  SLOT: 13
+  
+maca:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '322, 20'
+  
+  SLOT: 14
+  
+file:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '396, 20'
+  
+  SLOT: 15
+  
+cenoura:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT:
+
+  LORE:
+  
+  ID: '384, 20'
+  
+  SLOT: 16
+  
+espada:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: sharpness,1
+
+  LORE:
+  
+  - '&3Guerreiro'
+  
+  ID: '267'
+  
+  SLOT: 19
+  
+picareta:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,1
+
+  LORE:
+  
+  - '&3Guerreiro'
+  
+  ID: '257'
+  
+  SLOT: 20
+  
+machado:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,1
+
+  LORE:
+  
+  - '&3Guerreiro'
+  
+  ID: '258'
+  
+  SLOT: 21
+  
+pa:
+
+  LEFT-CLICK-COMMAND: ''
+
+  RIGHT-CLICK-COMMAND: ''
+
+  ENCHANTMENT: efficiency,1
+
+  LORE:
+  
+  - '&3Guerreiro'
+  
+  ID: '256'
+  
+  SLOT: 22
+
+voltar:
+
+  LEFT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  RIGHT-CLICK-COMMAND: 'open: kitvips.yml'
+
+  NAME: '&7Voltar'
+
+  LORE:
+
+  ID: '262'
+
+  SLOT: 36
+  

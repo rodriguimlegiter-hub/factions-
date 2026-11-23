@@ -1,0 +1,100 @@
+Cmds:
+  Format: "&3&l\xc2\xbb &7%cmd% &3&l- &7%descricao%"
+  NoConsole: "&4&l\xc2\xbb &7Comando para jogadores apenas, jogadores de verdade"
+  NoPermission: "&4&l\xc2\xbb &7Sem permissao"
+  SetNPC: seta um npc na loc atual
+  DelNPC: deleta um npc
+  Reload: recarrega a config.yml
+  Transmute: converte outros plugins
+Msg:
+  NpcSet: "&2&l\xc2\xbb &7Npc &2%npc% &7setado com sucesso"
+  NpcDel: "&2&l\xc2\xbb &7Npc &2%npc% &7deletado com sucesso"
+  Reload: "&2&l\xc2\xbb &7Config.yml recarregada com sucesso"
+  NpcDelNotSpecified: "&4&l\xc2\xbb &7Voce tem que especificar o id de um npc"
+  NpcDelNotNumber: "&4&l\xc2\xbb &7O id tem que ser um numero"
+  NpcDelNotThatMany: "&4&l\xc2\xbb &7Nao existem assim tantos npcs"
+  ChestNotSpecified: "&4&l\xc2\xbb &7Especifique o id de um ba\xc3\xba"
+  ChestNotOwned: "&4&l\xc2\xbb &7Voc\xc3\xaa n\xc3\xa3o possui esse ba\xc3\xba"
+  HasNoChests: "&4&l\xc2\xbb &7Esse jogador nao tem baus"
+  IconSet: "&2&l\xc2\xbb &7Icon &a%icon% &7setado com sucesso no bau &a%id%"
+  NoMoney: "&4&l\xc2\xbb &7Voc\xc3\xaa n\xc3\xa3o tem &c%custo%&2$ &7para comprar\
+    \ um bau"
+  CantBuy: "&4&l\xc2\xbb &7Voc\xc3\xaa n\xc3\xa3o pode comprar mais ba\xc3\xbas"
+  Bought: "&2&l\xc2\xbb &7Voc\xc3\xaa pagou &a%custo%&2$ &7e comprou o ba\xc3\xba\
+    \ &a%id%"
+  PluginNotSpecified: "&4&l\xc2\xbb &7Voc\xc3\xaa n\xc3\xa3o especificou o plugin"
+  CantBeTransmutedYet: "&4&l\xc2\xbb &7Esse plugin n\xc3\xa3o pode ser convertido"
+  TransmuteError: "&4&l\xc2\xbb &7Ocorreu um erro enquanto a convers\xc3\xa3o era\
+    \ preparada"
+  Transmuted: "&2&l\xc2\xbb &7Plugin convertido"
+SQL:
+  Enable: false
+  Host: 0.0.0.0
+  Port: 3308
+  Database: skychests
+  User: zAth
+  Password: a1b2c3
+  ShowPossibleErros: false
+Economy: Vault
+Custo: 50000.0
+SaveDelay: 600
+Chests: 28
+DefaultChestAmount: 28
+VillagerName: '&6Armazenador'
+GuiTitle: '&6Baus do &e%jogador%'
+IconTitle: '&6Escolha um icon'
+ConfirmTitle: '&6Confirmar'
+ChestTitle: '&6%id% &e%dono%'
+Items:
+  Fill:
+    Id: 101
+    Data: 0
+  NotOwned:
+    Name: '&6Bau &e#%id%'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para comprar esse bau"
+    - "&6\xc2\xbb &7Por &2%cost%$"
+    Id: 130
+    Data: 0
+  Owned:
+    Name: '&6Bau &e#%id%'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para abrir o bau/alterar o icone"
+    Id: 54
+    Data: 0
+  Previous:
+    Name: '&6Pagina anterior'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para abrir a pagina anterior"
+    Id: 160
+    Data: 14
+  Back:
+    Name: '&6Voltar'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para voltar"
+    Id: 166
+    Data: 0
+  Next:
+    Name: '&6Pagina seguinte'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para abrir a proxima pagina"
+    Id: 160
+    Data: 13
+  Confirm:
+    Name: '&6Confirmar'
+    Lore:
+    - ''
+    - "&6\xc2\xbb &7Clique aqui"
+    - "&6\xc2\xbb &7Para confirmar"
+    Id: 111
+    Data: 0

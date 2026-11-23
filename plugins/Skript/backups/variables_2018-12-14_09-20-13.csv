@@ -1,0 +1,31 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.1.2
+
+spawn, location, 8605776F726C6480FF0000000181046E616D65208005776F726C64017809C04E4786CF35988C0179094065C00000000000017A09403E7D8FA5BA131805706974636808C0214DBB0379617708C386E396
+ticket.id::1, long, 0000000000000001
+ticket.player::1, offlineplayer, 81046E616D6520800A43616B655F5377656574
+ticket.status::1, string, 8009C2A76141626572746F
+ticket.text::1, string, 80057465737465
+ticket.time::1, string, 801131322F31322F31382031313A313020504D
+ticket.type::1, string, 8003427567
+
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+atender.player, boolean, 01
+ticket.id::2, long, 0000000000000002
+ticket.player::2, offlineplayer, 81046E616D652080074D72447261776E
+ticket.type::2, string, 8008737567657374616F
+ticket.time::2, string, 801031322F31332F313820383A333620504D
+ticket.status::2, string, 8007C2A7614F70656E
+ticket.text::2, string, 800B54657374616E646F2E2E2E
+ticket.supporter::2, offlineplayer, 81046E616D652080074D72447261776E
+ticket.supporter.time::2, string, 801031322F31332F313820383A333620504D
